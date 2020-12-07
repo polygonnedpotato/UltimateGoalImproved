@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -39,14 +38,9 @@ public class testscreen extends AppCompatActivity {
                 alertDialogBuilder.setTitle("Your Title");
 
                 alertDialogBuilder
-                        .setMessage("Click yes to exit!")
+                        .setMessage("github.com/polygonnedpotato")
                         .setCancelable(false)
-                        .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog,int id) {
-                                testscreen.this.finish();
-                            }
-                        })
-                        .setNegativeButton("No",new DialogInterface.OnClickListener() {
+                        .setNegativeButton("LET ME GO!!!",new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 dialog.cancel();
                             }

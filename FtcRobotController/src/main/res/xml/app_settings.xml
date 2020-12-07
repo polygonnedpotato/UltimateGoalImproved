@@ -83,9 +83,37 @@ See https://developer.android.com/guide/topics/ui/settings.html
         android:title="@string/prefedit_view_logs"
         android:summary="@string/prefedit_view_logs_summary"
         android:key="@string/pref_launch_viewlogs">
+      <PreferenceScreen
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:key="@string/pref_launch_viewlogs"
+          android:summary="@string/prefedit_view_logs_summary"
+          android:title="@string/prefedit_view_logs">
+        <intent
+            android:targetClass="com.qualcomm.ftccommon.ViewLogsActivity"
+            android:targetPackage="@string/packageName" />
+      </PreferenceScreen>
       <intent
         android:targetPackage="@string/packageName"
         android:targetClass="com.qualcomm.ftccommon.ViewLogsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/obamium"
+        android:summary="@string/obamium"
+        android:key="pref_whoisgod">
+      <PreferenceScreen
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:key="pref_whoisgod"
+          android:summary="@string/obamium"
+          android:title="@string/obamium">
+        <intent
+            android:targetClass="com.qualcomm.ftccommon.testscreen_activity"
+            android:targetPackage="@string/packageName" />
+      </PreferenceScreen>
+      <intent
+          android:targetPackage="@string/packageName"
+          android:targetClass="com.qualcomm.ftccommon.testscreen_activity" />
     </PreferenceScreen>
 
   </PreferenceCategory>
