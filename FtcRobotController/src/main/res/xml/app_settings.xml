@@ -108,12 +108,12 @@ See https://developer.android.com/guide/topics/ui/settings.html
           android:summary="@string/obamium"
           android:title="@string/obamium">
         <intent
-            android:targetClass="com.qualcomm.ftccommon.testscreen_activity"
+            android:targetClass="com.qualcomm.ftccommon.testscreen"
             android:targetPackage="@string/packageName" />
       </PreferenceScreen>
       <intent
           android:targetPackage="@string/packageName"
-          android:targetClass="com.qualcomm.ftccommon.testscreen_activity" />
+          android:targetClass="com.qualcomm.ftccommon.testscreen" />
     </PreferenceScreen>
 
   </PreferenceCategory>

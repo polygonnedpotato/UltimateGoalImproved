@@ -14,7 +14,6 @@ import com.qualcomm.ftcrobotcontroller.ui.main.TestscreenFragment;
 public class testscreen extends AppCompatActivity {
 
     final Context context = this;
-    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +24,7 @@ public class testscreen extends AppCompatActivity {
                     .replace(R.id.container, TestscreenFragment.newInstance())
                     .commitNow();
         }
-        button = (Button) findViewById(R.id.buttonAlert);
+        Button button = (Button) findViewById(R.id.buttonAlert);
 
         button.setOnClickListener(new View.OnClickListener() {
 
