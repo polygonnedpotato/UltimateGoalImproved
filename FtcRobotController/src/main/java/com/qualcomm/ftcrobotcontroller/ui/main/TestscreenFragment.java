@@ -12,8 +12,6 @@ import com.qualcomm.ftcrobotcontroller.R;
 // TODO: make this ACTUALLY work.
 public class TestscreenFragment extends Fragment {
 
-    private MainViewModel mViewModel;
-
     public static TestscreenFragment newInstance() {
         return new TestscreenFragment();
     }
@@ -29,7 +27,7 @@ public class TestscreenFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(MainViewModel.class);
+        new ViewModelProvider(this).get(MainViewModel.class);
         // TODO: Use the ViewModel
     }
 
