@@ -10,7 +10,7 @@
     <application
         android:allowBackup="true"
         android:extractNativeLibs="true"
-        android:icon="@drawable/ftc"
+        android:icon="@drawable/ftc3"
         tools:replace="android:icon"
         android:label="@string/app_name"
         android:largeHeap="true"
