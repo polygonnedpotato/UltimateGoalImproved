@@ -24,7 +24,7 @@ public class testscreen extends AppCompatActivity {
                     .replace(R.id.container, TestscreenFragment.newInstance())
                     .commitNow();
         }
-        Button button = (Button) findViewById(R.id.buttonAlert);
+        Button button = findViewById(R.id.buttonAlert);
 
         button.setOnClickListener(new View.OnClickListener() {
 
