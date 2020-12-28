@@ -1,4 +1,4 @@
-### ULTIMATE GOAL IMPROVED ![FTC_LOGO](FtcRobotController/src/main/res/drawable/ftc3.PNG)
+### ![FTC_LOGO](FtcRobotController/src/main/res/drawable/ftc3.PNG) ULTIMATE GOAL IMPROVED 
 
 ## NOTICE
 
