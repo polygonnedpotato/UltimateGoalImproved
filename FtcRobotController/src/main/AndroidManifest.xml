@@ -55,10 +55,6 @@
             android:name=".testscreen"
             android:parentActivityName="org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity"
             tools:ignore="DuplicateActivity">
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity" />
         </activity>
         <service
             android:name="com.qualcomm.ftccommon.FtcRobotControllerService"
