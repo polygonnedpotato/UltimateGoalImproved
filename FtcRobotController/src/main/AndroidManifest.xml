@@ -51,11 +51,6 @@
                 android:name="org.firstinspires.main.entry"
                 android:value="true" />
         </activity> <!-- The robot controller service in which most of the robot functionality is managed -->
-        <activity
-            android:name=".testscreen"
-            android:parentActivityName="org.firstinspires.ftc.robotcontroller.internal.FtcRobotControllerActivity"
-            tools:ignore="DuplicateActivity">
-        </activity>
         <service
             android:name="com.qualcomm.ftccommon.FtcRobotControllerService"
             android:enabled="true" />
