@@ -31,6 +31,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
 
 package org.firstinspires.ftc.robotcontroller.internal;
 
+import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -163,109 +164,44 @@ public class FtcRobotControllerActivity extends Activity
   protected LinearLayout entireScreenLayout;
 
   protected FtcRobotControllerService controllerService;
-  protected NetworkType networkType;
+    protected NetworkType networkType;
 
-  protected FtcEventLoop eventLoop;
-  protected Queue<UsbDevice> receivedUsbAttachmentNotifications;
+    protected FtcEventLoop eventLoop;
+    protected Queue<UsbDevice> receivedUsbAttachmentNotifications;
 
-  protected WifiMuteStateMachine wifiMuteStateMachine;
-  protected MotionDetection motionDetection;
+    protected WifiMuteStateMachine wifiMuteStateMachine;
+    protected MotionDetection motionDetection;
 
-  private static boolean permissionsValidated = false;
+    private static boolean permissionsValidated = false;
 
-  private WifiDirectChannelChanger wifiDirectChannelChanger;
+    protected boolean serviceShouldUnbind = false;
+    protected ServiceConnection connection = new ServiceConnection() {
+      @Override
+      public void onServiceConnected(ComponentName name, IBinder service) {
+        FtcRobotControllerBinder binder = (FtcRobotControllerBinder) service;
+        onServiceBind(binder.getService());
+      }
 
-  protected class RobotRestarter implements Restarter {
+      @Override
+      public void onServiceDisconnected(ComponentName name) {
+        RobotLog.vv(FtcRobotControllerService.TAG, "%s.controllerService=null", TAG);
+        controllerService = null;
+      }
+    };
 
-    public void requestRestart() {
-      requestRobotRestart();
+    public static void setPermissionsValidated() {
+      permissionsValidated = true;
     }
 
-  }
-
-  protected boolean serviceShouldUnbind = false;
-  protected ServiceConnection connection = new ServiceConnection() {
     @Override
-    public void onServiceConnected(ComponentName name, IBinder service) {
-      FtcRobotControllerBinder binder = (FtcRobotControllerBinder) service;
-      onServiceBind(binder.getService());
-    }
+    protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
 
-    @Override
-    public void onServiceDisconnected(ComponentName name) {
-      RobotLog.vv(FtcRobotControllerService.TAG, "%s.controllerService=null", TAG);
-      controllerService = null;
-    }
-  };
-
-  @Override
-  protected void onNewIntent(Intent intent) {
-    super.onNewIntent(intent);
-
-    if (UsbManager.ACTION_USB_DEVICE_ATTACHED.equals(intent.getAction())) {
-      UsbDevice usbDevice = intent.getParcelableExtra(UsbManager.EXTRA_DEVICE);
-      RobotLog.vv(TAG, "ACTION_USB_DEVICE_ATTACHED: %s", usbDevice.getDeviceName());
-
-      if (usbDevice != null) {  // paranoia
-        // We might get attachment notifications before the event loop is set up, so
-        // we hold on to them and pass them along only when we're good and ready.
-        if (receivedUsbAttachmentNotifications != null) { // *total* paranoia
-          receivedUsbAttachmentNotifications.add(usbDevice);
-          passReceivedUsbAttachmentsToEventLoop();
-        }
+      if (enforcePermissionValidator()) {
+        return;
       }
-    }
-  }
 
-  protected void passReceivedUsbAttachmentsToEventLoop() {
-    if (this.eventLoop != null) {
-      for (;;) {
-        UsbDevice usbDevice = receivedUsbAttachmentNotifications.poll();
-        if (usbDevice == null)
-          break;
-        this.eventLoop.onUsbDeviceAttached(usbDevice);
-      }
-    }
-    else {
-      // Paranoia: we don't want the pending list to grow without bound when we don't
-      // (yet) have an event loop
-      while (receivedUsbAttachmentNotifications.size() > 100) {
-        receivedUsbAttachmentNotifications.poll();
-      }
-    }
-  }
-
-  /**
-   * There are cases where a permission may be revoked and the system restart will restart the
-   * FtcRobotControllerActivity, instead of the launch activity.  Detect when that happens, and throw
-   * the device back to the permission validator activity.
-   */
-  protected boolean enforcePermissionValidator() {
-    if (!permissionsValidated) {
-      RobotLog.vv(TAG, "Redirecting to permission validator");
-      Intent permissionValidatorIntent = new Intent(AppUtil.getDefContext(), PermissionValidatorWrapper.class);
-      startActivity(permissionValidatorIntent);
-      finish();
-      return true;
-    } else {
-      RobotLog.vv(TAG, "Permissions validated already");
-      return false;
-    }
-  }
-
-  public static void setPermissionsValidated() {
-    permissionsValidated = true;
-  }
-
-  @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-
-    if (enforcePermissionValidator()) {
-      return;
-    }
-
-    RobotLog.onApplicationStart();  // robustify against onCreate() following onDestroy() but using the same app instance, which apparently does happen
+      RobotLog.onApplicationStart();  // robustify against onCreate() following onDestroy() but using the same app instance, which apparently does happen
     RobotLog.vv(TAG, "onCreate()");
     ThemedActivity.appAppThemeToActivity(getTag(), this); // do this way instead of inherit to help AppInventor
 
@@ -289,8 +225,8 @@ public class FtcRobotControllerActivity extends Activity
 
     PreferenceRemoterRC.getInstance().start(prefRemoterStartResult);
 
-    receivedUsbAttachmentNotifications = new ConcurrentLinkedQueue<UsbDevice>();
-    eventLoop = null;
+      receivedUsbAttachmentNotifications = new ConcurrentLinkedQueue<>();
+      eventLoop = null;
 
     setContentView(R.layout.activity_ftc_controller);
 
@@ -372,74 +308,153 @@ public class FtcRobotControllerActivity extends Activity
     bindToService();
     logPackageVersions();
     logDeviceSerialNumber();
-    AndroidBoard.getInstance().logAndroidBoardInfo();
-    RobotLog.logDeviceInfo();
+      AndroidBoard.getInstance().logAndroidBoardInfo();
+      RobotLog.logDeviceInfo();
 
-    if (preferencesHelper.readBoolean(getString(R.string.pref_wifi_automute), false)) {
-      initWifiMute(true);
+      if (preferencesHelper.readBoolean(getString(R.string.pref_wifi_automute), false)) {
+        initWifiMute(true);
+      }
+
+      FtcAboutActivity.setBuildTimeFromBuildConfig(BuildConfig.BUILD_TIME);
     }
 
-    FtcAboutActivity.setBuildTimeFromBuildConfig(BuildConfig.BUILD_TIME);
-  }
+    @Override
+    protected void onNewIntent(Intent intent) {
+      super.onNewIntent(intent);
 
-  protected UpdateUI createUpdateUI() {
-    Restarter restarter = new RobotRestarter();
-    UpdateUI result = new UpdateUI(this, dimmer);
-    result.setRestarter(restarter);
-    result.setTextViews(textNetworkConnectionStatus, textRobotStatus, textGamepad, textOpMode, textErrorMessage, textDeviceName);
-    return result;
-  }
+      if (UsbManager.ACTION_USB_DEVICE_ATTACHED.equals(intent.getAction())) {
+        UsbDevice usbDevice = intent.getParcelableExtra(UsbManager.EXTRA_DEVICE);
+        RobotLog.vv(TAG, "ACTION_USB_DEVICE_ATTACHED: %s", usbDevice.getDeviceName());
 
-  protected UpdateUI.Callback createUICallback(UpdateUI updateUI) {
-    UpdateUI.Callback result = updateUI.new Callback();
-    result.setStateMonitor(new SoundPlayingRobotMonitor());
-    return result;
-  }
+        if (usbDevice != null) {  // paranoia
+          // We might get attachment notifications before the event loop is set up, so
+          // we hold on to them and pass them along only when we're good and ready.
+          if (receivedUsbAttachmentNotifications != null) { // *total* paranoia
+            receivedUsbAttachmentNotifications.add(usbDevice);
+            passReceivedUsbAttachmentsToEventLoop();
+          }
+        }
+      }
+    }
 
-  @Override
-  protected void onStart() {
-    super.onStart();
-    RobotLog.vv(TAG, "onStart()");
+    protected void passReceivedUsbAttachmentsToEventLoop() {
+      if (this.eventLoop != null) {
+        for (; ; ) {
+          UsbDevice usbDevice = receivedUsbAttachmentNotifications.poll();
+          if (usbDevice == null)
+            break;
+          this.eventLoop.onUsbDeviceAttached(usbDevice);
+        }
+      } else {
+        // Paranoia: we don't want the pending list to grow without bound when we don't
+        // (yet) have an event loop
+        while (receivedUsbAttachmentNotifications.size() > 100) {
+          receivedUsbAttachmentNotifications.poll();
+        }
+      }
+    }
 
-    // If we're start()ing after a stop(), then shut the old robot down so
-    // we can refresh it with new state (e.g., with new hw configurations)
-    shutdownRobot();
-
-    updateUIAndRequestRobotSetup();
-
-    cfgFileMgr.getActiveConfigAndUpdateUI();
-
-    // check to see if there is a preferred Wi-Fi to use.
-    checkPreferredChannel();
-
-    entireScreenLayout.setOnTouchListener(new View.OnTouchListener() {
-      @Override
-      public boolean onTouch(View v, MotionEvent event) {
-        dimmer.handleDimTimer();
+    /**
+     * There are cases where a permission may be revoked and the system restart will restart the
+     * FtcRobotControllerActivity, instead of the launch activity.  Detect when that happens, and throw
+     * the device back to the permission validator activity.
+     */
+    protected boolean enforcePermissionValidator() {
+      if (!permissionsValidated) {
+        RobotLog.vv(TAG, "Redirecting to permission validator");
+        Intent permissionValidatorIntent = new Intent(AppUtil.getDefContext(), PermissionValidatorWrapper.class);
+        startActivity(permissionValidatorIntent);
+        finish();
+        return true;
+      } else {
+        RobotLog.vv(TAG, "Permissions validated already");
         return false;
       }
-    });
-  }
+    }
 
-  @Override
-  protected void onResume() {
-    super.onResume();
-    RobotLog.vv(TAG, "onResume()");
-  }
+    @SuppressLint("ClickableViewAccessibility")
+    @Override
+    protected void onStart() {
+      super.onStart();
+      RobotLog.vv(TAG, "onStart()");
 
-  @Override
-  protected void onPause() {
-    super.onPause();
-    RobotLog.vv(TAG, "onPause()");
-  }
+      // If we're start()ing after a stop(), then shut the old robot down so
+      // we can refresh it with new state (e.g., with new hw configurations)
+      shutdownRobot();
 
-  @Override
-  protected void onStop() {
-    // Note: this gets called even when the configuration editor is launched. That is, it gets
-    // called surprisingly often. So, we don't actually do much here.
-    super.onStop();
-    RobotLog.vv(TAG, "onStop()");
-  }
+      updateUIAndRequestRobotSetup();
+
+      cfgFileMgr.getActiveConfigAndUpdateUI();
+
+      // check to see if there is a preferred Wi-Fi to use.
+      checkPreferredChannel();
+
+      entireScreenLayout.setOnTouchListener(new View.OnTouchListener() {
+        @SuppressLint("ClickableViewAccessibility")
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+          dimmer.handleDimTimer();
+          return false;
+        }
+      });
+    }
+
+    protected UpdateUI createUpdateUI() {
+      Restarter restarter = new RobotRestarter();
+      UpdateUI result = new UpdateUI(this, dimmer);
+      result.setRestarter(restarter);
+      result.setTextViews(textNetworkConnectionStatus, textRobotStatus, textGamepad, textOpMode, textErrorMessage, textDeviceName);
+      return result;
+    }
+
+    protected UpdateUI.Callback createUICallback(UpdateUI updateUI) {
+      UpdateUI.Callback result = updateUI.new Callback();
+      result.setStateMonitor(new SoundPlayingRobotMonitor());
+      return result;
+    }
+
+    protected void readNetworkType() {
+
+      // The code here used to defer to the value found in a configuration file
+      // to configure the network type. If the file was absent, then it initialized
+      // it with a default.
+      //
+      // However, bugs have been reported with that approach (empty config files, specifically).
+      // Moreover, the non-Wifi-Direct networking is end-of-life, so the simplest and most robust
+      // (e.g.: no one can screw things up by messing with the contents of the config file) fix is
+      // to do away with configuration file entirely.
+      //
+      // Control hubs are always running the access point model.  Everything else, for the time
+      // being always runs the wifi direct model.
+      if (Device.isRevControlHub()) {
+        networkType = NetworkType.RCWIRELESSAP;
+      } else {
+        networkType = NetworkType.fromString(preferencesHelper.readString(context.getString(R.string.pref_pairing_kind), NetworkType.globalDefaultAsString()));
+      }
+
+      // update the app_settings
+      preferencesHelper.writeStringPrefIfDifferent(context.getString(R.string.pref_pairing_kind), networkType.toString());
+    }
+
+    @Override
+    protected void onResume() {
+      super.onResume();
+      RobotLog.vv(TAG, "onResume()");
+    }
+
+    @Override
+    protected void onPause() {
+      super.onPause();
+      RobotLog.vv(TAG, "onPause()");
+    }
+
+    @Override
+    protected void onStop() {
+      // Note: this gets called even when the configuration editor is launched. That is, it gets
+      // called surprisingly often. So, we don't actually do much here.
+      super.onStop();
+      RobotLog.vv(TAG, "onStop()");
+    }
 
   @Override
   protected void onDestroy() {
@@ -486,61 +501,6 @@ public class FtcRobotControllerActivity extends Activity
 
   protected void logDeviceSerialNumber() {
     RobotLog.ii(TAG, "Android device serial number: " + Device.getSerialNumberOrUnknown());
-  }
-
-  protected void readNetworkType() {
-
-    // The code here used to defer to the value found in a configuration file
-    // to configure the network type. If the file was absent, then it initialized
-    // it with a default.
-    //
-    // However, bugs have been reported with that approach (empty config files, specifically).
-    // Moreover, the non-Wifi-Direct networking is end-of-life, so the simplest and most robust
-    // (e.g.: no one can screw things up by messing with the contents of the config file) fix is
-    // to do away with configuration file entirely.
-    //
-    // Control hubs are always running the access point model.  Everything else, for the time
-    // being always runs the wifi direct model.
-    if (Device.isRevControlHub() == true) {
-      networkType = NetworkType.RCWIRELESSAP;
-    } else {
-      networkType = NetworkType.fromString(preferencesHelper.readString(context.getString(R.string.pref_pairing_kind), NetworkType.globalDefaultAsString()));
-    }
-
-    // update the app_settings
-    preferencesHelper.writeStringPrefIfDifferent(context.getString(R.string.pref_pairing_kind), networkType.toString());
-  }
-
-  @Override
-  public void onWindowFocusChanged(boolean hasFocus) {
-    super.onWindowFocusChanged(hasFocus);
-
-    if (hasFocus) {
-      immersion.hideSystemUI();
-      getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION, WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
-    }
-  }
-
-  @Override
-  public boolean onCreateOptionsMenu(Menu menu) {
-    getMenuInflater().inflate(R.menu.ftc_robot_controller, menu);
-    return true;
-  }
-
-  private boolean isRobotRunning() {
-    if (controllerService == null) {
-      return false;
-    }
-
-    Robot robot = controllerService.getRobot();
-
-    if ((robot == null) || (robot.eventLoopManager == null)) {
-      return false;
-    }
-
-    RobotState robotState = robot.eventLoopManager.state;
-
-    return robotState == RobotState.RUNNING;
   }
 
   @Override
@@ -591,13 +551,11 @@ public class FtcRobotControllerActivity extends Activity
       finishAffinity();
 
       //For lollipop and up, we can clear ourselves from the recents list too
-      if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
-        ActivityManager manager = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
-        List<ActivityManager.AppTask> tasks = manager.getAppTasks();
+      ActivityManager manager = (ActivityManager) getSystemService(ACTIVITY_SERVICE);
+      List<ActivityManager.AppTask> tasks = manager.getAppTasks();
 
-        for (ActivityManager.AppTask task : tasks) {
-          task.finishAndRemoveTask();
-        }
+      for (ActivityManager.AppTask task : tasks) {
+        task.finishAndRemoveTask();
       }
 
       //Finally, nuke the VM from orbit
@@ -606,28 +564,78 @@ public class FtcRobotControllerActivity extends Activity
       return true;
     }
 
-   return super.onOptionsItemSelected(item);
+    return super.onOptionsItemSelected(item);
   }
 
-  @Override
-  public void onConfigurationChanged(Configuration newConfig) {
-    super.onConfigurationChanged(newConfig);
-    // don't destroy assets on screen rotation
-    updateMonitorLayout(newConfig);
-  }
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+      super.onWindowFocusChanged(hasFocus);
 
-  /**
-   * Updates the orientation of monitorContainer (which contains cameraMonitorView and
-   * tfodMonitorView) based on the given configuration. Makes the children split the space.
-   */
-  private void updateMonitorLayout(Configuration configuration) {
-    LinearLayout monitorContainer = (LinearLayout) findViewById(R.id.monitorContainer);
-    if (configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-      // When the phone is landscape, lay out the monitor views horizontally.
-      monitorContainer.setOrientation(LinearLayout.HORIZONTAL);
-      for (int i = 0; i < monitorContainer.getChildCount(); i++) {
-        View view = monitorContainer.getChildAt(i);
-        view.setLayoutParams(new LayoutParams(0, LayoutParams.MATCH_PARENT, 1 /* weight */));
+      if (hasFocus) {
+        immersion.hideSystemUI();
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION, WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+      }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+      getMenuInflater().inflate(R.menu.ftc_robot_controller, menu);
+      return true;
+    }
+
+    private boolean isRobotRunning() {
+      if (controllerService == null) {
+        return false;
+      }
+
+      Robot robot = controllerService.getRobot();
+
+      if ((robot == null) || (robot.eventLoopManager == null)) {
+        return false;
+      }
+
+      RobotState robotState = robot.eventLoopManager.state;
+
+      return robotState == RobotState.RUNNING;
+    }
+
+    private void checkPreferredChannel() {
+      // For P2P network, check to see what preferred channel is.
+      if (networkType == NetworkType.WIFIDIRECT) {
+        int prefChannel = preferencesHelper.readInt(getString(com.qualcomm.ftccommon.R.string.pref_wifip2p_channel), -1);
+        if (prefChannel == -1) {
+          prefChannel = 0;
+          RobotLog.vv(TAG, "pref_wifip2p_channel: No preferred channel defined. Will use a default value of %d", prefChannel);
+        } else {
+          RobotLog.vv(TAG, "pref_wifip2p_channel: Found existing preferred channel (%d).", prefChannel);
+        }
+
+        // attempt to set the preferred channel.
+        RobotLog.vv(TAG, "pref_wifip2p_channel: attempting to set preferred channel...");
+        WifiDirectChannelChanger wifiDirectChannelChanger = new WifiDirectChannelChanger();
+        wifiDirectChannelChanger.changeToChannel(prefChannel);
+      }
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+      super.onConfigurationChanged(newConfig);
+      // don't destroy assets on screen rotation
+      updateMonitorLayout(newConfig);
+    }
+
+    /**
+     * Updates the orientation of monitorContainer (which contains cameraMonitorView and
+     * tfodMonitorView) based on the given configuration. Makes the children split the space.
+     */
+    private void updateMonitorLayout(Configuration configuration) {
+      LinearLayout monitorContainer = (LinearLayout) findViewById(R.id.monitorContainer);
+      if (configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+        // When the phone is landscape, lay out the monitor views horizontally.
+        monitorContainer.setOrientation(LinearLayout.HORIZONTAL);
+        for (int i = 0; i < monitorContainer.getChildCount(); i++) {
+          View view = monitorContainer.getChildAt(i);
+          view.setLayoutParams(new LayoutParams(0, LayoutParams.MATCH_PARENT, 1 /* weight */));
       }
     } else {
       // When the phone is portrait, lay out the monitor views vertically.
@@ -738,23 +746,13 @@ public class FtcRobotControllerActivity extends Activity
     AppUtil.getInstance().showToast(UILocation.BOTH, AppUtil.getDefContext().getString(resid));
   }
 
-  private void checkPreferredChannel() {
-    // For P2P network, check to see what preferred channel is.
-    if (networkType ==  NetworkType.WIFIDIRECT) {
-      int prefChannel = preferencesHelper.readInt(getString(com.qualcomm.ftccommon.R.string.pref_wifip2p_channel), -1);
-      if (prefChannel == -1) {
-        prefChannel = 0;
-        RobotLog.vv(TAG, "pref_wifip2p_channel: No preferred channel defined. Will use a default value of %d", prefChannel);
-      } else {
-        RobotLog.vv(TAG, "pref_wifip2p_channel: Found existing preferred channel (%d).", prefChannel);
+    protected class RobotRestarter implements Restarter {
+
+      public void requestRestart() {
+        requestRobotRestart();
       }
 
-      // attempt to set the preferred channel.
-      RobotLog.vv(TAG, "pref_wifip2p_channel: attempting to set preferred channel...");
-      wifiDirectChannelChanger = new WifiDirectChannelChanger();
-      wifiDirectChannelChanger.changeToChannel(prefChannel);
     }
-  }
 
   protected void hittingMenuButtonBrightensScreen() {
     ActionBar actionBar = getActionBar();

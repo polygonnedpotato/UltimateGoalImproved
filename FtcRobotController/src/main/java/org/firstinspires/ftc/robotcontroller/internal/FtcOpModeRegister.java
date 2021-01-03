@@ -63,8 +63,8 @@ public class FtcOpModeRegister implements OpModeRegister {
      */
     public void register(OpModeManager manager) {
 
-        /**
-         * Any manual OpMode class registrations should go here.
+        /*
+          Any manual OpMode class registrations should go here.
          */
     }
 }
