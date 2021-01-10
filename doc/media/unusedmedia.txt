@@ -1,0 +1,8 @@
+this folder has some unused images and pdfs
+TODO: Find usage of "chips.jpg"
+TODO: Find usage of "stones.jpg"
+TODO: Find usage of "PullRequest.PNG"
+TODO: Find usage of "target_chips_A4.pdf"
+TODO: Find usage of "target_stones_A4.pdf"
+TODO: Find usage of "target_chips_USLetter.pdf"
+TODO: Find usage of "target_stones_USLetter.pdf"
