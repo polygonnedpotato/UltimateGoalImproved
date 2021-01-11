@@ -34,7 +34,24 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <resources>
 
   <!-- Default screen margins, per the Android Design guidelines. -->
-  <dimen name="activity_horizontal_margin">16dp</dimen>
-  <dimen name="activity_vertical_margin">5dp</dimen>
+  <dimen name="activity_horizontal_margin"><![CDATA[16dp]]></dimen>
+  <dimen name="activity_vertical_margin"><![CDATA[5dp]]></dimen>
+  <dimen name="layout_height000">80dp</dimen>
+  <dimen name="margenStart">1dp</dimen>
+  <dimen name="marginTop">1dp</dimen>
+  <dimen name="marginEnd">1dp</dimen>
+  <dimen name="marginBottom">1dp</dimen>
+  <dimen name="padding">8dp</dimen>
+  <dimen name="marginStart2">10dp</dimen>
+  <dimen name="marginTop2">10dp</dimen>
+  <dimen name="marginEnd2">10dp</dimen>
+  <dimen name="marginBottom2">10dp</dimen>
+  <dimen name="padding2">15dp</dimen>
+  <dimen name="layout_height001">0dp</dimen>
+  <dimen name="layout_height002">0dp</dimen>
+  <dimen name="layout_width000">1dp</dimen>
+  <dimen name="layout_width003">1dp</dimen>
+  <dimen name="imageheight">648dp</dimen>
+  <dimen name="button_height">87dp</dimen>
 
 </resources>
