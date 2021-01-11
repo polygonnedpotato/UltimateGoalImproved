@@ -1,5 +1,5 @@
 You can place your sound files in this folder to use them as project resources.
-
+TODO: Get more juicy sound files.
 
 
 
