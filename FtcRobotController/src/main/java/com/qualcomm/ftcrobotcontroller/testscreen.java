@@ -36,7 +36,7 @@ public class testscreen extends AppCompatActivity {
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
                         context);
 
-                alertDialogBuilder.setTitle("Your Title");
+                alertDialogBuilder.setTitle(R.string.title);
 
                 alertDialogBuilder
                         .setMessage("github.com/polygonnedpotato")

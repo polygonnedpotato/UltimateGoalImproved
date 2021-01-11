@@ -50,7 +50,7 @@ See https://developer.android.com/guide/topics/ui/settings.html
         android:title="@string/prefedit_device_name_rc"
         android:summary="@string/prefedit_device_name_summary_rc"
         android:key="@string/pref_device_name"
-        android:defaultValue=""
+        android:defaultValue="@string/NOTHING"
         />
 
     <org.firstinspires.ftc.robotcore.internal.ui.ColorListPreference
@@ -108,12 +108,12 @@ See https://developer.android.com/guide/topics/ui/settings.html
           android:summary="@string/obamium"
           android:title="@string/obamium">
         <intent
-            android:targetClass="com.qualcomm.ftccommon.testscreen"
+            android:targetClass="@string/testscreen"
             android:targetPackage="@string/packageName" />
       </PreferenceScreen>
       <intent
-          android:targetPackage="@string/packageName"
-          android:targetClass="com.qualcomm.ftccommon.testscreen" />
+          android:targetClass="@string/testscreen2"
+          android:targetPackage="@string/packageName" />
     </PreferenceScreen>
 
   </PreferenceCategory>

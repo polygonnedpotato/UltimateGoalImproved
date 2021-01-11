@@ -44,17 +44,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <RelativeLayout
       android:id="@+id/top_bar"
       android:layout_width="fill_parent"
-      android:layout_height="80dp"
+      android:layout_height="@dimen/layout_height000"
       android:background="@color/background_black">
 
     <ImageView
         android:id="@+id/robotIcon"
         android:layout_width="wrap_content"
         android:layout_height="fill_parent"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
+        android:layout_marginStart="@dimen/margenStart"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginEnd="@dimen/marginEnd"
+        android:layout_marginBottom="@dimen/marginBottom"
         android:adjustViewBounds="true"
         android:contentDescription="@string/icon"
         android:src="@drawable/icon_robotcontroller" />
@@ -65,7 +65,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/robotIcon"
         android:contentDescription="@string/just_the_device_name"
-        android:padding="8dp"
+        android:padding="@dimen/padding"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="?attr/textWhite"
         android:textStyle="bold"
@@ -77,14 +77,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="@dimen/marginStart2"
+        android:layout_marginTop="@dimen/marginTop2"
+        android:layout_marginEnd="@dimen/marginEnd2"
+        android:layout_marginBottom="@dimen/marginBottom2"
         android:adjustViewBounds="true"
         android:background="@android:color/transparent"
         android:contentDescription="@string/isbutton"
-        android:padding="15dp"
+        android:padding="@dimen/padding2"
         android:scaleType="fitXY"
         android:src="@drawable/icon_menu" />
 
@@ -110,7 +110,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:id="@+id/textNetworkConnectionStatus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="@string/NOTHING2"
         android:visibility="invisible" />
 
     <TextView
@@ -118,7 +118,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textNetworkConnectionStatus"
-        android:text=""
+        android:text="@string/NOTHING1"
         android:visibility="invisible" />
 
     <TextView
@@ -126,7 +126,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textRobotStatus"
-        android:text=""
+        android:text="@string/NOTHING3"
         android:visibility="invisible" />
 
     <FrameLayout
@@ -144,7 +144,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <LinearLayout
             android:id="@+id/cameraMonitorViewId"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/layout_height001"
             android:layout_weight="1"
             android:orientation="vertical"
             android:visibility="gone" />
@@ -152,7 +152,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <FrameLayout
             android:id="@+id/tfodMonitorViewId"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/layout_height002"
             android:layout_weight="1"
             android:visibility="gone" />
 
@@ -168,7 +168,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           style="@style/FtcTextViewStyleBold"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:text=""
+          android:text="@string/NOTHING4"
           android:textColor="?attr/textMediumDark"
           android:visibility="invisible" />
 
@@ -179,7 +179,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/textGamepad2"
-        android:text=""
+        android:text="@string/NOTHING5"
         android:visibility="invisible" />
 
     <TextView
@@ -187,14 +187,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text=""
+        android:text="@string/NOTHING6"
         android:visibility="invisible" />
 
   </RelativeLayout>
 
   <WebView
       android:id="@+id/webViewBlocksRuntime"
-      android:layout_width="1dp"
-      android:layout_height="1dp" />
+      android:layout_width="@dimen/layout_width000"
+      android:layout_height="@dimen/layout_width003" />
 
 </LinearLayout>
