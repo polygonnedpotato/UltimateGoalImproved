@@ -1,2 +1,2 @@
 TODO: update tensorflow-lite. it is at 0.0.0, and since it is a NIGHTLY build, there should be a new version.
-TODO:
+TODO: find all incorrect elements.
