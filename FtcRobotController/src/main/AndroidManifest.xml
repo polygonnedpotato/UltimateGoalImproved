@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.qualcomm.ftcrobotcontroller"
     android:versionCode="69420"
-    android:versionName="666">
+    android:versionName="6.3">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
