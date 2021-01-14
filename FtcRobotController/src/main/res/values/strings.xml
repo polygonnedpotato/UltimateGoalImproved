@@ -37,10 +37,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
 <resources>
-
     <string name="app_name">Robot Controller II</string>
-
-    <!-- Menu -->
     <string name="inspection_mode_menu_item">📝 Self Inspect</string>
     <string name="program_and_manage_menu_item">⚡ Program &amp; Manage</string>
     <string name="blocks_menu_item">☲ Blocks</string>
@@ -49,22 +46,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <string name="configure_robot_menu_item">🛠 Configure Robot</string>
     <string name="about_menu_item">ℹ ️About</string>
     <string name="exit_menu_item">❌ Exit</string>
-
-    <!-- Toast messages -->
     <string name="toastWifiConfigurationComplete">✔ ️Configuration Complete!</string>
     <string name="toastRestartingRobot">Restarting Robot… Please Wait…</string>
     <string name="toastWifiUpBeforeProgrammingMode">⚠ ️The Robot Controller must be fully up and running before entering Program and Manage Mode.</string>
-
-    <!-- for interpreting pref_app_theme contents. may be override in merged resources -->
-    <integer-array name="app_theme_ids">
-        <item>@style/AppThemeRedRC</item>
-        <item>@style/AppThemeGreenRC</item>
-        <item>@style/AppThemeBlueRC</item>
-        <item>@style/AppThemePurpleRC</item>
-        <item>@style/AppThemeOrangeRC</item>
-        <item>@style/AppThemeTealRC</item>
-    </integer-array>
-
     <string name="packageName">@string/packageNameRobotController</string>
     <string name="icon">icon</string>
     <string name="just_the_device_name">just the device name</string>
@@ -89,5 +73,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <string name="NOTHING5" />
     <string name="NOTHING6" />
     <string name="title">Your Title</string>
-
+    <integer-array name="app_theme_ids">
+        <item>@style/AppThemeRedRC</item>
+        <item>@style/AppThemeGreenRC</item>
+        <item>@style/AppThemeBlueRC</item>
+        <item>@style/AppThemePurpleRC</item>
+        <item>@style/AppThemeOrangeRC</item>
+        <item>@style/AppThemeTealRC</item>
+    </integer-array>
 </resources>
