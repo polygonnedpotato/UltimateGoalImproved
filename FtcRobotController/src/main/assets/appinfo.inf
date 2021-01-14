@@ -1,0 +1,7 @@
+name="FTC Robot Controller II"
+dev="elburg";"a-1.elburg.repl.co"
+description="Unofficial build of FTC Robot Controller II."
+appicon="/res/drawable/ftc3.PNG"
+version="6.3"
+
+
