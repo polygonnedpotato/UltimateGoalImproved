@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
+    <list id="cdfb3af8-75ba-49b6-98fd-c8fde0e08a8a" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@G0012B05946419J9]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/TeamCode">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/FtcRobotController">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="FtcRobotController" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="FtcRobotController" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="TeamCode" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="TeamCode" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="TeamCode" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="TeamCode" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ugi" type="f1a62948:ProjectNode" />
+                <item name="TeamCode" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="polygonnedpotato &lt;cuteiethecorgi@gmail.com&gt;" />
+        <option value="polygonnedpotato &lt;cuteiethecorgi@gmail.com&gt;ˆ" />
+        <option value="polygonnedpotato" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kkQ9D8krunPQ6g7EmAS5sCadWX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.0.48:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-20T22:30:11.713Z" />
+    <property name="ResourceManagerPrefKey.FilterParams.Framework" value="true" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="ANIM" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+    <property name="android.recentlyUsedThemes" value="android:Theme.Holo" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/FtcRobotController/src/main/java/com/qualcomm/ftcrobotcontroller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="memory.settings.postsync.do.not.ask.for.project" value="true" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1610325734392" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs" />
+      <recent name="$PROJECT_DIR$/FtcRobotController/src/main/assets" />
+      <recent name="$PROJECT_DIR$/TeamCode/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/FtcRobotController/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.qualcomm.ftcrobotcontroller" />
+    </key>
+    <key name="android.template.1119116950">
+      <recent name="com.qualcomm.ftcrobotcontroller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TeamCode/src/main/res/raw" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.TeamCode">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Just Install It" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ugi.TeamCode" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="true" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="do_nothing" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamCode" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="ugi.TeamCode" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testscreen" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="ugi.TeamCode" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.qualcomm.ftcrobotcontroller.testscreen" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Android App.TeamCode" />
+      <item itemvalue="Android App.Just Install It" />
+      <item itemvalue="Android App.testscreen" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android App.testscreen" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
+      <changelist id="cdfb3af8-75ba-49b6-98fd-c8fde0e08a8a" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
+      <created>1606241956010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606241956010</updated>
+    </task>
+    <task id="LOCAL-00001" summary="mods to strings&#10;making testscreen">
+      <created>1606248062202</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606248062202</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mods to strings&#10;making testscreen">
+      <created>1607302144632</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607302144632</updated>
+    </task>
+    <task id="LOCAL-00003" summary="some small edits">
+      <created>1607903677369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607903677369</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added new todo">
+      <created>1608505068019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608505068019</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new readme">
+      <created>1608507025175</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608507025175</updated>
+    </task>
+    <task id="LOCAL-00006" summary="readme edits&#10;fix for a manifest&#10;updated testimage.gif">
+      <created>1608509492997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608509492997</updated>
+    </task>
+    <task id="LOCAL-00007" summary="small edits here and there including fixes">
+      <created>1608510159532</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608510159532</updated>
+    </task>
+    <task id="LOCAL-00008" summary="more small edits here and there with even more fixes">
+      <created>1608510639535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608510639535</updated>
+    </task>
+    <task id="LOCAL-00009" summary="tried to fix schemas (it did not work dang it)&#10;fixed up some warnings in the testscreen (still does not work)&#10;added ftc icon&#10;add java file icon because why not&#10;updated manifest">
+      <created>1609110890057</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609110890057</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new readme will now showup as default (old is still present)">
+      <created>1609111065665</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609111065665</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new icon">
+      <created>1609111173464</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609111173464</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new icon again&#10;new concept icons&#10;new title to README.md">
+      <created>1609112292591</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609112292591</updated>
+    </task>
+    <task id="LOCAL-00013" summary="attempt 1 to make testscreen work">
+      <created>1609113062933</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609113062933</updated>
+    </task>
+    <task id="LOCAL-00014" summary="attempt 2 to make testscreen work">
+      <created>1609113674217</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609113674217</updated>
+    </task>
+    <task id="LOCAL-00015" summary="gave up trying to make testscreen work for now">
+      <created>1609113891617</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609113891617</updated>
+    </task>
+    <task id="LOCAL-00016" summary="moved icon in readme">
+      <created>1609115217729</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609115217729</updated>
+    </task>
+    <task id="LOCAL-00017" summary="edits to strings">
+      <created>1609203765306</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609203765306</updated>
+    </task>
+    <task id="LOCAL-00018" summary="edits to strings">
+      <created>1609205512840</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609205512840</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fixes n stuff">
+      <created>1609716928495</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609716928496</updated>
+    </task>
+    <task id="LOCAL-00020" summary="strings">
+      <created>1609717526233</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609717526233</updated>
+    </task>
+    <task id="LOCAL-00021" summary="some updates&#10;more todo&#10;more strings">
+      <created>1610322545877</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610322545877</updated>
+    </task>
+    <task id="LOCAL-00022" summary="mods and stuff&#10;updates&#10;strings&#10;other stuff&#10;TODO">
+      <created>1610324909172</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1610324909172</updated>
+    </task>
+    <task id="LOCAL-00023" summary="upgrades&#10;merge">
+      <created>1610326032159</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610326032159</updated>
+    </task>
+    <task id="LOCAL-00024" summary="todo">
+      <created>1610326201523</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610326201523</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fixes and optimizations.">
+      <created>1610326615199</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610326615199</updated>
+    </task>
+    <task id="LOCAL-00026" summary="haha funny version code&#10;not-so-funny version name">
+      <created>1610595214959</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610595214959</updated>
+    </task>
+    <task id="LOCAL-00027" summary="optimisations.">
+      <created>1610596994956</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610596994956</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updates">
+      <created>1610600354772</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610600354772</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updates">
+      <created>1610600535787</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610600535787</updated>
+    </task>
+    <task id="LOCAL-00030" summary="normal vname">
+      <created>1610600580197</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610600580197</updated>
+    </task>
+    <task id="LOCAL-00031" summary="new app name">
+      <created>1610600657320</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610600657320</updated>
+    </task>
+    <task id="LOCAL-00032" summary="updated copyright&#10;added new tensorflow lite. incorporation required">
+      <created>1610601045381</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1610601045381</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="readme edits&#10;fix for a manifest&#10;updated testimage.gif" />
+    <MESSAGE value="small edits here and there including fixes" />
+    <MESSAGE value="more small edits here and there with even more fixes" />
+    <MESSAGE value="tried to fix schemas (it did not work dang it)&#10;fixed up some warnings in the testscreen (still does not work)&#10;added ftc icon&#10;add java file icon because why not&#10;updated manifest" />
+    <MESSAGE value="new readme will now showup as default (old is still present)" />
+    <MESSAGE value="new icon" />
+    <MESSAGE value="new icon again&#10;new concept icons&#10;new title to README.md" />
+    <MESSAGE value="attempt 1 to make testscreen work" />
+    <MESSAGE value="attempt 2 to make testscreen work" />
+    <MESSAGE value="gave up trying to make testscreen work for now" />
+    <MESSAGE value="moved icon in readme" />
+    <MESSAGE value="edits to strings" />
+    <MESSAGE value="fixes n stuff" />
+    <MESSAGE value="strings" />
+    <MESSAGE value="some updates&#10;more todo&#10;more strings" />
+    <MESSAGE value="mods and stuff&#10;updates&#10;strings&#10;other stuff&#10;TODO" />
+    <MESSAGE value="upgrades&#10;merge" />
+    <MESSAGE value="todo" />
+    <MESSAGE value="fixes and optimizations." />
+    <MESSAGE value="haha funny version code&#10;not-so-funny version name" />
+    <MESSAGE value="optimisations." />
+    <MESSAGE value="updates" />
+    <MESSAGE value="normal vname" />
+    <MESSAGE value="new app name" />
+    <MESSAGE value="updated copyright&#10;added new tensorflow lite. incorporation required" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated copyright&#10;added new tensorflow lite. incorporation required" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="624" y="299" key="#Custom_Plugin_Repositories" timestamp="1610321293324">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="624" y="299" key="#Custom_Plugin_Repositories/0.25.1440.805@0.25.1440.805" timestamp="1610321293324" />
+    <state x="446" y="186" key="#Inspections" timestamp="1610599554492">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="446" y="186" key="#Inspections/0.25.1440.809@0.25.1440.809" timestamp="1610599554492" />
+    <state x="2034" y="110" key="#Inspections/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608509661726" />
+    <state x="2329" y="250" width="473" height="266" key="#Notifications" timestamp="1609113153801">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="667" y="291" width="473" height="266" key="#Notifications/0.25.1440.801@0.25.1440.801" timestamp="1607904368584" />
+    <state x="2329" y="250" key="#Notifications/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609113153801" />
+    <state x="2173" y="298" key="#Updates" timestamp="1607297787875">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="2173" y="298" key="#Updates/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1607297787875" />
+    <state x="401" y="28" key="#classes.jar" timestamp="1606249970304">
+      <screen x="0" y="25" width="1440" height="798" />
+    </state>
+    <state x="401" y="28" key="#classes.jar/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606249970304" />
+    <state x="256" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610314572217">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="256" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.804@0.25.1440.804" timestamp="1610314572217" />
+    <state x="308" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609111985419" />
+    <state x="324" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609203310919" />
+    <state x="425" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610599956553">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.804@0.25.1440.804" timestamp="1609715549472" />
+    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.805@0.25.1440.805" timestamp="1610320725518" />
+    <state x="425" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.809@0.25.1440.809" timestamp="1610599956553" />
+    <state x="425" y="221" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.801@0.25.1440.801" timestamp="1606243302268" />
+    <state x="2007" y="158" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608510438586" />
+    <state x="2007" y="158" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1607573469083" />
+    <state x="669" y="298" width="514" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607896196649">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="669" y="298" width="514" height="262" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1440.805@0.25.1440.805" timestamp="1607896196649" />
+    <state x="2138" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608509776285">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="2138" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608509776285" />
+    <state x="607" y="25" key="#testscreen" timestamp="1607895775644">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="607" y="25" key="#testscreen/0.25.1440.805@0.25.1440.805" timestamp="1607895775644" />
+    <state x="463" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606249191605">
+      <screen x="0" y="25" width="1440" height="798" />
+    </state>
+    <state x="463" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606249191604" />
+    <state x="100" y="126" width="1240" height="609" key="AVDManager" timestamp="1610595720280">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="100" y="125" width="1240" height="602" key="AVDManager/0.25.1440.801@0.25.1440.801" timestamp="1607907456683" />
+    <state x="100" y="125" width="1240" height="602" key="AVDManager/0.25.1440.804@0.25.1440.804" timestamp="1610315399464" />
+    <state x="100" y="126" width="1240" height="609" key="AVDManager/0.25.1440.813@0.25.1440.813" timestamp="1610595720280" />
+    <state x="357" y="118" width="865" height="478" key="AVDManager/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608501871547" />
+    <state x="1848" y="96" key="AndroidCreateResourceFileDialog" timestamp="1609103046243">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="306" y="174" key="AndroidCreateResourceFileDialog/1440.-100.1920.1055/0.25.1440.801@0.25.1440.801" timestamp="1606243558550" />
+    <state x="1848" y="96" key="AndroidCreateResourceFileDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609103046243" />
+    <state x="727" y="290" key="AndroidCreateXmlResourceDialog" timestamp="1610324767171">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="727" y="290" key="AndroidCreateXmlResourceDialog/0.25.1440.805@0.25.1440.805" timestamp="1610324767171" />
+    <state x="540" y="196" key="AndroidCreateXmlResourceDialog/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606249837536" />
+    <state x="2160" y="126" key="AndroidCreateXmlResourceDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608510246846" />
+    <state x="540" y="197" key="AndroidCreateXmlResourceDialog/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606245326272" />
+    <state x="2169" y="178" key="AndroidProcessChooserDialog" timestamp="1609109240497">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="2169" y="178" key="AndroidProcessChooserDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609109240497" />
+    <state x="308" y="136" key="AndroidThemeDialog" timestamp="1610599486706">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
+    <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2" timestamp="1610601045078">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
+    <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
+    <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
+    <state x="14" y="25" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610595214468" />
+    <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610601045078" />
+    <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
+    <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
+    <state x="1733" y="-100" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609203765056" />
+    <state x="0" y="91" width="1152" height="647" key="DiffContextDialog" timestamp="1610600834187">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="0" y="91" key="DiffContextDialog/0.25.1440.805@0.25.1440.805" timestamp="1610326581060" />
+    <state x="0" y="91" width="1152" height="647" key="DiffContextDialog/0.25.1440.809@0.25.1440.809" timestamp="1610600834187" />
+    <state x="508" y="171" key="FileChooserDialogImpl" timestamp="1610323144503">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="508" y="171" key="FileChooserDialogImpl/0.25.1440.805@0.25.1440.805" timestamp="1610323144503" />
+    <state x="508" y="171" key="FileChooserDialogImpl/0.25.1440.807@0.25.1440.807" timestamp="1609469855990" />
+    <state x="2188" y="286" key="FileDocumentManager.FileCacheConflict" timestamp="1609105154153">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="2188" y="286" key="FileDocumentManager.FileCacheConflict/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609105154153" />
+    <state width="1398" height="163" key="GridCell.Tab.0.bottom" timestamp="1610600433826">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state width="1258" height="160" key="GridCell.Tab.0.bottom/0.25.1440.798@0.25.1440.798" timestamp="1607902137998" />
+    <state width="706" height="231" key="GridCell.Tab.0.bottom/0.25.1440.801@0.25.1440.801" timestamp="1607904381427" />
+    <state width="699" height="417" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1610314731027" />
+    <state width="679" height="150" key="GridCell.Tab.0.bottom/0.25.1440.805@0.25.1440.805" timestamp="1610326133632" />
+    <state width="384" height="114" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1607896546868" />
+    <state width="1398" height="163" key="GridCell.Tab.0.bottom/0.25.1440.809@0.25.1440.809" timestamp="1610600433826" />
+    <state width="1576" height="684" key="GridCell.Tab.0.bottom/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606281634375" />
+    <state width="1576" height="684" key="GridCell.Tab.0.bottom/1440.-100.1920.1055/0.25.1440.798@1440.-100.1920.1055" timestamp="1606965422716" />
+    <state width="706" height="231" key="GridCell.Tab.0.bottom/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609115373968" />
+    <state width="1356" height="204" key="GridCell.Tab.0.bottom/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247845103" />
+    <state width="939" height="244" key="GridCell.Tab.0.bottom/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609202564468" />
+    <state width="1398" height="163" key="GridCell.Tab.0.center" timestamp="1610600433823">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state width="1258" height="160" key="GridCell.Tab.0.center/0.25.1440.798@0.25.1440.798" timestamp="1607902137985" />
+    <state width="706" height="231" key="GridCell.Tab.0.center/0.25.1440.801@0.25.1440.801" timestamp="1607904381426" />
+    <state width="699" height="417" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1610314731027" />
+    <state width="679" height="150" key="GridCell.Tab.0.center/0.25.1440.805@0.25.1440.805" timestamp="1610326133631" />
+    <state width="384" height="114" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1607896546866" />
+    <state width="1398" height="163" key="GridCell.Tab.0.center/0.25.1440.809@0.25.1440.809" timestamp="1610600433823" />
+    <state width="1576" height="684" key="GridCell.Tab.0.center/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606281634374" />
+    <state width="1576" height="684" key="GridCell.Tab.0.center/1440.-100.1920.1055/0.25.1440.798@1440.-100.1920.1055" timestamp="1606965422713" />
+    <state width="706" height="231" key="GridCell.Tab.0.center/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609115373968" />
+    <state width="1356" height="204" key="GridCell.Tab.0.center/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247845102" />
+    <state width="939" height="244" key="GridCell.Tab.0.center/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609202564467" />
+    <state width="1398" height="163" key="GridCell.Tab.0.left" timestamp="1610600433820">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state width="1258" height="160" key="GridCell.Tab.0.left/0.25.1440.798@0.25.1440.798" timestamp="1607902137971" />
+    <state width="706" height="231" key="GridCell.Tab.0.left/0.25.1440.801@0.25.1440.801" timestamp="1607904381426" />
+    <state width="699" height="417" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1610314731026" />
+    <state width="679" height="150" key="GridCell.Tab.0.left/0.25.1440.805@0.25.1440.805" timestamp="1610326133631" />
+    <state width="384" height="114" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1607896546865" />
+    <state width="1398" height="163" key="GridCell.Tab.0.left/0.25.1440.809@0.25.1440.809" timestamp="1610600433820" />
+    <state width="1576" height="684" key="GridCell.Tab.0.left/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606281634373" />
+    <state width="1576" height="684" key="GridCell.Tab.0.left/1440.-100.1920.1055/0.25.1440.798@1440.-100.1920.1055" timestamp="1606965422708" />
+    <state width="706" height="231" key="GridCell.Tab.0.left/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609115373967" />
+    <state width="1356" height="204" key="GridCell.Tab.0.left/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247845102" />
+    <state width="939" height="244" key="GridCell.Tab.0.left/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609202564467" />
+    <state width="1398" height="163" key="GridCell.Tab.0.right" timestamp="1610600433825">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state width="1258" height="160" key="GridCell.Tab.0.right/0.25.1440.798@0.25.1440.798" timestamp="1607902137997" />
+    <state width="706" height="231" key="GridCell.Tab.0.right/0.25.1440.801@0.25.1440.801" timestamp="1607904381427" />
+    <state width="699" height="417" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1610314731027" />
+    <state width="679" height="150" key="GridCell.Tab.0.right/0.25.1440.805@0.25.1440.805" timestamp="1610326133632" />
+    <state width="384" height="114" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1607896546867" />
+    <state width="1398" height="163" key="GridCell.Tab.0.right/0.25.1440.809@0.25.1440.809" timestamp="1610600433825" />
+    <state width="1576" height="684" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606281634374" />
+    <state width="1576" height="684" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.798@1440.-100.1920.1055" timestamp="1606965422715" />
+    <state width="706" height="231" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609115373968" />
+    <state width="1356" height="204" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247845103" />
+    <state width="939" height="244" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609202564468" />
+    <state x="307" y="161" key="IDE.errors.dialog" timestamp="1610321972178">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="307" y="160" key="IDE.errors.dialog/0.25.1440.801@0.25.1440.801" timestamp="1609442274333" />
+    <state x="307" y="161" key="IDE.errors.dialog/0.25.1440.804@0.25.1440.804" timestamp="1609716460331" />
+    <state x="307" y="161" key="IDE.errors.dialog/0.25.1440.805@0.25.1440.805" timestamp="1610321972178" />
+    <state x="307" y="159" key="IDE.errors.dialog/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606246606072" />
+    <state x="219" y="97" key="IDE.errors.dialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609103713159" />
+    <state x="0" y="92" width="1440" height="675" key="MergeDialog" timestamp="1610600766976">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="144" y="92" key="MergeDialog/0.25.1440.805@0.25.1440.805" timestamp="1610325837599" />
+    <state x="0" y="92" width="1440" height="675" key="MergeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610600766976" />
+    <state x="360" y="193" key="MultipleFileMergeDialog" timestamp="1610325837661">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="360" y="193" key="MultipleFileMergeDialog/0.25.1440.805@0.25.1440.805" timestamp="1610325837661" />
+    <state x="308" y="282" key="Performance.Activity.Monitor" timestamp="1609716593084">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="308" y="282" key="Performance.Activity.Monitor/0.25.1440.804@0.25.1440.804" timestamp="1609716593084" />
+    <state x="501" y="203" key="RollbackChangesDialog" timestamp="1609715790099">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="501" y="203" key="RollbackChangesDialog/0.25.1440.804@0.25.1440.804" timestamp="1609715790099" />
+    <state x="2108" y="134" key="RollbackChangesDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609104789375" />
+    <state x="220" y="48" key="SettingsEditor" timestamp="1610595718565">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="220" y="48" key="SettingsEditor/0.25.1440.798@0.25.1440.798" timestamp="1607902092812" />
+    <state x="220" y="48" key="SettingsEditor/0.25.1440.801@0.25.1440.801" timestamp="1607904711008" />
+    <state x="220" y="48" key="SettingsEditor/0.25.1440.804@0.25.1440.804" timestamp="1610314617501" />
+    <state x="220" y="48" key="SettingsEditor/0.25.1440.805@0.25.1440.805" timestamp="1610325766094" />
+    <state x="220" y="48" key="SettingsEditor/0.25.1440.813@0.25.1440.813" timestamp="1610595718565" />
+    <state x="220" y="48" key="SettingsEditor/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606248360696" />
+    <state x="298" y="58" key="SettingsEditor/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609204120724" />
+    <state width="254" height="200" key="ShowFilterAction_Filter_Popup" timestamp="1606248856647">
+      <screen x="0" y="25" width="1440" height="798" />
+    </state>
+    <state width="254" height="200" key="ShowFilterAction_Filter_Popup/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606248856647" />
+    <state x="2275" y="347" key="VCS.EditChangelistDialog" timestamp="1609113840940">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="2275" y="347" key="VCS.EditChangelistDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609113840940" />
+    <state x="51" y="133" key="Vcs.Push.Dialog.v2" timestamp="1610326728453">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.801@0.25.1440.801" timestamp="1607903876849" />
+    <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.804@0.25.1440.804" timestamp="1609717820920" />
+    <state x="51" y="133" key="Vcs.Push.Dialog.v2/0.25.1440.805@0.25.1440.805" timestamp="1610326728453" />
+    <state x="1508" y="41" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205521454" />
+    <state x="319" y="149" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247927388" />
+    <state x="1508" y="41" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1608507200710" />
+    <state x="706" y="211" key="chooseDestDirectoryDialog" timestamp="1607896192215">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="706" y="211" key="chooseDestDirectoryDialog/0.25.1440.805@0.25.1440.805" timestamp="1607896192215" />
+    <state x="451" y="118" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1609106343151">
+      <screen x="0" y="25" width="1440" height="801" />
+    </state>
+    <state x="451" y="118" key="com.intellij.javaee.MapExternalResourceDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609106343151" />
+    <state x="2182" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607302467690">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="2182" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1607302467690" />
+    <state x="548" y="211" width="1064" height="618" key="dock-window-1" timestamp="1609717329153">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="548" y="211" width="1064" height="618" key="dock-window-1/0.25.1440.805@0.25.1440.805" timestamp="1609717329153" />
+    <state x="4" y="66" width="1436" height="722" key="dock-window-1/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609113548521" />
+    <state x="468" y="144" key="git4idea.branch.GitSmartOperationDialog" timestamp="1610325811719">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="468" y="144" key="git4idea.branch.GitSmartOperationDialog/0.25.1440.805@0.25.1440.805" timestamp="1610325811719" />
+    <state x="2127" y="320" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607302555201">
+      <screen x="1440" y="-100" width="1920" height="1055" />
+    </state>
+    <state x="2127" y="320" key="git4idea.remote.GitConfigureRemotesDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1607302555201" />
+    <state x="192" y="100" width="671" height="683" key="search.everywhere.popup" timestamp="1610320400926">
+      <screen x="0" y="25" width="1440" height="805" />
+    </state>
+    <state x="192" y="100" width="671" height="683" key="search.everywhere.popup/0.25.1440.805@0.25.1440.805" timestamp="1610320400926" />
+    <state x="182" y="172" width="670" height="676" key="search.everywhere.popup/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606250039884" />
+    <state x="1696" y="-2" width="894" height="894" key="search.everywhere.popup/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609113991215" />
+    <state x="1683" y="94" width="894" height="894" key="search.everywhere.popup/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1606968778534" />
+    <state x="116" y="187" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1610600695011">
+      <screen x="0" y="25" width="1440" height="809" />
+    </state>
+    <state x="116" y="187" key="vcs.ApplyPatchDifferentiatedDialog/0.25.1440.809@0.25.1440.809" timestamp="1610600695011" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
