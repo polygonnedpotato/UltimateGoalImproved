@@ -12,20 +12,27 @@ public class IntakeTeleop extends OpMode {
     boolean leftbumper;
     boolean rightbumper;
 
-    IntakeMethodTeleOp intake = null;
+    IntakeMethodTeleOp intake;
+    IntakeStorageGauge gauge = null;
     double power = 1;
     @Override
     public void init() {
         intake = new IntakeMethodTeleOp();
+        gauge = new IntakeStorageGauge();
         //drivetrain.driveMotors(HardwareMap);
     }
 
     @Override
     public void loop() {
-       if ( leftbumper || rightbumper) {
-           intake.intake(leftbumper, rightbumper);
+        //dont intake >:()
+      //  gauge.rings();
+        //if (gauge.isyellow2 () == true && gauge.isyellow3 () == true) {
+            intake.intake(true, leftbumper, rightbumper); }
+       // else {
+           // intake.intake(false, leftbumper, rightbumper);
         }
 
-    }
-}
+    //}
+//}
+
 
