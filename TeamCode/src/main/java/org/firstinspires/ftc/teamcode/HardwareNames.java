@@ -1,12 +1,10 @@
 package org.firstinspires.ftc.teamcode;
-import com.qualcomm.hardware.rev.RevBlinkinLedDriver;
-import android.graphics.Color;
-import android.hardware.Sensor;
 
+import com.qualcomm.hardware.rev.RevBlinkinLedDriver;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.HardwareMap;
+import com.qualcomm.robotcore.hardware.Servo;
 
 public class HardwareNames {
     // link to previous year's code https://github.com/teamftc8466/skystone8466
