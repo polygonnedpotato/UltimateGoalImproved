@@ -1,5 +1,5 @@
 ## Caution
-No Team-specific code should be placed or modified in this ``.../samples`` folder.
+Team-specific code should be placed or modified in this ``.../samples`` folder. .LOL.
 
 Full or partial Samples should be Copied from here, and then Pasted into
 the team's folder, using the Android Studio cut and paste commands.
