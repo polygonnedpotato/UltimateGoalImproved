@@ -1,2 +1,4 @@
 There is raw audio data that is unused. What is it for?
 TODO: Find the usage of the raw audio data.
+TODO: What is gold.wav???
+TODO: What is silver.wav???

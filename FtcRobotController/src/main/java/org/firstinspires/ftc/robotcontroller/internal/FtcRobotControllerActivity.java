@@ -125,6 +125,7 @@ import org.firstinspires.ftc.robotserver.internal.programmingmode.ProgrammingMod
 import org.firstinspires.inspection.RcInspectionActivity;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -221,88 +222,88 @@ public class FtcRobotControllerActivity extends Activity
     context = this;
     utility = new Utility(this);
 
-    DeviceNameManagerFactory.getInstance().start(deviceNameStartResult);
+      DeviceNameManagerFactory.getInstance().start(deviceNameStartResult);
 
-    PreferenceRemoterRC.getInstance().start(prefRemoterStartResult);
+      PreferenceRemoterRC.getInstance().start(prefRemoterStartResult);
 
       receivedUsbAttachmentNotifications = new ConcurrentLinkedQueue<>();
       eventLoop = null;
 
-    setContentView(R.layout.activity_ftc_controller);
+      setContentView(R.layout.activity_ftc_controller);
 
-    preferencesHelper = new PreferencesHelper(TAG, context);
-    preferencesHelper.writeBooleanPrefIfDifferent(context.getString(R.string.pref_rc_connected), true);
-    preferencesHelper.getSharedPreferences().registerOnSharedPreferenceChangeListener(sharedPreferencesListener);
+      preferencesHelper = new PreferencesHelper(TAG, context);
+      preferencesHelper.writeBooleanPrefIfDifferent(context.getString(R.string.pref_rc_connected), true);
+      preferencesHelper.getSharedPreferences().registerOnSharedPreferenceChangeListener(sharedPreferencesListener);
 
-    entireScreenLayout = (LinearLayout) findViewById(R.id.entire_screen);
-    buttonMenu = (ImageButton) findViewById(R.id.menu_buttons);
-    buttonMenu.setOnClickListener(new View.OnClickListener() {
-      @Override
-      public void onClick(View v) {
-        PopupMenu popupMenu = new PopupMenu(FtcRobotControllerActivity.this, v);
-        popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-          @Override
-          public boolean onMenuItemClick(MenuItem item) {
-            return onOptionsItemSelected(item); // Delegate to the handler for the hardware menu button
-          }
-        });
-        popupMenu.inflate(R.menu.ftc_robot_controller);
-        popupMenu.show();
-      }
-    });
+      entireScreenLayout = findViewById(R.id.entire_screen);
+      buttonMenu = findViewById(R.id.menu_buttons);
+      buttonMenu.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+          PopupMenu popupMenu = new PopupMenu(FtcRobotControllerActivity.this, v);
+          popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+              return onOptionsItemSelected(item); // Delegate to the handler for the hardware menu button
+            }
+          });
+          popupMenu.inflate(R.menu.ftc_robot_controller);
+          popupMenu.show();
+        }
+      });
 
-    updateMonitorLayout(getResources().getConfiguration());
+      updateMonitorLayout(getResources().getConfiguration());
 
-    BlocksOpMode.setActivityAndWebView(this, (WebView) findViewById(R.id.webViewBlocksRuntime));
+      BlocksOpMode.setActivityAndWebView(this, (WebView) findViewById(R.id.webViewBlocksRuntime));
 
-    /*
+      /*
      * Paranoia as the ClassManagerFactory requires EXTERNAL_STORAGE permissions
      * and we've seen on the DS where the finish() call above does not short-circuit
      * the onCreate() call for the activity and then we crash here because we don't
-     * have permissions. So...
-     */
-    if (permissionsValidated) {
-      ClassManager.getInstance().setOnBotJavaClassHelper(new OnBotJavaHelperImpl());
-      ClassManagerFactory.registerFilters();
-      ClassManagerFactory.processAllClasses();
-    }
+       * have permissions. So...
+       */
+      if (permissionsValidated) {
+        ClassManager.getInstance().setOnBotJavaClassHelper(new OnBotJavaHelperImpl());
+        ClassManagerFactory.registerFilters();
+        ClassManagerFactory.processAllClasses();
+      }
 
-    cfgFileMgr = new RobotConfigFileManager(this);
+      cfgFileMgr = new RobotConfigFileManager(this);
 
-    // Clean up 'dirty' status after a possible crash
-    RobotConfigFile configFile = cfgFileMgr.getActiveConfig();
-    if (configFile.isDirty()) {
-      configFile.markClean();
-      cfgFileMgr.setActiveConfig(false, configFile);
-    }
+      // Clean up 'dirty' status after a possible crash
+      RobotConfigFile configFile = cfgFileMgr.getActiveConfig();
+      if (configFile.isDirty()) {
+        configFile.markClean();
+        cfgFileMgr.setActiveConfig(false, configFile);
+      }
 
-    textDeviceName = (TextView) findViewById(R.id.textDeviceName);
-    textNetworkConnectionStatus = (TextView) findViewById(R.id.textNetworkConnectionStatus);
-    textRobotStatus = (TextView) findViewById(R.id.textRobotStatus);
-    textOpMode = (TextView) findViewById(R.id.textOpMode);
-    textErrorMessage = (TextView) findViewById(R.id.textErrorMessage);
-    textGamepad[0] = (TextView) findViewById(R.id.textGamepad1);
-    textGamepad[1] = (TextView) findViewById(R.id.textGamepad2);
-    immersion = new ImmersiveMode(getWindow().getDecorView());
-    dimmer = new Dimmer(this);
-    dimmer.longBright();
+      textDeviceName = findViewById(R.id.textDeviceName);
+      textNetworkConnectionStatus = findViewById(R.id.textNetworkConnectionStatus);
+      textRobotStatus = findViewById(R.id.textRobotStatus);
+      textOpMode = findViewById(R.id.textOpMode);
+      textErrorMessage = findViewById(R.id.textErrorMessage);
+      textGamepad[0] = findViewById(R.id.textGamepad1);
+      textGamepad[1] = findViewById(R.id.textGamepad2);
+      immersion = new ImmersiveMode(getWindow().getDecorView());
+      dimmer = new Dimmer(this);
+      dimmer.longBright();
 
-    programmingModeManager = new ProgrammingModeManager();
-    programmingModeManager.register(new ProgrammingWebHandlers());
-    programmingModeManager.register(new OnBotJavaProgrammingMode());
+      programmingModeManager = new ProgrammingModeManager();
+      programmingModeManager.register(new ProgrammingWebHandlers());
+      programmingModeManager.register(new OnBotJavaProgrammingMode());
 
-    updateUI = createUpdateUI();
-    callback = createUICallback(updateUI);
+      updateUI = createUpdateUI();
+      callback = createUICallback(updateUI);
 
-    PreferenceManager.setDefaultValues(this, R.xml.app_settings, false);
+      PreferenceManager.setDefaultValues(this, R.xml.app_settings, false);
 
-    WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
-    wifiLock = wifiManager.createWifiLock(WifiManager.WIFI_MODE_FULL_HIGH_PERF, "");
+      WifiManager wifiManager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
+      wifiLock = wifiManager.createWifiLock(WifiManager.WIFI_MODE_FULL_HIGH_PERF, "");
 
-    hittingMenuButtonBrightensScreen();
+      hittingMenuButtonBrightensScreen();
 
-    wifiLock.acquire();
-    callback.networkConnectionUpdate(NetworkConnection.NetworkEvent.DISCONNECTED);
+      wifiLock.acquire();
+      callback.networkConnectionUpdate(NetworkConnection.NetworkEvent.DISCONNECTED);
     readNetworkType();
     ServiceController.startService(FtcRobotControllerWatchdogService.class);
     bindToService();
@@ -326,13 +327,12 @@ public class FtcRobotControllerActivity extends Activity
         UsbDevice usbDevice = intent.getParcelableExtra(UsbManager.EXTRA_DEVICE);
         RobotLog.vv(TAG, "ACTION_USB_DEVICE_ATTACHED: %s", usbDevice.getDeviceName());
 
-        if (usbDevice != null) {  // paranoia
-          // We might get attachment notifications before the event loop is set up, so
-          // we hold on to them and pass them along only when we're good and ready.
-          if (receivedUsbAttachmentNotifications != null) { // *total* paranoia
-            receivedUsbAttachmentNotifications.add(usbDevice);
-            passReceivedUsbAttachmentsToEventLoop();
-          }
+        // paranoia
+        // We might get attachment notifications before the event loop is set up, so
+        // we hold on to them and pass them along only when we're good and ready.
+        if (receivedUsbAttachmentNotifications != null) { // *total* paranoia
+          receivedUsbAttachmentNotifications.add(usbDevice);
+          passReceivedUsbAttachmentsToEventLoop();
         }
       }
     }
@@ -510,7 +510,7 @@ public class FtcRobotControllerActivity extends Activity
     if (id == R.id.action_program_and_manage) {
       if (isRobotRunning()) {
         Intent programmingModeIntent = new Intent(AppUtil.getDefContext(), ProgramAndManageActivity.class);
-        RobotControllerWebInfo webInfo = programmingModeManager.getWebServer().getConnectionInformation();
+        RobotControllerWebInfo webInfo = Objects.requireNonNull(programmingModeManager.getWebServer()).getConnectionInformation();
         programmingModeIntent.putExtra(LaunchActivityConstantsList.RC_WEB_INFO, webInfo.toJson());
         startActivity(programmingModeIntent);
       } else {
@@ -629,7 +629,7 @@ public class FtcRobotControllerActivity extends Activity
      * tfodMonitorView) based on the given configuration. Makes the children split the space.
      */
     private void updateMonitorLayout(Configuration configuration) {
-      LinearLayout monitorContainer = (LinearLayout) findViewById(R.id.monitorContainer);
+      LinearLayout monitorContainer = findViewById(R.id.monitorContainer);
       if (configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
         // When the phone is landscape, lay out the monitor views horizontally.
         monitorContainer.setOrientation(LinearLayout.HORIZONTAL);
