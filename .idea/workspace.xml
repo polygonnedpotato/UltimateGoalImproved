@@ -46,7 +46,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/lakeoswegorobotics/.android/avd/Nexus_5_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/lakeoswegorobotics/.android/avd/Pixel_3a_API_30_x86.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -166,8 +166,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.0.48:5555" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-20T22:30:11.713Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/lakeoswegorobotics/.android/avd/Pixel_3a_API_30_x86.avd" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-17T21:58:58.212176Z" />
     <property name="ResourceManagerPrefKey.FilterParams.Framework" value="true" />
     <property name="ResourceManagerPrefKey.ResourceType" value="ANIM" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -653,7 +653,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610919853582</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="a">
+      <created>1610920857449</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1610920857449</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -696,7 +703,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="more small edits here and there with even more fixes" />
     <MESSAGE value="tried to fix schemas (it did not work dang it)&#10;fixed up some warnings in the testscreen (still does not work)&#10;added ftc icon&#10;add java file icon because why not&#10;updated manifest" />
     <MESSAGE value="new readme will now showup as default (old is still present)" />
     <MESSAGE value="new icon" />
@@ -721,7 +727,8 @@
     <MESSAGE value="updated copyright&#10;added new tensorflow lite. incorporation required" />
     <MESSAGE value="added uncommited files" />
     <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -808,13 +815,13 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="14" y="25" width="840" height="807" key="CommitChangelistDialog2" timestamp="1610919853353">
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1610920856939">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
-    <state x="14" y="25" width="840" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610919853353" />
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610920856939" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610601182333" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
