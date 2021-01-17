@@ -46,7 +46,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/lakeoswegorobotics/.android/avd/Pixel_3a_API_30_x86.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/lakeoswegorobotics/.android/avd/Nexus_5_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -646,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610919683681</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fixes">
+      <created>1610919853582</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610919853582</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -773,12 +780,12 @@
       <screen x="0" y="25" width="1440" height="798" />
     </state>
     <state x="463" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606249191604" />
-    <state x="100" y="125" width="1240" height="605" key="AVDManager" timestamp="1610917447707">
+    <state x="100" y="125" width="1240" height="605" key="AVDManager" timestamp="1610920530041">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="100" y="125" width="1240" height="602" key="AVDManager/0.25.1440.801@0.25.1440.801" timestamp="1607907456683" />
     <state x="100" y="125" width="1240" height="602" key="AVDManager/0.25.1440.804@0.25.1440.804" timestamp="1610315399464" />
-    <state x="100" y="125" width="1240" height="605" key="AVDManager/0.25.1440.807@0.25.1440.807" timestamp="1610917447707" />
+    <state x="100" y="125" width="1240" height="605" key="AVDManager/0.25.1440.807@0.25.1440.807" timestamp="1610920530041" />
     <state x="100" y="126" width="1240" height="609" key="AVDManager/0.25.1440.813@0.25.1440.813" timestamp="1610595720280" />
     <state x="357" y="118" width="865" height="478" key="AVDManager/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608501871547" />
     <state x="1848" y="96" key="AndroidCreateResourceFileDialog" timestamp="1609103046243">
@@ -801,13 +808,13 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="14" y="25" width="840" height="807" key="CommitChangelistDialog2" timestamp="1610919683164">
+    <state x="14" y="25" width="840" height="807" key="CommitChangelistDialog2" timestamp="1610919853353">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
-    <state x="14" y="25" width="840" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610919683164" />
+    <state x="14" y="25" width="840" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610919853353" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610601182333" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
