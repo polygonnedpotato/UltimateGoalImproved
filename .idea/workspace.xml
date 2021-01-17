@@ -38,12 +38,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <list id="cdfb3af8-75ba-49b6-98fd-c8fde0e08a8a" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -707,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610924627150</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="stuff">
+      <created>1610924957258</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1610924957258</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -862,13 +864,13 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1610924626604">
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1610924956968">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610924626604" />
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610924956968" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610922113879" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
@@ -947,13 +949,13 @@
     <state width="706" height="231" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609115373968" />
     <state width="1356" height="204" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247845103" />
     <state width="939" height="244" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609202564468" />
-    <state x="307" y="162" key="IDE.errors.dialog" timestamp="1610924865928">
+    <state x="307" y="162" key="IDE.errors.dialog" timestamp="1610924930377">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="307" y="160" key="IDE.errors.dialog/0.25.1440.801@0.25.1440.801" timestamp="1609442274333" />
     <state x="307" y="161" key="IDE.errors.dialog/0.25.1440.804@0.25.1440.804" timestamp="1609716460331" />
     <state x="307" y="161" key="IDE.errors.dialog/0.25.1440.805@0.25.1440.805" timestamp="1610321972178" />
-    <state x="307" y="162" key="IDE.errors.dialog/0.25.1440.807@0.25.1440.807" timestamp="1610924865928" />
+    <state x="307" y="162" key="IDE.errors.dialog/0.25.1440.807@0.25.1440.807" timestamp="1610924930377" />
     <state x="307" y="162" key="IDE.errors.dialog/0.25.1440.809@0.25.1440.809" timestamp="1610601189064" />
     <state x="307" y="159" key="IDE.errors.dialog/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606246606072" />
     <state x="219" y="97" key="IDE.errors.dialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609103713159" />
