@@ -38,9 +38,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <list id="cdfb3af8-75ba-49b6-98fd-c8fde0e08a8a" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -676,7 +674,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610921445735</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="a">
+      <created>1610921670826</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1610921670827</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -831,14 +836,14 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="14" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1610921445085">
+    <state x="14" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1610921670396">
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
     <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610920874054" />
-    <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610921445085" />
+    <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610921670396" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
     <state x="1733" y="-100" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609203765056" />
