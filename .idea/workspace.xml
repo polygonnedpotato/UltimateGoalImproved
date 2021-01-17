@@ -38,11 +38,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/raw/rawdata.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/raw/rawdata.txt" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <list id="cdfb3af8-75ba-49b6-98fd-c8fde0e08a8a" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -643,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610601182567</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="fixes">
+      <created>1610919683681</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1610919683681</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -686,7 +689,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="small edits here and there including fixes" />
     <MESSAGE value="more small edits here and there with even more fixes" />
     <MESSAGE value="tried to fix schemas (it did not work dang it)&#10;fixed up some warnings in the testscreen (still does not work)&#10;added ftc icon&#10;add java file icon because why not&#10;updated manifest" />
     <MESSAGE value="new readme will now showup as default (old is still present)" />
@@ -711,7 +713,8 @@
     <MESSAGE value="new app name" />
     <MESSAGE value="updated copyright&#10;added new tensorflow lite. incorporation required" />
     <MESSAGE value="added uncommited files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added uncommited files" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -798,13 +801,13 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2" timestamp="1610601182333">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state x="14" y="25" width="840" height="807" key="CommitChangelistDialog2" timestamp="1610919683164">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
-    <state x="14" y="25" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610595214468" />
+    <state x="14" y="25" width="840" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610919683164" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610601182333" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
@@ -905,10 +908,11 @@
       <screen x="0" y="25" width="1440" height="804" />
     </state>
     <state x="308" y="282" key="Performance.Activity.Monitor/0.25.1440.804@0.25.1440.804" timestamp="1609716593084" />
-    <state x="501" y="203" key="RollbackChangesDialog" timestamp="1609715790099">
-      <screen x="0" y="25" width="1440" height="804" />
+    <state x="501" y="204" key="RollbackChangesDialog" timestamp="1610919801259">
+      <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="501" y="203" key="RollbackChangesDialog/0.25.1440.804@0.25.1440.804" timestamp="1609715790099" />
+    <state x="501" y="204" key="RollbackChangesDialog/0.25.1440.807@0.25.1440.807" timestamp="1610919801259" />
     <state x="2108" y="134" key="RollbackChangesDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609104789375" />
     <state x="220" y="48" key="SettingsEditor" timestamp="1610595718565">
       <screen x="0" y="25" width="1440" height="813" />
