@@ -94,10 +94,10 @@ public class ConceptTelemetry extends LinearOpMode  {
         // The interval between lines of poetry, in seconds
         double sPoemInterval = 0.6;
 
-        /**
-         * Wait until we've been given the ok to go. For something to do, we emit the
-         * elapsed time as we sit here and wait. If we didn't want to do anything while
-         * we waited, we would just call {@link #waitForStart()}.
+        /*
+          Wait until we've been given the ok to go. For something to do, we emit the
+          elapsed time as we sit here and wait. If we didn't want to do anything while
+          we waited, we would just call {@link #waitForStart()}.
          */
         while (!isStarted()) {
             telemetry.addData("time", "%.1f seconds", opmodeRunTime.seconds());
@@ -107,20 +107,21 @@ public class ConceptTelemetry extends LinearOpMode  {
 
         // Ok, we've been given the ok to go
 
-        /**
-         * As an illustration, the first line on our telemetry display will display the battery voltage.
-         * The idea here is that it's expensive to compute the voltage (at least for purposes of illustration)
-         * so you don't want to do it unless the data is <em>actually</em> going to make it to the
-         * driver station (recall that telemetry transmission is throttled to reduce bandwidth use.
-         * Note that getBatteryVoltage() below returns 'Infinity' if there's no voltage sensor attached.
-         *
-         * @see Telemetry#getMsTransmissionInterval()
+        /*
+          As an illustration, the first line on our telemetry display will display the battery voltage.
+          The idea here is that it's expensive to compute the voltage (at least for purposes of illustration)
+          so you don't want to do it unless the data is <em>actually</em> going to make it to the
+          driver station (recall that telemetry transmission is throttled to reduce bandwidth use.
+          Note that getBatteryVoltage() below returns 'Infinity' if there's no voltage sensor attached.
+
+          @see Telemetry#getMsTransmissionInterval()
          */
         telemetry.addData("voltage", "%.1f volts", new Func<Double>() {
-            @Override public Double value() {
+            @Override
+            public Double value() {
                 return getBatteryVoltage();
             }
-            });
+        });
 
         // Reset to keep some timing stats for the post-'start' part of the opmode
         opmodeRunTime.reset();
@@ -146,13 +147,13 @@ public class ConceptTelemetry extends LinearOpMode  {
                     .addData("x", gamepad1.right_stick_x)
                     .addData("y", gamepad1.right_stick_y);
 
-            /**
-             * Transmit the telemetry to the driver station, subject to throttling.
-             * @see Telemetry#getMsTransmissionInterval()
+            /*
+              Transmit the telemetry to the driver station, subject to throttling.
+              @see Telemetry#getMsTransmissionInterval()
              */
             telemetry.update();
 
-            /** Update loop info and play nice with the rest of the {@link Thread}s in the system */
+            /* Update loop info and play nice with the rest of the {@link Thread}s in the system */
             loopCount++;
         }
     }

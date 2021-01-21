@@ -34,9 +34,6 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 /**
  * Demonstrates empty OpMode
  */
@@ -44,7 +41,7 @@ import java.util.Date;
 @Disabled
 public class ConceptNullOp extends OpMode {
 
-  private ElapsedTime runtime = new ElapsedTime();
+  private final ElapsedTime runtime = new ElapsedTime();
 
   @Override
   public void init() {
