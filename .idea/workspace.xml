@@ -31,15 +31,17 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
-    <list id="cdfb3af8-75ba-49b6-98fd-c8fde0e08a8a" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -402,25 +404,11 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
-      <changelist id="cdfb3af8-75ba-49b6-98fd-c8fde0e08a8a" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
+      <changelist id="" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
       <created>1606241956010</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00002" summary="mods to strings&#10;making testscreen">
-      <created>1607302144632</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607302144632</updated>
-    </task>
-    <task id="LOCAL-00003" summary="some small edits">
-      <created>1607903677369</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1607903677369</updated>
     </task>
     <task id="LOCAL-00004" summary="added new todo">
       <created>1608505068019</created>
@@ -751,7 +739,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611201053178</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="idk">
+      <created>1611201138417</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1611201138417</updated>
+    </task>
+    <task id="LOCAL-00052" summary="new readme">
+      <created>1611201285146</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1611201285146</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -778,7 +780,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="dev" />
                       </list>
                     </value>
                   </entry>
@@ -794,7 +796,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="attempt 1 to make testscreen work" />
     <MESSAGE value="attempt 2 to make testscreen work" />
     <MESSAGE value="gave up trying to make testscreen work for now" />
     <MESSAGE value="moved icon in readme" />
@@ -815,11 +816,12 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="stuff" />
     <MESSAGE value="a" />
-    <MESSAGE value="idk" />
     <MESSAGE value="updates" />
     <MESSAGE value="optimized" />
     <MESSAGE value="optimizations" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimizations" />
+    <MESSAGE value="idk" />
+    <MESSAGE value="new readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="new readme" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -853,12 +855,12 @@
     <state x="256" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.804@0.25.1440.804" timestamp="1610314572217" />
     <state x="308" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609111985419" />
     <state x="324" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609203310919" />
-    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611201092839">
+    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611201727838">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.804@0.25.1440.804" timestamp="1609715549472" />
     <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.805@0.25.1440.805" timestamp="1610918939405" />
-    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.807@0.25.1440.807" timestamp="1611201092839" />
+    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.807@0.25.1440.807" timestamp="1611201727838" />
     <state x="425" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.809@0.25.1440.809" timestamp="1610599956553" />
     <state x="425" y="221" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.801@0.25.1440.801" timestamp="1606243302268" />
     <state x="2007" y="158" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608510438586" />
@@ -908,13 +910,13 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611201052886">
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611201284937">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611201052886" />
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611201284937" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610922113879" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
