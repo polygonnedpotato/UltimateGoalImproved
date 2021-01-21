@@ -38,9 +38,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +180,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/FtcRobotController/src/main/java/com/qualcomm/ftcrobotcontroller" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FtcRobotController/src/main/res/raw" />
     <property name="memory.settings.postsync.do.not.ask.for.project" value="true" />
     <property name="memory.settings.postsync.last.time.stamp" value="1610325734392" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -191,15 +191,16 @@
       <recent name="com.qualcomm.ftcrobotcontroller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FtcRobotController/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/TeamCode/src/main/res/raw" />
     </key>
     <key name="android.template.1119116950">
       <recent name="com.qualcomm.ftcrobotcontroller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TeamCode/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/FtcRobotController/src/main/assets" />
-      <recent name="$PROJECT_DIR$/TeamCode/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/FtcRobotController/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -409,20 +410,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added new todo">
-      <created>1608505068019</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1608505068019</updated>
-    </task>
-    <task id="LOCAL-00005" summary="new readme">
-      <created>1608507025175</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1608507025175</updated>
     </task>
     <task id="LOCAL-00006" summary="readme edits&#10;fix for a manifest&#10;updated testimage.gif">
       <created>1608509492997</created>
@@ -753,7 +740,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611201285146</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="edits">
+      <created>1611201794433</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1611201794434</updated>
+    </task>
+    <task id="LOCAL-00054" summary="new juicy sound files">
+      <created>1611202010314</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1611202010314</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -796,8 +797,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="attempt 2 to make testscreen work" />
-    <MESSAGE value="gave up trying to make testscreen work for now" />
     <MESSAGE value="moved icon in readme" />
     <MESSAGE value="edits to strings" />
     <MESSAGE value="fixes n stuff" />
@@ -821,7 +820,9 @@
     <MESSAGE value="optimizations" />
     <MESSAGE value="idk" />
     <MESSAGE value="new readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="new readme" />
+    <MESSAGE value="edits" />
+    <MESSAGE value="new juicy sound files" />
+    <option name="LAST_COMMIT_MESSAGE" value="new juicy sound files" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -855,12 +856,12 @@
     <state x="256" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.804@0.25.1440.804" timestamp="1610314572217" />
     <state x="308" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609111985419" />
     <state x="324" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609203310919" />
-    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611201727838">
+    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611201951807">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.804@0.25.1440.804" timestamp="1609715549472" />
     <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.805@0.25.1440.805" timestamp="1610918939405" />
-    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.807@0.25.1440.807" timestamp="1611201727838" />
+    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.807@0.25.1440.807" timestamp="1611201951807" />
     <state x="425" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.809@0.25.1440.809" timestamp="1610599956553" />
     <state x="425" y="221" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.801@0.25.1440.801" timestamp="1606243302268" />
     <state x="2007" y="158" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608510438586" />
@@ -910,13 +911,13 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611201284937">
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611202010031">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611201284937" />
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611202010031" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610922113879" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
@@ -1042,13 +1043,13 @@
       <screen x="1440" y="-100" width="1920" height="1055" />
     </state>
     <state x="2275" y="347" key="VCS.EditChangelistDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609113840940" />
-    <state x="51" y="134" key="Vcs.Push.Dialog.v2" timestamp="1611201086978">
+    <state x="51" y="134" key="Vcs.Push.Dialog.v2" timestamp="1611202046903">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.801@0.25.1440.801" timestamp="1607903876849" />
     <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.804@0.25.1440.804" timestamp="1609717820920" />
     <state x="51" y="133" key="Vcs.Push.Dialog.v2/0.25.1440.805@0.25.1440.805" timestamp="1610326728453" />
-    <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1611201086978" />
+    <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1611202046903" />
     <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.809@0.25.1440.809" timestamp="1610601301022" />
     <state x="1508" y="41" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205521454" />
     <state x="319" y="149" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247927388" />
@@ -1089,10 +1090,10 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="116" y="187" key="vcs.ApplyPatchDifferentiatedDialog/0.25.1440.809@0.25.1440.809" timestamp="1610600695011" />
-    <state x="442" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1610924815523">
+    <state x="442" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1611201892508">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
-    <state x="442" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1440.807@0.25.1440.807" timestamp="1610924815523" />
+    <state x="442" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1440.807@0.25.1440.807" timestamp="1611201892508" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
