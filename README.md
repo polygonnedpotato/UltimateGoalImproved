@@ -1,5 +1,7 @@
 ### ![FTC_LOGO](FtcRobotController/src/main/res/drawable/ftc3.PNG) ULTIMATE GOAL IMPROVED 
 
+check for updates from original: https://github.com/polygonnedpotato/UltimateGoalImproved/compare/master...LucasFeldsien:master?diff=split
+
 ## NOTICE
 
 This repository contains the public FTC SDK for the Ultimate Goal (2020-2021) competition season.
