@@ -38,7 +38,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="cdfb3af8-75ba-49b6-98fd-c8fde0e08a8a" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/lakeoswegorobotics/.android/avd/pixel4.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@G0012B05946419J9]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -202,7 +204,7 @@
       <recent name="$PROJECT_DIR$/TeamCode/src/main/res/raw" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.Just Install It">
+  <component name="RunManager" selected="Android App.TeamCode">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -723,7 +725,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610930911025</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="idk">
+      <created>1611197084388</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1611197084388</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -766,7 +775,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="new readme will now showup as default (old is still present)" />
     <MESSAGE value="new icon" />
     <MESSAGE value="new icon again&#10;new concept icons&#10;new title to README.md" />
     <MESSAGE value="attempt 1 to make testscreen work" />
@@ -791,7 +799,8 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="stuff" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="idk" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -878,13 +887,13 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1610930910604">
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611197084164">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1610930910604" />
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611197084164" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610922113879" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
@@ -1010,13 +1019,13 @@
       <screen x="1440" y="-100" width="1920" height="1055" />
     </state>
     <state x="2275" y="347" key="VCS.EditChangelistDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609113840940" />
-    <state x="51" y="134" key="Vcs.Push.Dialog.v2" timestamp="1610930923053">
+    <state x="51" y="134" key="Vcs.Push.Dialog.v2" timestamp="1611197091053">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.801@0.25.1440.801" timestamp="1607903876849" />
     <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.804@0.25.1440.804" timestamp="1609717820920" />
     <state x="51" y="133" key="Vcs.Push.Dialog.v2/0.25.1440.805@0.25.1440.805" timestamp="1610326728453" />
-    <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1610930923053" />
+    <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1611197091053" />
     <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.809@0.25.1440.809" timestamp="1610601301022" />
     <state x="1508" y="41" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205521454" />
     <state x="319" y="149" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247927388" />
