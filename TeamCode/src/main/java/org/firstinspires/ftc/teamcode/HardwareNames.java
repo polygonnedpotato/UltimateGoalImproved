@@ -53,7 +53,7 @@ public class HardwareNames {
     public void storageMotors(HardwareMap hwm) {
         motoreject = hwm.get(DcMotor.class, "motoreject");
 
-        /**drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
+        /*drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
     }
 
 
@@ -62,7 +62,7 @@ public class HardwareNames {
     public void intakeMotors(HardwareMap hwm) {
         motorintake = hwm.get(DcMotor.class, "motorintake");
 
-        /**drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
+        /*drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
     }
 
 
@@ -91,9 +91,9 @@ public class HardwareNames {
         colorstore2 = hwm.colorSensor.get("colorstore2");
         colorstore3 = hwm.colorSensor.get("colorstore3");
     }
-    /**public sensors
-     * public camera\
-     *
+    /*public sensors
+      public camera\
+
      */
 
 

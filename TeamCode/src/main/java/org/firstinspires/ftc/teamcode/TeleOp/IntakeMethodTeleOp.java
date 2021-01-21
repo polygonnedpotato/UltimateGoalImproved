@@ -1,10 +1,7 @@
 package org.firstinspires.ftc.teamcode.TeleOp;
-import java.lang.Math;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
-
-import org.firstinspires.ftc.teamcode.HardwareNames;
 
 class IntakeMethodTeleOp  {
     public DcMotor motorintake1;
@@ -16,22 +13,19 @@ class IntakeMethodTeleOp  {
         motorintake2 = hwm.get(DcMotor.class, "motorintake2");
         motorintake3 = hwm.get(DcMotor.class, "motorintake3");
 
-        /**drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
+        /*drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
     }
 
     public void intake (boolean full, boolean leftbumper, boolean rightbumper) {
-        if (leftbumper == true && full == false) {
+        if (leftbumper && !full) {
             motorintake1.setPower(1);
             motorintake2.setPower(1);
             motorintake3.setPower(1);
-        }
-
-        else if (rightbumper == true) {
+        } else if (rightbumper) {
             motorintake1.setPower(-1);
             motorintake2.setPower(-1);
             motorintake3.setPower(-1);
-        }
-        else {
+        } else {
             motorintake1.setPower(0);
             motorintake2.setPower(0);
             motorintake3.setPower(0);

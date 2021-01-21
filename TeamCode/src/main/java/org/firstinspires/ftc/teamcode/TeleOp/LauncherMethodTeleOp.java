@@ -1,9 +1,8 @@
 package org.firstinspires.ftc.teamcode.TeleOp;
+
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
-
-import org.firstinspires.ftc.teamcode.HardwareNames;
 
 public class LauncherMethodTeleOp  {
     private int whatdoidolucas = 0;
@@ -29,16 +28,12 @@ public class LauncherMethodTeleOp  {
     //need to change second launchmotor for krabby flip
         public void Eject (double launcherpower) {
 
-            switch (whatdoidolucas) {
-                case 1:
-                    motorlaunch.setPower(launcherpower);
-                    whatdoidolucas = 0;
-                    break;
-
-                default:
-                    motorlaunch.setPower(0);
-                    whatdoidolucas = 1;
-                    break;
+            if (whatdoidolucas == 1) {
+                motorlaunch.setPower(launcherpower);
+                whatdoidolucas = 0;
+            } else {
+                motorlaunch.setPower(0);
+                whatdoidolucas = 1;
             }
         }
 

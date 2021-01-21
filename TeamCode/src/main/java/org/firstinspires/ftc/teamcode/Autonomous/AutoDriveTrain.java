@@ -1,9 +1,8 @@
 package org.firstinspires.ftc.teamcode.Autonomous;
 
-import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
-import java.lang.Math;
+
 import org.firstinspires.ftc.teamcode.HardwareNames;
 
 class AutoDriveTrain extends HardwareNames {
@@ -18,8 +17,8 @@ class AutoDriveTrain extends HardwareNames {
     }
 
     public static int converstion(double baddist) {
-        int dist = (int)baddist/2; /** this is for the convertion beween ticks and like cm or something**/
-        return dist;
+        /* this is for the convertion beween ticks and like cm or something**/
+        return (int) baddist / 2;
     }
     //basic movement
     public void autoDriveStraight(double dist, double power) {

@@ -1,9 +1,7 @@
 package org.firstinspires.ftc.teamcode.TeleOp;
 
-import java.lang.Math;
-import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import org.firstinspires.ftc.teamcode.HardwareNames;
+import com.qualcomm.robotcore.hardware.HardwareMap;
 
 public class DriveTrainMethodTeleOp {
 

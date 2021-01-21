@@ -1,15 +1,8 @@
 package org.firstinspires.ftc.teamcode.TeleOp;
-import com.qualcomm.hardware.rev.RevBlinkinLedDriver;
 
-import com.qualcomm.robotcore.eventloop.opmode.Disabled;
+import com.qualcomm.hardware.rev.RevBlinkinLedDriver;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-import com.qualcomm.robotcore.hardware.ColorSensor;
-import com.qualcomm.robotcore.hardware.Gamepad;
-import com.qualcomm.robotcore.hardware.HardwareMap;
-import com.qualcomm.robotcore.hardware.Servo;
-
-import org.firstinspires.ftc.teamcode.HardwareNames;
 
 @TeleOp(name="test the color", group="TeleOp")
 //@Disabled

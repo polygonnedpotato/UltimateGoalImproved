@@ -1,11 +1,8 @@
 package org.firstinspires.ftc.teamcode.TeleOp;
 
+import com.qualcomm.hardware.rev.RevBlinkinLedDriver;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
-import com.qualcomm.robotcore.hardware.Servo;
-import com.qualcomm.hardware.rev.RevBlinkinLedDriver;
-
-import org.firstinspires.ftc.teamcode.HardwareNames;
 
 
 public class IntakeStorageGauge {
@@ -46,13 +43,7 @@ public class IntakeStorageGauge {
         if (colorstore1.red() == 10) {
 
            if (colorstore1.green() == 10) {
-               if (colorstore1.blue() == 10) {
-
-                   return true;
-               }
-               else {
-                   return false;
-               }
+               return colorstore1.blue() == 10;
            }
            else {
                return false;
