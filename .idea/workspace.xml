@@ -37,10 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-es-rUS/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +187,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/FtcRobotController/src/main/java/com/qualcomm/ftcrobotcontroller" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FtcRobotController/src/main/res/values-es-rUS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FtcRobotController/src/main/res/values-ja-rUS" />
     <property name="memory.settings.postsync.do.not.ask.for.project" value="true" />
     <property name="memory.settings.postsync.last.time.stamp" value="1610325734392" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -422,13 +419,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00016" summary="moved icon in readme">
-      <created>1609115217729</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1609115217729</updated>
     </task>
     <task id="LOCAL-00017" summary="edits to strings">
       <created>1609203765306</created>
@@ -766,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611529286029</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="added new spanish strings. it's spanish, or vanish.">
+      <created>1611529797338</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1611529797338</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -809,7 +806,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixes n stuff" />
     <MESSAGE value="strings" />
     <MESSAGE value="some updates&#10;more todo&#10;more strings" />
     <MESSAGE value="mods and stuff&#10;updates&#10;strings&#10;other stuff&#10;TODO" />
@@ -834,7 +830,8 @@
     <MESSAGE value="updates" />
     <MESSAGE value="e" />
     <MESSAGE value="new region strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="new region strings" />
+    <MESSAGE value="added new spanish strings. it's spanish, or vanish." />
+    <option name="LAST_COMMIT_MESSAGE" value="added new spanish strings. it's spanish, or vanish." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -927,14 +924,14 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="14" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611529285577">
+    <state x="14" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611529797019">
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
     <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611204045199" />
-    <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1611529285577" />
+    <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1611529797019" />
     <state x="15" y="25" key="CommitChangelistDialog2/0.25.1440.813@0.25.1440.813" timestamp="1611525726686" />
     <state x="15" y="25" key="CommitChangelistDialog2/0.25.1440.814@0.25.1440.814" timestamp="1611527051545" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
@@ -1015,14 +1012,14 @@
     <state width="706" height="231" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609115373968" />
     <state width="1356" height="204" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247845103" />
     <state width="939" height="244" key="GridCell.Tab.0.right/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609202564468" />
-    <state x="307" y="162" key="IDE.errors.dialog" timestamp="1611529000598">
+    <state x="307" y="162" key="IDE.errors.dialog" timestamp="1611529809427">
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="307" y="160" key="IDE.errors.dialog/0.25.1440.801@0.25.1440.801" timestamp="1609442274333" />
     <state x="307" y="161" key="IDE.errors.dialog/0.25.1440.804@0.25.1440.804" timestamp="1609716460331" />
     <state x="307" y="161" key="IDE.errors.dialog/0.25.1440.805@0.25.1440.805" timestamp="1610321972178" />
     <state x="307" y="162" key="IDE.errors.dialog/0.25.1440.807@0.25.1440.807" timestamp="1610924930377" />
-    <state x="307" y="162" key="IDE.errors.dialog/0.25.1440.809@0.25.1440.809" timestamp="1611529000598" />
+    <state x="307" y="162" key="IDE.errors.dialog/0.25.1440.809@0.25.1440.809" timestamp="1611529809427" />
     <state x="307" y="159" key="IDE.errors.dialog/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606246606072" />
     <state x="219" y="97" key="IDE.errors.dialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609103713159" />
     <state x="0" y="92" width="1440" height="675" key="MergeDialog" timestamp="1610600766976">
