@@ -39,20 +39,26 @@
   <component name="ChangeListManager">
     <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Basso.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/basso.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Blow.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/blow.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Bottle.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/bottle.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Frog.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/frog.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Funk.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/funk.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Glass.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/glass.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Hero.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/hero.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Morse.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/morse.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Ping.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/ping.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Pop.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/pop.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Purr.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/purr.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Sosumi.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/sosumi.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Submarine.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/submarine.aiff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Tink.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/tink.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/errors.inf" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/errors.inf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentificationWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentificationWebcam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptWebcam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByGyro_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByGyro_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByTime_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByTime_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopPOV_Linear.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopPOV_Linear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SampleRevBlinkinLedDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SampleRevBlinkinLedDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorDigitalTouch.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorDigitalTouch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorKLNavxMicro.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorKLNavxMicro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRGyro.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRGyro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREV2mDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/SensorREV2mDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/media/unusedmedia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/media/unusedmedia.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,13 +431,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00010" summary="new readme will now showup as default (old is still present)">
-      <created>1609111065665</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1609111065665</updated>
-    </task>
     <task id="LOCAL-00011" summary="new icon">
       <created>1609111173464</created>
       <option name="number" value="00011" />
@@ -768,7 +767,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611204045472</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="e">
+      <created>1611525727821</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1611525727822</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -870,13 +876,15 @@
     <state x="256" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.804@0.25.1440.804" timestamp="1610314572217" />
     <state x="308" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609111985419" />
     <state x="324" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609203310919" />
-    <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611201951807">
-      <screen x="0" y="25" width="1440" height="807" />
+    <state x="425" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611526977118">
+      <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.804@0.25.1440.804" timestamp="1609715549472" />
     <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.805@0.25.1440.805" timestamp="1610918939405" />
     <state x="425" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.807@0.25.1440.807" timestamp="1611201951807" />
     <state x="425" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.809@0.25.1440.809" timestamp="1610599956553" />
+    <state x="425" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.813@0.25.1440.813" timestamp="1611526907040" />
+    <state x="425" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.814@0.25.1440.814" timestamp="1611526977118" />
     <state x="425" y="221" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.801@0.25.1440.801" timestamp="1606243302268" />
     <state x="2007" y="158" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608510438586" />
     <state x="2007" y="158" key="#com.intellij.fileTypes.FileTypeChooser/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1607573469083" />
@@ -926,14 +934,15 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611204045199">
-      <screen x="0" y="25" width="1440" height="807" />
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611525726686">
+      <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
     <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611204045199" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610922113879" />
+    <state x="15" y="25" key="CommitChangelistDialog2/0.25.1440.813@0.25.1440.813" timestamp="1611525726686" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
     <state x="1733" y="-100" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1609203765056" />

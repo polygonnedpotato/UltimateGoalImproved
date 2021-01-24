@@ -215,7 +215,7 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
         // The two examples below assume that the camera is facing forward out the front of the robot.
 
         // We need to rotate the camera around it's long axis to bring the correct camera forward.
-        float phoneYRotate = 0;
+        float phoneYRotate;
         if (CAMERA_CHOICE == BACK) {
             phoneYRotate = -90;
         } else {

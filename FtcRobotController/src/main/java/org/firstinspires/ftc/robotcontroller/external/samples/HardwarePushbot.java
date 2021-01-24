@@ -64,8 +64,8 @@ public class HardwarePushbot
     public static final double ARM_DOWN_POWER  = -0.45 ;
 
     /* local OpMode members. */
-    HardwareMap hwMap           =  null;
-    private ElapsedTime period  = new ElapsedTime();
+    HardwareMap hwMap = null;
+    private final ElapsedTime period = new ElapsedTime();
 
     /* Constructor */
     public HardwarePushbot(){
@@ -96,10 +96,14 @@ public class HardwarePushbot
         leftArm.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
         // Define and initialize ALL installed servos.
-        leftClaw  = hwMap.get(Servo.class, "left_hand");
+        leftClaw = hwMap.get(Servo.class, "left_hand");
         rightClaw = hwMap.get(Servo.class, "right_hand");
         leftClaw.setPosition(MID_SERVO);
         rightClaw.setPosition(MID_SERVO);
     }
- }
+
+    public ElapsedTime getPeriod() {
+        return period;
+    }
+}
 
