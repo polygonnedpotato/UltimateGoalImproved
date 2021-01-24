@@ -38,6 +38,7 @@ case "`uname`" in
     darwin=true
     ;;
   MINGW* )
+    # shellcheck disable=SC2034
     msys=true
     ;;
 esac
@@ -61,9 +62,9 @@ while [ -h "$PRG" ] ; do
     fi
 done
 SAVED="`pwd`"
-cd "`dirname \"$PRG\"`/" >&-
+cd "`dirname \"$PRG\"`/" >&- || exit
 APP_HOME="`pwd -P`"
-cd "$SAVED" >&-
+cd "$SAVED" >&- || exit
 
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
 
