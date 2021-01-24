@@ -39,20 +39,20 @@
   <component name="ChangeListManager">
     <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptI2cAddressChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptI2cAddressChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRampMotorSpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRampMotorSpeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRevSPARKMini.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRevSPARKMini.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsASJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsASJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsOnBotJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsOnBotJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsSKYSTONE.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsSKYSTONE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Basso.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/basso.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Blow.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/blow.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Bottle.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/bottle.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Frog.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/frog.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Funk.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/funk.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Glass.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/glass.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Hero.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/hero.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Morse.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/morse.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Ping.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/ping.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Pop.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/pop.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Purr.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/purr.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Sosumi.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/sosumi.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Submarine.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/submarine.aiff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/res/raw/Tink.aiff" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/res/raw/tink.aiff" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@G0012B05946419J9]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/Users/lakeoswegorobotics/.android/avd/pixel4.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -184,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/lakeoswegorobotics/.android/avd/pixel4.avd" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-17T22:06:07.880217Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-01-24T21:31:44.964960Z" />
     <property name="ResourceManagerPrefKey.FilterParams.Framework" value="true" />
     <property name="ResourceManagerPrefKey.ResourceType" value="ANIM" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -420,18 +420,10 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
-      <changelist id="" name="Uncommitted changes before Merge at 1/10/21, 4:43 PM [Default Changelist]" comment="" />
       <created>1606241956010</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00009" summary="tried to fix schemas (it did not work dang it)&#10;fixed up some warnings in the testscreen (still does not work)&#10;added ftc icon&#10;add java file icon because why not&#10;updated manifest">
-      <created>1609110890057</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1609110890057</updated>
     </task>
     <task id="LOCAL-00010" summary="new readme will now showup as default (old is still present)">
       <created>1609111065665</created>
@@ -769,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611202196689</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="e">
+      <created>1611204045472</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1611204045472</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -897,11 +896,12 @@
       <screen x="0" y="25" width="1440" height="798" />
     </state>
     <state x="463" y="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1440.-100.1920.1055/0.25.1440.798@0.25.1440.798" timestamp="1606249191604" />
-    <state x="100" y="125" width="1240" height="605" key="AVDManager" timestamp="1610920530041">
-      <screen x="0" y="25" width="1440" height="807" />
+    <state x="106" y="25" width="1240" height="611" key="AVDManager" timestamp="1611523893294">
+      <screen x="0" y="25" width="1440" height="805" />
     </state>
     <state x="100" y="125" width="1240" height="602" key="AVDManager/0.25.1440.801@0.25.1440.801" timestamp="1607907456683" />
     <state x="100" y="125" width="1240" height="602" key="AVDManager/0.25.1440.804@0.25.1440.804" timestamp="1610315399464" />
+    <state x="106" y="25" width="1240" height="611" key="AVDManager/0.25.1440.805@0.25.1440.805" timestamp="1611523893294" />
     <state x="100" y="125" width="1240" height="605" key="AVDManager/0.25.1440.807@0.25.1440.807" timestamp="1610920530041" />
     <state x="100" y="126" width="1240" height="609" key="AVDManager/0.25.1440.813@0.25.1440.813" timestamp="1610595720280" />
     <state x="357" y="118" width="865" height="478" key="AVDManager/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1608501871547" />
@@ -926,13 +926,13 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611202196469">
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611204045199">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
-    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611202196469" />
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611204045199" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1610922113879" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
@@ -942,11 +942,12 @@
     </state>
     <state x="0" y="91" key="DiffContextDialog/0.25.1440.805@0.25.1440.805" timestamp="1610326581060" />
     <state x="0" y="91" width="1152" height="647" key="DiffContextDialog/0.25.1440.809@0.25.1440.809" timestamp="1610600834187" />
-    <state x="508" y="171" key="FileChooserDialogImpl" timestamp="1610323144503">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state x="508" y="173" key="FileChooserDialogImpl" timestamp="1611522904387">
+      <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="508" y="171" key="FileChooserDialogImpl/0.25.1440.805@0.25.1440.805" timestamp="1610323144503" />
     <state x="508" y="171" key="FileChooserDialogImpl/0.25.1440.807@0.25.1440.807" timestamp="1609469855990" />
+    <state x="508" y="173" key="FileChooserDialogImpl/0.25.1440.814@0.25.1440.814" timestamp="1611522904387" />
     <state x="2188" y="286" key="FileDocumentManager.FileCacheConflict" timestamp="1609105154153">
       <screen x="1440" y="-100" width="1920" height="1055" />
     </state>
@@ -1058,13 +1059,13 @@
       <screen x="1440" y="-100" width="1920" height="1055" />
     </state>
     <state x="2275" y="347" key="VCS.EditChangelistDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609113840940" />
-    <state x="51" y="134" key="Vcs.Push.Dialog.v2" timestamp="1611202183127">
+    <state x="51" y="134" key="Vcs.Push.Dialog.v2" timestamp="1611204058294">
       <screen x="0" y="25" width="1440" height="807" />
     </state>
     <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.801@0.25.1440.801" timestamp="1607903876849" />
     <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.804@0.25.1440.804" timestamp="1609717820920" />
     <state x="51" y="133" key="Vcs.Push.Dialog.v2/0.25.1440.805@0.25.1440.805" timestamp="1610326728453" />
-    <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1611202183127" />
+    <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1611204058294" />
     <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.809@0.25.1440.809" timestamp="1610601301022" />
     <state x="1508" y="41" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205521454" />
     <state x="319" y="149" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247927388" />
