@@ -37,7 +37,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/errors.inf" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/errors.inf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -420,13 +422,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00023" summary="upgrades&#10;merge">
-      <created>1610326032159</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1610326032159</updated>
-    </task>
     <task id="LOCAL-00024" summary="todo">
       <created>1610326201523</created>
       <option name="number" value="00024" />
@@ -763,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611805210830</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="gradle update">
+      <created>1611805297640</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1611805297640</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
