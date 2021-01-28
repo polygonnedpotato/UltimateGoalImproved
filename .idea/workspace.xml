@@ -37,9 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/errors.inf" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/errors.inf" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -422,20 +420,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00024" summary="todo">
-      <created>1610326201523</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1610326201523</updated>
-    </task>
-    <task id="LOCAL-00025" summary="fixes and optimizations.">
-      <created>1610326615199</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1610326615199</updated>
-    </task>
     <task id="LOCAL-00026" summary="haha funny version code&#10;not-so-funny version name">
       <created>1610595214959</created>
       <option name="number" value="00026" />
@@ -765,7 +749,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611805297640</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="gradle update">
+      <created>1611805593558</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1611805593558</updated>
+    </task>
+    <task id="LOCAL-00074" summary="sigh">
+      <created>1611805644939</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1611805644939</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -808,7 +806,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mods and stuff&#10;updates&#10;strings&#10;other stuff&#10;TODO" />
     <MESSAGE value="upgrades&#10;merge" />
     <MESSAGE value="todo" />
     <MESSAGE value="fixes and optimizations." />
@@ -833,7 +830,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="e" />
     <MESSAGE value="gradle update" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle update" />
+    <MESSAGE value="sigh" />
+    <option name="LAST_COMMIT_MESSAGE" value="sigh" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
