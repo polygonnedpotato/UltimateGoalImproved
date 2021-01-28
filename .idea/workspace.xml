@@ -154,9 +154,9 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="polygonnedpotato" />
         <option value="polygonnedpotato &lt;cuteiethecorgi@gmail.com&gt;" />
         <option value="polygonnedpotato &lt;cuteiethecorgi@gmail.com&gt;ˆ" />
-        <option value="polygonnedpotato" />
       </list>
     </option>
     <option name="PUSH_AUTO_UPDATE" value="true" />
@@ -419,13 +419,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00030" summary="normal vname">
-      <created>1610600580197</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1610600580197</updated>
     </task>
     <task id="LOCAL-00031" summary="new app name">
       <created>1610600657320</created>
@@ -763,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611807897535</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="aaaaa why wont this commit?!?!">
+      <created>1611808516077</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1611808516077</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -806,8 +806,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="todo" />
-    <MESSAGE value="fixes and optimizations." />
     <MESSAGE value="haha funny version code&#10;not-so-funny version name" />
     <MESSAGE value="optimisations." />
     <MESSAGE value="normal vname" />
@@ -831,7 +829,9 @@
     <MESSAGE value="gradle update" />
     <MESSAGE value="sigh" />
     <MESSAGE value="new names" />
-    <option name="LAST_COMMIT_MESSAGE" value="new names" />
+    <MESSAGE value="aaaaa hawaii five-0" />
+    <MESSAGE value="aaaaa why wont this commit?!?!" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaaa why wont this commit?!?!" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
