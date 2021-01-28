@@ -38,7 +38,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
 <resources>
-    <string name="app_name">FTC RC Mark II (Modified)</string>
+    <string name="app_name">FTC RC Mark II (Berger Build)</string>
     <string name="inspection_mode_menu_item">📝 Self Inspect</string>
     <string name="program_and_manage_menu_item">⚡ Program &amp; Manage</string>
     <string name="blocks_menu_item">☲ Blocks</string>
