@@ -420,13 +420,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00018" summary="edits to strings">
-      <created>1609205512840</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1609205512840</updated>
-    </task>
     <task id="LOCAL-00019" summary="fixes n stuff">
       <created>1609716928495</created>
       <option name="number" value="00019" />
@@ -763,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611529841227</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="e">
+      <created>1611530164291</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1611530164292</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -924,15 +924,15 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="308" y="136" key="AndroidThemeDialog/0.25.1440.809@0.25.1440.809" timestamp="1610599486706" />
-    <state x="14" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611529840956">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2" timestamp="1611530163843">
+      <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="220" y="25" key="CommitChangelistDialog2/0.25.1440.801@0.25.1440.801" timestamp="1607903676730" />
     <state x="14" y="25" width="842" height="804" key="CommitChangelistDialog2/0.25.1440.804@0.25.1440.804" timestamp="1609717526006" />
     <state x="14" y="25" width="782" height="805" key="CommitChangelistDialog2/0.25.1440.805@0.25.1440.805" timestamp="1610326614920" />
     <state x="15" y="25" width="782" height="807" key="CommitChangelistDialog2/0.25.1440.807@0.25.1440.807" timestamp="1611204045199" />
     <state x="14" y="25" width="782" height="809" key="CommitChangelistDialog2/0.25.1440.809@0.25.1440.809" timestamp="1611529840956" />
-    <state x="15" y="25" key="CommitChangelistDialog2/0.25.1440.813@0.25.1440.813" timestamp="1611525726686" />
+    <state x="15" y="25" key="CommitChangelistDialog2/0.25.1440.813@0.25.1440.813" timestamp="1611530163843" />
     <state x="15" y="25" key="CommitChangelistDialog2/0.25.1440.814@0.25.1440.814" timestamp="1611527051545" />
     <state x="14" y="25" width="884" height="801" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205512575" />
     <state x="277" y="25" key="CommitChangelistDialog2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606248061529" />
@@ -1060,14 +1060,14 @@
       <screen x="1440" y="-100" width="1920" height="1055" />
     </state>
     <state x="2275" y="347" key="VCS.EditChangelistDialog/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609113840940" />
-    <state x="51" y="134" key="Vcs.Push.Dialog.v2" timestamp="1611204058294">
-      <screen x="0" y="25" width="1440" height="807" />
+    <state x="51" y="134" key="Vcs.Push.Dialog.v2" timestamp="1611530173557">
+      <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.801@0.25.1440.801" timestamp="1607903876849" />
     <state x="51" y="132" key="Vcs.Push.Dialog.v2/0.25.1440.804@0.25.1440.804" timestamp="1609717820920" />
     <state x="51" y="133" key="Vcs.Push.Dialog.v2/0.25.1440.805@0.25.1440.805" timestamp="1610326728453" />
     <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.807@0.25.1440.807" timestamp="1611204058294" />
-    <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.809@0.25.1440.809" timestamp="1610601301022" />
+    <state x="51" y="134" key="Vcs.Push.Dialog.v2/0.25.1440.809@0.25.1440.809" timestamp="1611530173557" />
     <state x="1508" y="41" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.801@1440.-100.1920.1055" timestamp="1609205521454" />
     <state x="319" y="149" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.804@0.25.1440.804" timestamp="1606247927388" />
     <state x="1508" y="41" key="Vcs.Push.Dialog.v2/1440.-100.1920.1055/0.25.1440.804@1440.-100.1920.1055" timestamp="1608507200710" />

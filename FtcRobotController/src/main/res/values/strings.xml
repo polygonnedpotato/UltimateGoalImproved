@@ -64,15 +64,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <string name="vla2">com.qualcomm.ftccommon.ViewLogsActivity</string>
     <string name="rcsa">com.qualcomm.ftccommon.FtcAdvancedRCSettingsActivity</string>
     <string name="t000">true</string>
-    <string name="NOTHING" />
+    <string name="NOTHING" translatable="false" />
     <string name="testscreen">com.qualcomm.ftccommon.testscreen</string>
     <string name="testscreen2">com.qualcomm.ftccommon.testscreen</string>
-    <string name="NOTHING2" />
-    <string name="NOTHING1" />
-    <string name="NOTHING3" />
-    <string name="NOTHING4" />
-    <string name="NOTHING5" />
-    <string name="NOTHING6" />
+    <string name="NOTHING2" translatable="false" />
+    <string name="NOTHING1" translatable="false" />
+    <string name="NOTHING3" translatable="false" />
+    <string name="NOTHING4" translatable="false" />
+    <string name="NOTHING5" translatable="false" />
+    <string name="NOTHING6" translatable="false" />
     <string name="title">Your Title</string>
     <integer-array name="app_theme_ids">
         <item>@style/AppThemeRedRC</item>
