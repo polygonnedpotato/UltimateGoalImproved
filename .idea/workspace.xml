@@ -37,7 +37,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -420,13 +422,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00031" summary="new app name">
-      <created>1610600657320</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1610600657320</updated>
-    </task>
     <task id="LOCAL-00032" summary="updated copyright&#10;added new tensorflow lite. incorporation required">
       <created>1610601045381</created>
       <option name="number" value="00032" />
@@ -763,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611808516077</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="i love zxtune">
+      <created>1611808683282</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1611808683282</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -806,7 +808,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="haha funny version code&#10;not-so-funny version name" />
     <MESSAGE value="optimisations." />
     <MESSAGE value="normal vname" />
     <MESSAGE value="new app name" />
@@ -831,7 +832,8 @@
     <MESSAGE value="new names" />
     <MESSAGE value="aaaaa hawaii five-0" />
     <MESSAGE value="aaaaa why wont this commit?!?!" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaaaa why wont this commit?!?!" />
+    <MESSAGE value="i love zxtune" />
+    <option name="LAST_COMMIT_MESSAGE" value="i love zxtune" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
