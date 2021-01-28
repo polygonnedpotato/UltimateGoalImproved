@@ -37,10 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-en-rUS/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/res/values-en-rUS/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -423,13 +420,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00029" summary="updates">
-      <created>1610600535787</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1610600535787</updated>
-    </task>
     <task id="LOCAL-00030" summary="normal vname">
       <created>1610600580197</created>
       <option name="number" value="00030" />
@@ -766,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611807025120</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="new names">
+      <created>1611807897535</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1611807897535</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -809,7 +806,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="upgrades&#10;merge" />
     <MESSAGE value="todo" />
     <MESSAGE value="fixes and optimizations." />
     <MESSAGE value="haha funny version code&#10;not-so-funny version name" />
@@ -834,7 +830,8 @@
     <MESSAGE value="e" />
     <MESSAGE value="gradle update" />
     <MESSAGE value="sigh" />
-    <option name="LAST_COMMIT_MESSAGE" value="sigh" />
+    <MESSAGE value="new names" />
+    <option name="LAST_COMMIT_MESSAGE" value="new names" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
