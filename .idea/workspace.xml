@@ -420,13 +420,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00022" summary="mods and stuff&#10;updates&#10;strings&#10;other stuff&#10;TODO">
-      <created>1610324909172</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1610324909172</updated>
-    </task>
     <task id="LOCAL-00023" summary="upgrades&#10;merge">
       <created>1610326032159</created>
       <option name="number" value="00023" />
@@ -763,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611805104108</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="gradle update">
+      <created>1611805210830</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1611805210830</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
