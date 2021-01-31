@@ -37,12 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/raw/raw/yeet.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/yeet.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.common.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.common.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -425,13 +420,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00033" summary="added uncommited files">
-      <created>1610601182567</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1610601182567</updated>
-    </task>
     <task id="LOCAL-00034" summary="fixes">
       <created>1610919683681</created>
       <option name="number" value="00034" />
@@ -768,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611809795344</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="some edits and such">
+      <created>1612134033036</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1612134033037</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -811,7 +806,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="normal vname" />
     <MESSAGE value="new app name" />
     <MESSAGE value="updated copyright&#10;added new tensorflow lite. incorporation required" />
     <MESSAGE value="added uncommited files" />
@@ -836,7 +830,8 @@
     <MESSAGE value="aaaaa why wont this commit?!?!" />
     <MESSAGE value="i love zxtune" />
     <MESSAGE value="iiiiii llllllooooooovvveeee hawaii five-0" />
-    <option name="LAST_COMMIT_MESSAGE" value="iiiiii llllllooooooovvveeee hawaii five-0" />
+    <MESSAGE value="some edits and such" />
+    <option name="LAST_COMMIT_MESSAGE" value="some edits and such" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
