@@ -39,6 +39,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/res/raw/raw/yeet.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/yeet.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.common.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.common.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[G0012B05946419J9]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ZY224RKG3P]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -193,7 +196,7 @@
     <property name="memory.settings.postsync.do.not.ask.for.project" value="true" />
     <property name="memory.settings.postsync.last.time.stamp" value="1610325734392" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -204,10 +207,10 @@
       <recent name="$PROJECT_DIR$/FtcRobotController/src/main/res/values-en-rAU" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FtcRobotController/src/main/assets" />
       <recent name="$PROJECT_DIR$/FtcRobotController/src/main/res/raw/raw" />
       <recent name="$PROJECT_DIR$/TeamCode/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/libs" />
-      <recent name="$PROJECT_DIR$/FtcRobotController/src/main/assets" />
       <recent name="$PROJECT_DIR$/FtcRobotController/src/main/res/drawable" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -217,7 +220,7 @@
       <recent name="com.qualcomm.ftcrobotcontroller" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.Just Install It">
+  <component name="RunManager" selected="Android App.TeamCode">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -400,8 +403,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Android App.TeamCode" />
       <item itemvalue="Android App.Just Install It" />
+      <item itemvalue="Android App.TeamCode" />
       <item itemvalue="Android App.testscreen" />
     </list>
     <recent_temporary>
@@ -421,13 +424,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00032" summary="updated copyright&#10;added new tensorflow lite. incorporation required">
-      <created>1610601045381</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1610601045381</updated>
     </task>
     <task id="LOCAL-00033" summary="added uncommited files">
       <created>1610601182567</created>
@@ -765,7 +761,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611808683282</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="iiiiii llllllooooooovvveeee hawaii five-0">
+      <created>1611809795344</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1611809795344</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -808,7 +811,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="optimisations." />
     <MESSAGE value="normal vname" />
     <MESSAGE value="new app name" />
     <MESSAGE value="updated copyright&#10;added new tensorflow lite. incorporation required" />
@@ -833,7 +835,8 @@
     <MESSAGE value="aaaaa hawaii five-0" />
     <MESSAGE value="aaaaa why wont this commit?!?!" />
     <MESSAGE value="i love zxtune" />
-    <option name="LAST_COMMIT_MESSAGE" value="i love zxtune" />
+    <MESSAGE value="iiiiii llllllooooooovvveeee hawaii five-0" />
+    <option name="LAST_COMMIT_MESSAGE" value="iiiiii llllllooooooovvveeee hawaii five-0" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
