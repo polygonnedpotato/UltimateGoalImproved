@@ -37,7 +37,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="w">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -420,13 +422,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00034" summary="fixes">
-      <created>1610919683681</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1610919683681</updated>
-    </task>
     <task id="LOCAL-00035" summary="fixes">
       <created>1610919853582</created>
       <option name="number" value="00035" />
@@ -763,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612134033037</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="w">
+      <created>1612134530804</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1612134530804</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -806,7 +808,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="new app name" />
     <MESSAGE value="updated copyright&#10;added new tensorflow lite. incorporation required" />
     <MESSAGE value="added uncommited files" />
     <MESSAGE value="fixes" />
@@ -831,7 +832,8 @@
     <MESSAGE value="i love zxtune" />
     <MESSAGE value="iiiiii llllllooooooovvveeee hawaii five-0" />
     <MESSAGE value="some edits and such" />
-    <option name="LAST_COMMIT_MESSAGE" value="some edits and such" />
+    <MESSAGE value="w" />
+    <option name="LAST_COMMIT_MESSAGE" value="w" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
