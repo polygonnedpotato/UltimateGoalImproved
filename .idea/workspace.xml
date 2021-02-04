@@ -422,13 +422,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00039" summary="a">
-      <created>1610921670826</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1610921670827</updated>
-    </task>
     <task id="LOCAL-00040" summary="a">
       <created>1610922114137</created>
       <option name="number" value="00040" />
@@ -765,7 +758,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612410524073</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="w">
+      <created>1612412486079</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1612412486079</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
