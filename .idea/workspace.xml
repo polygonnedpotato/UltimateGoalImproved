@@ -37,9 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +191,7 @@
     <property name="memory.settings.postsync.do.not.ask.for.project" value="true" />
     <property name="memory.settings.postsync.last.time.stamp" value="1610325734392" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -421,13 +419,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00037" summary="a">
-      <created>1610920874237</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1610920874237</updated>
     </task>
     <task id="LOCAL-00038" summary="a">
       <created>1610921445735</created>
@@ -765,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612140887352</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="w">
+      <created>1612410374748</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1612410374749</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
