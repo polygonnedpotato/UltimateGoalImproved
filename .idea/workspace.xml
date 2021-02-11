@@ -37,10 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -425,20 +422,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00041" summary="a">
-      <created>1610922978220</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1610922978220</updated>
-    </task>
-    <task id="LOCAL-00042" summary="stuff">
-      <created>1610924627150</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1610924627150</updated>
-    </task>
     <task id="LOCAL-00043" summary="stuff">
       <created>1610924957258</created>
       <option name="number" value="00043" />
@@ -768,7 +751,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612415194868</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="toast on a quarter">
+      <created>1613018633253</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1613018633254</updated>
+    </task>
+    <task id="LOCAL-00091" summary="toast on a quarter">
+      <created>1613018705746</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1613018705746</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -811,7 +808,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated copyright&#10;added new tensorflow lite. incorporation required" />
     <MESSAGE value="added uncommited files" />
     <MESSAGE value="fixes" />
     <MESSAGE value="stuff" />
@@ -836,7 +832,8 @@
     <MESSAGE value="iiiiii llllllooooooovvveeee hawaii five-0" />
     <MESSAGE value="some edits and such" />
     <MESSAGE value="w" />
-    <option name="LAST_COMMIT_MESSAGE" value="w" />
+    <MESSAGE value="toast on a quarter" />
+    <option name="LAST_COMMIT_MESSAGE" value="toast on a quarter" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
