@@ -1,5 +1,5 @@
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
 public class thankswikipedia {
-    System.out.println("Hello World!")
+    //it taught me nothing :(
 }
