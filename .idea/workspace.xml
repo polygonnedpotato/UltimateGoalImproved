@@ -50,7 +50,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ZY224RKG3P]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/lakeoswegorobotics/.android/avd/pixel4.avd, ZY224RKG3P]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -441,13 +441,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00048" summary="idk">
-      <created>1611198446128</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1611198446128</updated>
-    </task>
     <task id="LOCAL-00049" summary="updates">
       <created>1611200536865</created>
       <option name="number" value="00049" />
@@ -784,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613945076511</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="things are happening and i don't think it is good.">
+      <created>1613948160157</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1613948160158</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -827,7 +827,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="a" />
     <MESSAGE value="optimized" />
     <MESSAGE value="optimizations" />
     <MESSAGE value="idk" />
@@ -852,7 +851,8 @@
     <MESSAGE value="Gradle update (Now at gradle:7.0.0-alpha07)" />
     <MESSAGE value="workaround to keep an example present" />
     <MESSAGE value="yes" />
-    <option name="LAST_COMMIT_MESSAGE" value="yes" />
+    <MESSAGE value="things are happening and i don't think it is good." />
+    <option name="LAST_COMMIT_MESSAGE" value="things are happening and i don't think it is good." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
