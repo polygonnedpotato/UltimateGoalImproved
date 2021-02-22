@@ -6,10 +6,10 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 
-public class HardwareNames {
+public class HardwareNames<sensors, camera> {
     // link to previous year's code https://github.com/teamftc8466/skystone8466
     // link for learning coding https://www.w3schools.com/java/java_for_loop.asp
-    
+
     public DcMotor drivefr;
     public DcMotor drivefl;
     public DcMotor drivebr;
@@ -91,10 +91,10 @@ public class HardwareNames {
         colorstore2 = hwm.colorSensor.get("colorstore2");
         colorstore3 = hwm.colorSensor.get("colorstore3");
     }
-    /*public sensors
-      public camera\
 
-     */
+    public static class sensors {
+        //new camera(null); {
+    }
 
 
 }

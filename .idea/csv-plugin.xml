@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigation.java">
           <value>
             <Attribute>
@@ -46,6 +53,13 @@
           </value>
         </entry>
         <entry key="/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/IntakeTeleop.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/TestColor.java">
           <value>
             <Attribute>
               <option name="separator" value=";" />

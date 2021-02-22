@@ -31,6 +31,7 @@ package org.firstinspires.ftc.robotcontroller.external.samples;
 
 import android.annotation.SuppressLint;
 
+import com.qualcomm.hardware.ams.AMSColorSensorImpl;
 import com.qualcomm.hardware.modernrobotics.ModernRoboticsUsbDeviceInterfaceModule;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -178,7 +179,9 @@ public class ConceptI2cAddressChange extends LinearOpMode {
     /* IMPORTANT NOTE ******/
     // You need to add a line like this at the top of your op mode
     // to update the I2cAddress in the driver.
-    //irSeeker.setI2cAddress(newAddress);
+    AMSColorSensorImpl irSeeker = null;
+    assert false;
+    irSeeker.setI2cAddress(newAddress);
     /**/
 
   }
