@@ -100,7 +100,7 @@ public class ConceptVuMarkIdentificationWebcam extends LinearOpMode {
         VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters(cameraMonitorViewId);
 
         // OR...  Do Not Activate the Camera Monitor View, to save power
-        // VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters();
+        parameters = new VuforiaLocalizer.Parameters();
 
         /*
          * IMPORTANT: You need to obtain your own license key to use Vuforia. The string below with which

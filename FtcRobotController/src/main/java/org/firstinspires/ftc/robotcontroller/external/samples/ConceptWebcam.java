@@ -179,7 +179,7 @@ public class ConceptWebcam extends LinearOpMode {
         frameQueue.setEvictAction(new Consumer<Bitmap>() {
             @Override
             public void accept(Bitmap frame) {
-                // RobotLog.ii(TAG, "frame recycled w/o processing");
+                 RobotLog.ii(TAG, "frame recycled w/o processing");
                 frame.recycle(); // not strictly necessary, but helpful
             }
         });

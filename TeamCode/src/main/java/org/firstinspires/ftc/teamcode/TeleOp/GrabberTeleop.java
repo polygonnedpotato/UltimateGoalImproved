@@ -3,7 +3,7 @@ package org.firstinspires.ftc.teamcode.TeleOp;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
-@TeleOp(name="GrabberTeleOp", group="TeleOp")
+@TeleOp(name = "GrabberTeleOp", group = "TeleOp")
 //@Disabled
 public class GrabberTeleop extends OpMode {
 
@@ -12,11 +12,18 @@ public class GrabberTeleop extends OpMode {
     boolean dRight = gamepad1.dpad_right;
     boolean dUp = gamepad1.dpad_up;
     boolean dDown = gamepad1.dpad_down;
+    private final Object HardwareMap;
+
+    public GrabberTeleop(Object hardwareMap) {
+        HardwareMap = hardwareMap;
+    }
 
     @Override
     public void init() {
         grabber = new GrabberMethodTeleOp();
-        //drivetrain.driveMotors(HardwareMap);
+        DriveTrainMethodTeleOp drivetrain = null;
+        assert false;
+        drivetrain.driveMotors((com.qualcomm.robotcore.hardware.HardwareMap) HardwareMap);
     }
 
     @Override

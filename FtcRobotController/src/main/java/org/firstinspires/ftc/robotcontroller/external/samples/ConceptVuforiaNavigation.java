@@ -102,7 +102,7 @@ public class ConceptVuforiaNavigation extends LinearOpMode {
         VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters(cameraMonitorViewId);
 
         // OR...  Do Not Activate the Camera Monitor View, to save power
-        // VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters();
+        parameters = new VuforiaLocalizer.Parameters();
 
         /*
          * IMPORTANT: You need to obtain your own license key to use Vuforia. The string below with which
@@ -315,7 +315,7 @@ public class ConceptVuforiaNavigation extends LinearOpMode {
               Provide feedback as to where the robot was last located (if we know).
              */
             if (lastLocation != null) {
-                //  RobotLog.vv(TAG, "robot=%s", format(lastLocation));
+                RobotLog.vv(TAG, "robot=%s", format(lastLocation));
                 telemetry.addData("Pos", format(lastLocation));
             } else {
                 telemetry.addData("Pos", "Unknown");

@@ -13,7 +13,9 @@ class IntakeMethodTeleOp  {
         motorintake2 = hwm.get(DcMotor.class, "motorintake2");
         motorintake3 = hwm.get(DcMotor.class, "motorintake3");
 
-        /*drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
+        DcMotor drivefr = null;
+        assert false;
+        drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);
     }
 
     public void intake (boolean full, boolean leftbumper, boolean rightbumper) {
