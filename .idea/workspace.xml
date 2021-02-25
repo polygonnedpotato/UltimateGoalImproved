@@ -37,11 +37,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="stuff">
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FtcRobotController/src/main/assets/errors.inf" beforeDir="false" afterPath="$PROJECT_DIR$/FtcRobotController/src/main/assets/errors.inf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ZY224RKG3P]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -160,8 +158,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="polygonnedpotato" />
         <option value="polygonnedpotato &lt;cuteiethecorgi@gmail.com&gt;" />
+        <option value="polygonnedpotato" />
         <option value="polygonnedpotato &lt;cuteiethecorgi@gmail.com&gt;ˆ" />
       </list>
     </option>
@@ -448,13 +446,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00060" summary="e">
-      <created>1611527052009</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1611527052009</updated>
     </task>
     <task id="LOCAL-00061" summary="e">
       <created>1611527194768</created>
@@ -792,7 +783,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613955585360</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="gradle version updated to 7.0.0-alpha08&#10;Project now requires Gradle 6.8.2&#10;NEW BUILD ERROR. PLEASE READ errors.inf">
+      <created>1614223194918</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1614223194918</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -835,8 +833,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="new region strings" />
-    <MESSAGE value="added new spanish strings. it's spanish, or vanish." />
     <MESSAGE value="fix" />
     <MESSAGE value="e" />
     <MESSAGE value="gradle update" />
@@ -860,7 +856,9 @@
     <MESSAGE value="why u no stay at version 1.1?" />
     <MESSAGE value="why u no stay at version 1.1? but i think it wil" />
     <MESSAGE value="why u no stay at version 1.1? but i think it wil&#10;but it no work" />
-    <option name="LAST_COMMIT_MESSAGE" value="why u no stay at version 1.1? but i think it wil&#10;but it no work" />
+    <MESSAGE value="gradle version updated to 7.0.0-alpha08&#10;Project now requires Gradle 6.8.2&#10;NEW BUILD ERROR. PLEASE READ errors.inf" />
+    <MESSAGE value="stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
