@@ -15,7 +15,7 @@ public class HardwareNames<sensors, camera> {
     public DcMotor drivebr;
     public DcMotor drivebl;
 
-    public void driveMotors(HardwareMap hwm) {
+    public void driveMotors(HardwareMap hwm, boolean auto) {
         drivefr = hwm.get(DcMotor.class, "driveFR");
         drivefl = hwm.get(DcMotor.class, "driveFL");
         drivebr = hwm.get(DcMotor.class, "driveBR");
@@ -30,6 +30,20 @@ public class HardwareNames<sensors, camera> {
         drivefl.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         drivebr.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         drivebl.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
+
+        if(auto == true) {
+            drivefr.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+            drivefl.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+            drivebr.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+            drivebl.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        }
+
+        else {
+            drivefr.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+            drivefl.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+            drivebr.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+            drivebl.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+        }
     }
 
 

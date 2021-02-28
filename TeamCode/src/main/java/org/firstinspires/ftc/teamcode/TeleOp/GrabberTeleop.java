@@ -7,7 +7,8 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 //@Disabled
 public class GrabberTeleop extends OpMode {
 
-    GrabberMethodTeleOp grabber = null;
+
+    GrabberMethodTeleOp grabber;
     boolean dLeft = gamepad1.dpad_left;
     boolean dRight = gamepad1.dpad_right;
     boolean dUp = gamepad1.dpad_up;
@@ -21,9 +22,7 @@ public class GrabberTeleop extends OpMode {
     @Override
     public void init() {
         grabber = new GrabberMethodTeleOp();
-        DriveTrainMethodTeleOp drivetrain = null;
-        assert false;
-        drivetrain.driveMotors((com.qualcomm.robotcore.hardware.HardwareMap) HardwareMap);
+
     }
 
     @Override
