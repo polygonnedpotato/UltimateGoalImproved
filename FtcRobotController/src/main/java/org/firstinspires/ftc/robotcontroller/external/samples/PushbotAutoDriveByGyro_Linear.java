@@ -256,7 +256,7 @@ public class PushbotAutoDriveByGyro_Linear extends LinearOpMode {
     public void gyroTurn (  double speed, double angle) {
 
         // keep looping while we are still active, and not on heading.
-        while (opModeIsActive() && !onHeading(speed, angle, P_TURN_COEFF)) {
+        while (opModeIsActive() && !onHeading(speed, angle)) {
             // Update telemetry & Allow time for other processes to run.
             telemetry.update();
         }
@@ -280,7 +280,7 @@ public class PushbotAutoDriveByGyro_Linear extends LinearOpMode {
         holdTimer.reset();
         while (opModeIsActive() && (holdTimer.time() < holdTime)) {
             // Update telemetry & Allow time for other processes to run.
-            onHeading(speed, angle, P_TURN_COEFF);
+            onHeading(speed, angle);
             telemetry.update();
         }
 
@@ -292,17 +292,16 @@ public class PushbotAutoDriveByGyro_Linear extends LinearOpMode {
     /**
      * Perform one cycle of closed loop heading control.
      *
-     * @param speed     Desired speed of turn.
-     * @param angle     Absolute Angle (in Degrees) relative to last gyro reset.
-     *                  0 = fwd. +ve is CCW from fwd. -ve is CW from forward.
-     *                  If a relative angle is required, add/subtract from current heading.
-     * @param PCoeff    Proportional Gain coefficient
+     * @param speed Desired speed of turn.
+     * @param angle Absolute Angle (in Degrees) relative to last gyro reset.
+     *              0 = fwd. +ve is CCW from fwd. -ve is CW from forward.
+     *              If a relative angle is required, add/subtract from current heading.
      * @return
      */
-    boolean onHeading(double speed, double angle, double PCoeff) {
-        double   error ;
-        double   steer ;
-        boolean  onTarget = false ;
+    boolean onHeading(double speed, double angle) {
+        double error;
+        double steer;
+        boolean onTarget = false;
         double leftSpeed;
         double rightSpeed;
 
@@ -316,8 +315,8 @@ public class PushbotAutoDriveByGyro_Linear extends LinearOpMode {
             onTarget = true;
         }
         else {
-            steer = getSteer(error, PCoeff);
-            rightSpeed  = speed * steer;
+            steer = getSteer(error, PushbotAutoDriveByGyro_Linear.P_TURN_COEFF);
+            rightSpeed = speed * steer;
             leftSpeed   = -rightSpeed;
         }
 

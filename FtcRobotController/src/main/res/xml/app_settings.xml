@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.1" encoding="utf-8"?>
 
 <!--
 
@@ -50,7 +50,7 @@ See https://developer.android.com/guide/topics/ui/settings.html
         android:title="@string/prefedit_device_name_rc"
         android:summary="@string/prefedit_device_name_summary_rc"
         android:key="@string/pref_device_name"
-        android:defaultValue=""
+        android:defaultValue="@string/NOTHING"
         />
 
     <org.firstinspires.ftc.robotcore.internal.ui.ColorListPreference
@@ -66,7 +66,7 @@ See https://developer.android.com/guide/topics/ui/settings.html
         android:title="@string/prefedit_sound_on_off"
         android:summary="@string/prefedit_sound_on_off_summary_rc"
         android:key="@string/pref_sound_on_off"
-        android:defaultValue="true"
+        android:defaultValue="@string/t000"
         />
 
     <PreferenceScreen
@@ -75,7 +75,7 @@ See https://developer.android.com/guide/topics/ui/settings.html
         android:key="@string/pref_launch_advanced_rc_settings">
         <intent
             android:targetPackage="@string/packageName"
-            android:targetClass="com.qualcomm.ftccommon.FtcAdvancedRCSettingsActivity"
+            android:targetClass="@string/rcsa"
             />
     </PreferenceScreen>
 
@@ -83,9 +83,37 @@ See https://developer.android.com/guide/topics/ui/settings.html
         android:title="@string/prefedit_view_logs"
         android:summary="@string/prefedit_view_logs_summary"
         android:key="@string/pref_launch_viewlogs">
+      <PreferenceScreen
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:key="@string/pref_launch_viewlogs"
+          android:summary="@string/prefedit_view_logs_summary"
+          android:title="@string/prefedit_view_logs">
+        <intent
+            android:targetClass="@string/vla"
+            android:targetPackage="@string/packageName" />
+      </PreferenceScreen>
       <intent
-        android:targetPackage="@string/packageName"
-        android:targetClass="com.qualcomm.ftccommon.ViewLogsActivity" />
+          android:targetPackage="@string/packageName"
+          android:targetClass="@string/vla2" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:title="@string/obamium"
+        android:summary="@string/obamium"
+        android:key="@string/whoisgod">
+      <PreferenceScreen
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:key="@string/whoisgod2"
+          android:summary="@string/obamium"
+          android:title="@string/obamium">
+        <intent
+            android:targetClass="@string/testscreen"
+            android:targetPackage="@string/packageName" />
+      </PreferenceScreen>
+      <intent
+          android:targetClass="@string/testscreen2"
+          android:targetPackage="@string/packageName" />
     </PreferenceScreen>
 
   </PreferenceCategory>

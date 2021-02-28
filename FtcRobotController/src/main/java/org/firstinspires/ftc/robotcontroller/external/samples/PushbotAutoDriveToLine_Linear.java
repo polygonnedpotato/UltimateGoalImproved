@@ -61,7 +61,7 @@ public class PushbotAutoDriveToLine_Linear extends LinearOpMode {
     /* Declare OpMode members. */
     HardwarePushbot         robot   = new HardwarePushbot();   // Use a Pushbot's hardware
     LightSensor             lightSensor;      // Primary LEGO Light sensor,
-    // OpticalDistanceSensor   lightSensor;   // Alternative MR ODS sensor
+    //OpticalDistanceSensor   lightSensor;   // Alternative MR ODS sensor
 
     static final double     WHITE_THRESHOLD = 0.2;  // spans between 0.1 - 0.5 from dark to light
     static final double     APPROACH_SPEED  = 0.5;

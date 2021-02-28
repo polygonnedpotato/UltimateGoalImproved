@@ -120,13 +120,15 @@ public class SensorBNO055IMUCalibration extends LinearOpMode
 
         telemetry.log().setCapacity(12);
         telemetry.log().add("");
+        telemetry.log().add("============================================");
         telemetry.log().add("Please refer to the calibration instructions");
         telemetry.log().add("contained in the Adafruit IMU calibration");
         telemetry.log().add("sample opmode.");
-        telemetry.log().add("");
+        telemetry.log().add("--------------------------------------------");
         telemetry.log().add("When sufficient calibration has been reached,");
         telemetry.log().add("press the 'A' button to write the current");
         telemetry.log().add("calibration data to a file.");
+        telemetry.log().add("=============================================");
         telemetry.log().add("");
 
         // We are expecting the IMU to be attached to an I2C port on a Core Device Interface Module and named "imu".

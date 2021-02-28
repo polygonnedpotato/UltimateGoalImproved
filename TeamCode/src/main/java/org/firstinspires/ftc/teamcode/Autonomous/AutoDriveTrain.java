@@ -2,7 +2,7 @@ package org.firstinspires.ftc.teamcode.Autonomous;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
-import java.lang.Math;
+
 import org.firstinspires.ftc.teamcode.HardwareNames;
 
 class AutoDriveTrain {
@@ -24,9 +24,7 @@ class AutoDriveTrain {
         names.drivebl.setMode(DcMotor.RunMode.RUN_TO_POSITION);
     }
 
-    public int converstion(double baddist) {
-        int dist = (int)(COUNTS_PER_INCH * baddist); /** this is for the convertion beween ticks and like cm or something**/
-        return dist;
+
     }
 
     public int degreeconverstion(int angle) {

@@ -10,7 +10,7 @@ process for adding OpModes is straightforward.
 
 The easiest way to create your own OpMode is to copy a Sample OpMode and make it your own.
 
-Sample opmodes exist in the FtcRobotController module.
+Sample OpModes exist in the FtcRobotController module.
 To locate these samples, find the FtcRobotController module in the "Project/Android" tab.
 
 Expand the following tree elements:
@@ -69,9 +69,9 @@ Each OpMode sample class begins with several lines of code like the ones shown b
  @Disabled
 ```
 
-The name that will appear on the driver station's "opmode list" is defined by the code:
+The name that will appear on the driver station's "OpMode list" is defined by the code:
  ``name="Template: Linear OpMode"``
-You can change what appears between the quotes to better describe your opmode.
+You can change what appears between the quotes to better describe your OpMode.
 The "group=" portion of the code can be used to help organize your list of OpModes.
 
 As shown, the current OpMode will NOT appear on the driver station's OpMode list because of the
@@ -97,7 +97,7 @@ Warning:  This is not for the inexperienced Software developer.
 You will need to be comfortable with File manipulations and managing Android Studio Modules.
 These changes are performed OUTSIDE of Android Studios, so close Android Studios before you do this.
  
-Also.. Make a full project backup before you start this :)
+Also... Be sure to make a full project backup before you start this :)
 
 To clone TeamCode, do the following:
 
@@ -118,4 +118,4 @@ Note: Some names start with "Team" and others start with "team".  This is intent
 
 5)  Add:    include ':Team0417' to the "/settings.gradle" file.
     
-6)  Open up Android Studios and clean out any old files by using the menu to "Build/Clean Project""
+6)  Open up Android Studio and clean out any old files by going to the top menu and selecting "Build/Clean Project"

@@ -31,8 +31,6 @@ package org.firstinspires.ftc.teamcode.Autonomous;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
-import com.qualcomm.robotcore.hardware.Servo;
-import com.qualcomm.robotcore.util.ElapsedTime;
 
 import org.firstinspires.ftc.teamcode.HardwareNames;
 
@@ -65,8 +63,8 @@ public class HardwareTest extends HardwareNames
     }
 
     public static int converstion(double baddist) {
-        int dist = (int)baddist/2; /** this is for the conversion between ticks and like cm or something**/
-        return dist;
+        /* this is for the conversion between ticks and like cm or something**/
+        return (int) baddist / 2;
     }
     //basic movement
     public void autoDriveStraight(double dist, double power) {
@@ -127,7 +125,7 @@ public class HardwareTest extends HardwareNames
     public void shoot(double vis) {
         servolift.setPosition(vis);
         motorlaunch.setPower(1.0);
-        servofeed.setPosition(1.0);//continous
+        servofeed.setPosition(1.0);//continuous
         servolift.setPosition(1.0);
         //need a wait statement
         servolift.setPosition(0.0);

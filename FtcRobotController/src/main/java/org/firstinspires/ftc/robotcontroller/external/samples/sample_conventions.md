@@ -1,4 +1,4 @@
-## Sample Class/Opmode conventions
+## Sample Class/OpMode conventions
 #### V 1.1.0  8/9/2017
 
 This document defines the FTC Sample OpMode and Class conventions.
@@ -23,7 +23,7 @@ Hardware:	This is not an actual OpMode, but a helper class that is used to descr
             Teams can copy one of these to create their own robot definition.
 
 Pushbot:	This is a Sample OpMode that uses the Pushbot robot hardware as a base.
-            It may be used to provide some standard baseline Pushbot opmodes, or
+            It may be used to provide some standard baseline Pushbot OpModes, or
             to demonstrate how a particular sensor or concept can be used directly on the
             Pushbot chassis.
 
@@ -34,7 +34,7 @@ Concept:	This is a sample OpMode that illustrates performing a specific function
             locate based on their name.
 
 Library:    This is a class, or set of classes used to implement some strategy.
-            These will typically NOT implement a full opmode.  Instead they will be included
+            These will typically NOT implement a full OpMode.  Instead they will be included
             by an OpMode to provide some stand-alone capability.
 
 After the prefix, other conventions will apply:

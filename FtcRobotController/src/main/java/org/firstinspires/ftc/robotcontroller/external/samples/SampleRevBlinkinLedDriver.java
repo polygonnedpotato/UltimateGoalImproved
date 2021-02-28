@@ -100,11 +100,9 @@ public class SampleRevBlinkinLedDriver extends OpMode {
 
         if (displayKind == DisplayKind.AUTO) {
             doAutoDisplay();
-        } else {
-            /*
-             * MANUAL mode: Nothing to do, setting the pattern as a result of a gamepad event.
-             */
-        }
+        }  /*
+         * MANUAL mode: Nothing to do, setting the pattern as a result of a gamepad event.
+         */
     }
 
     /*

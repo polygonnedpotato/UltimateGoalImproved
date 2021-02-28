@@ -1,17 +1,15 @@
 package org.firstinspires.ftc.teamcode;
-import com.qualcomm.hardware.rev.RevBlinkinLedDriver;
-import android.graphics.Color;
-import android.hardware.Sensor;
 
+import com.qualcomm.hardware.rev.RevBlinkinLedDriver;
 import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.HardwareMap;
+import com.qualcomm.robotcore.hardware.Servo;
 
-public class HardwareNames {
+public class HardwareNames<sensors, camera> {
     // link to previous year's code https://github.com/teamftc8466/skystone8466
     // link for learning coding https://www.w3schools.com/java/java_for_loop.asp
-    
+
     public DcMotor drivefr;
     public DcMotor drivefl;
     public DcMotor drivebr;
@@ -69,7 +67,7 @@ public class HardwareNames {
     public void storageMotors(HardwareMap hwm) {
         motoreject = hwm.get(DcMotor.class, "motoreject");
 
-        /**drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
+        /*drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
     }
 
 
@@ -78,7 +76,7 @@ public class HardwareNames {
     public void intakeMotors(HardwareMap hwm) {
         motorintake = hwm.get(DcMotor.class, "motorintake");
 
-        /**drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
+        /*drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
     }
 
 
@@ -107,10 +105,10 @@ public class HardwareNames {
         colorstore2 = hwm.colorSensor.get("colorstore2");
         colorstore3 = hwm.colorSensor.get("colorstore3");
     }
-    /**public sensors
-     * public camera\
-     *
-     */
+
+    public static class sensors {
+        //new camera(null); {
+    }
 
 
 }
