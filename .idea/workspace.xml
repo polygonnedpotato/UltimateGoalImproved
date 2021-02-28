@@ -38,9 +38,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/AutoDriveTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/AutoDriveTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/LauncherMethodTeleOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/LauncherMethodTeleOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareNames.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -448,13 +446,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00063" summary="e">
-      <created>1611528168848</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1611528168848</updated>
-    </task>
     <task id="LOCAL-00064" summary="new region strings">
       <created>1611529286029</created>
       <option name="number" value="00064" />
@@ -791,7 +782,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614229353740</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="fixes">
+      <created>1614550631508</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1614550631509</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -834,7 +832,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fix" />
     <MESSAGE value="e" />
     <MESSAGE value="gradle update" />
     <MESSAGE value="sigh" />
@@ -859,7 +856,8 @@
     <MESSAGE value="why u no stay at version 1.1? but i think it wil&#10;but it no work" />
     <MESSAGE value="gradle version updated to 7.0.0-alpha08&#10;Project now requires Gradle 6.8.2&#10;NEW BUILD ERROR. PLEASE READ errors.inf" />
     <MESSAGE value="stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

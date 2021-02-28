@@ -31,14 +31,12 @@ public class HardwareNames<sensors, camera> {
         drivebr.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         drivebl.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-        if(auto == true) {
+        if (auto) {
             drivefr.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
             drivefl.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
             drivebr.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
             drivebl.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        }
-
-        else {
+        } else {
             drivefr.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
             drivefl.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
             drivebr.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
