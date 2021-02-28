@@ -24,30 +24,33 @@ class AutoDriveTrain {
         names.drivebl.setMode(DcMotor.RunMode.RUN_TO_POSITION);
     }
 
-
-    }
-
     public int degreeconverstion(int angle) {
-        int ticks = angle; /**haorsighdli pAINNNN**/
+        int ticks = angle; /*haorsighdli pAINNNN**/
         return ticks;
     }
+
     //basic movement
     public void autoDriveStraight(double dist, double power) {
-       int ticks = converstion(dist);
-        names.drivefr.setTargetPosition(ticks+names.drivefr.getCurrentPosition());
-        names.drivefl.setTargetPosition(ticks+names.drivefl.getCurrentPosition());
-        names.drivebr.setTargetPosition(ticks+names.drivebr.getCurrentPosition());
-        names.drivebl.setTargetPosition(ticks+names.drivebl.getCurrentPosition());
+        int ticks = converstion(dist);
+        names.drivefr.setTargetPosition(ticks + names.drivefr.getCurrentPosition());
+        names.drivefl.setTargetPosition(ticks + names.drivefl.getCurrentPosition());
+        names.drivebr.setTargetPosition(ticks + names.drivebr.getCurrentPosition());
+        names.drivebl.setTargetPosition(ticks + names.drivebl.getCurrentPosition());
 
         runToPos();
     }
+
+    private int converstion(double dist) {
+        return 0;
+    }
+
     //turning
     public void autoPivotTurn(int angle) {
         int ticks = degreeconverstion(angle);
-        names.drivefr.setTargetPosition(ticks+names.drivefr.getCurrentPosition());
-        names.drivefl.setTargetPosition(ticks+names.drivefl.getCurrentPosition());
-        names.drivebr.setTargetPosition(-ticks+names.drivebr.getCurrentPosition());
-        names.drivebl.setTargetPosition(-ticks+names.drivebl.getCurrentPosition());
+        names.drivefr.setTargetPosition(ticks + names.drivefr.getCurrentPosition());
+        names.drivefl.setTargetPosition(ticks + names.drivefl.getCurrentPosition());
+        names.drivebr.setTargetPosition(-ticks + names.drivebr.getCurrentPosition());
+        names.drivebl.setTargetPosition(-ticks + names.drivebl.getCurrentPosition());
 
         runToPos();
     }

@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 
 public class LauncherMethodTeleOp  {
-    private int whatdoidolucas = 0;
+    private final int whatdoidolucas = 0;
 
     public DcMotor motorlaunch;
     public Servo servolift;
@@ -28,8 +28,6 @@ public class LauncherMethodTeleOp  {
     //need to change second launchmotor for krabby flip
         public void Eject () {
 
-
-            }
         }
 
                 public void ejectAngle (float lefttrigger, float righttrigger) {
