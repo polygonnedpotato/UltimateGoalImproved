@@ -25,8 +25,8 @@ class AutoDriveTrain {
     }
 
     public int degreeconverstion(int angle) {
-        int ticks = angle; /*haorsighdli pAINNNN**/
-        return ticks;
+        /*haorsighdli pAINNNN**/
+        return angle;
     }
 
     //basic movement

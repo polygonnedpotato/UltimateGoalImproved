@@ -27,15 +27,18 @@ public class GrabberTeleop extends OpMode {
 
     @Override
     public void loop() {
-        grabber.grabbergrab( dLeft,  dRight);
-        grabber.grabberlift( dUp,  dDown);
+        grabber.grabbergrab(dLeft, dRight);
+        grabber.grabberlift(dUp, dDown);
         if (dUp || dDown) {
-            grabber.grabberlift( dUp,  dDown);
-        }
-        else if (dLeft || dRight) {
-            grabber.grabbergrab( dLeft,  dRight);
+            grabber.grabberlift(dUp, dDown);
+        } else if (dLeft || dRight) {
+            grabber.grabbergrab(dLeft, dRight);
         }
 
+    }
+
+    public Object getHardwareMap() {
+        return HardwareMap;
     }
 }
 
