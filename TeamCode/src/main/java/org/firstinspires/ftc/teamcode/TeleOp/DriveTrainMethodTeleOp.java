@@ -62,16 +62,14 @@ public class DriveTrainMethodTeleOp {
 
         else if (buttonX) {
             power = .50;
-        }
-
-        else if (buttonY) {
+        } else if (buttonY) {
             power = .75;
-        }
-
-        else if (buttonB) {
+        } else if (buttonB) {
             power = 1;
         }
         return power;
     }
 
+    public void omnidirectional(float left_stick_x, float left_stick_y, float left_stick_x1) {
+    }
 }
