@@ -39,6 +39,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +194,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/FtcRobotController/src/main/java/com/qualcomm/ftcrobotcontroller" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FtcRobotController/src/main/res/values-ja-rUS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="memory.settings.postsync.do.not.ask.for.project" value="true" />
     <property name="memory.settings.postsync.last.time.stamp" value="1610325734392" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -441,20 +442,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
-    </task>
-    <task id="LOCAL-00069" summary="e">
-      <created>1611803490635</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1611803490636</updated>
-    </task>
-    <task id="LOCAL-00070" summary="gradle update">
-      <created>1611805104107</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1611805104108</updated>
     </task>
     <task id="LOCAL-00071" summary="gradle update">
       <created>1611805210830</created>
@@ -785,7 +772,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615435871616</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="a">
+      <created>1615438055029</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1615438055029</updated>
+    </task>
+    <task id="LOCAL-00119" summary="a">
+      <created>1615438110596</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1615438110596</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -828,7 +829,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="aaaaa hawaii five-0" />
     <MESSAGE value="aaaaa why wont this commit?!?!" />
     <MESSAGE value="i love zxtune" />
     <MESSAGE value="iiiiii llllllooooooovvveeee hawaii five-0" />
@@ -853,7 +853,8 @@
     <MESSAGE value="why no commit" />
     <MESSAGE value="Merge branch 'master' of https://github.com/LucasFeldsien/UltimateGoal into dev&#10;&#10;# Conflicts:&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/HardwareTest.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/DriveTrainMethodTeleOp.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/GrabberTeleop.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/TeleOpExample.java" />
     <MESSAGE value="Merge branch 'master' of https://github.com/LucasFeldsien/UltimateGoal into dev&#10;gradle is now at 7.0.0-alpha09&#10;# Conflicts:&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/HardwareTest.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/DriveTrainMethodTeleOp.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/GrabberTeleop.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/TeleOpExample.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/LucasFeldsien/UltimateGoal into dev&#10;gradle is now at 7.0.0-alpha09&#10;# Conflicts:&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/HardwareTest.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/DriveTrainMethodTeleOp.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/GrabberTeleop.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/TeleOpExample.java" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -868,6 +869,12 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsASJava.java</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-field">
+          <url>file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardwareNames.java</url>
+          <line>13</line>
+          <properties field="drivefl" class="org.firstinspires.ftc.teamcode.HardwareNames" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
