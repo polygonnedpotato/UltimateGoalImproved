@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="app_theme_ids">
+        <item>@style/AppThemeRedRC</item>
+        <item>@style/AppThemeGreenRC</item>
+        <item>@style/AppThemeBlueRC</item>
+        <item>@style/AppThemePurpleRC</item>
+        <item>@style/AppThemeOrangeRC</item>
+        <item>@style/AppThemeTealRC</item>
+    </integer-array>
+    <string name="NOTHING"/>
+    <string name="NOTHING1"/>
+    <string name="NOTHING2"/>
+    <string name="NOTHING3"/>
+    <string name="NOTHING4"/>
+    <string name="NOTHING5"/>
+    <string name="NOTHING6"/>
+    <string name="about_menu_item">ℹ ️About</string>
+    <string name="app_name">FTC RC Mark II (Berger Build)</string>
+    <string name="blocks_menu_item">☲ Blocks</string>
+    <string name="configure_robot_menu_item">🛠 Configure Robot</string>
+    <string name="dev">by elburg</string>
+    <string name="exit_menu_item">❌ Exit</string>
+    <string name="icon">icon</string>
+    <string name="inspection_mode_menu_item">📝 Self Inspect</string>
+    <string name="isbutton">isbutton</string>
+    <string name="just_the_device_name">just the device name</string>
+    <string name="obamium">obamium</string>
+    <string name="packageName">@string/packageNameRobotController</string>
+    <string name="program_and_manage_menu_item">⚡ Program &amp; Manage</string>
+    <string name="rcsa">com.qualcomm.ftccommon.FtcAdvancedRCSettingsActivity</string>
+    <string name="restart_robot_menu_item">↺ Restart Robot</string>
+    <string name="settings_menu_item">⚙️ Settings</string>
+    <string name="t000">true</string>
+    <string name="testscreen">com.qualcomm.ftccommon.testscreen</string>
+    <string name="testscreen2">com.qualcomm.ftccommon.testscreen</string>
+    <string name="testscreenfragment">TestscreenFragment</string>
+    <string name="this_does_nothing_so_what_does_it_even_do">this does nothing so what does it even do?</string>
+    <string name="title">Your Title</string>
+    <string name="toastRestartingRobot">Restarting Robot… Please Wait…</string>
+    <string name="toastWifiConfigurationComplete">✔ ️Configuration Complete!</string>
+    <string name="toastWifiUpBeforeProgrammingMode">⚠ ️The Robot Controller must be fully up and running before entering Program and Manage Mode.</string>
+    <string name="vla">com.qualcomm.ftccommon.ViewLogsActivity</string>
+    <string name="vla2">com.qualcomm.ftccommon.ViewLogsActivity</string>
+    <string name="whoisgod">pref_whoisgod</string>
+    <string name="whoisgod2">pref_whoisgod</string>
+</resources>

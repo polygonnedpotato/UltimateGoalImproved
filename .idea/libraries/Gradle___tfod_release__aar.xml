@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :tfod-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b43251161739b5850d61c0bcff9b0a36/transformed/jetified-tfod-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b43251161739b5850d61c0bcff9b0a36/transformed/jetified-tfod-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b43251161739b5850d61c0bcff9b0a36/transformed/jetified-tfod-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

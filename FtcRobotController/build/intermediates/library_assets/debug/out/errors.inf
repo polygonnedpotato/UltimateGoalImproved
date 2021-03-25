@@ -1,0 +1,7 @@
+This is a list of errors found in the controller
+
+gradlebuild:
+    Using flatDir should be avoided because it doesn't support any meta-data formats.
+    Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+    This repository is deprecated and it will be shut down in the future.
+    See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
