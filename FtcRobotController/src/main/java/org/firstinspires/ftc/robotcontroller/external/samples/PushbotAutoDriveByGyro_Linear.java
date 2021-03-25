@@ -256,7 +256,7 @@ public class PushbotAutoDriveByGyro_Linear extends LinearOpMode {
     public void gyroTurn (  double speed, double angle) {
 
         // keep looping while we are still active, and not on heading.
-        while (opModeIsActive() && !onHeading(speed, angle)) {
+        while (opModeIsActive() && !onHeading(speed, angle, P_TURN_COEFF)) {
             // Update telemetry & Allow time for other processes to run.
             telemetry.update();
         }
@@ -280,7 +280,7 @@ public class PushbotAutoDriveByGyro_Linear extends LinearOpMode {
         holdTimer.reset();
         while (opModeIsActive() && (holdTimer.time() < holdTime)) {
             // Update telemetry & Allow time for other processes to run.
-            onHeading(speed, angle);
+            onHeading(speed, angle, P_TURN_COEFF);
             telemetry.update();
         }
 
@@ -292,13 +292,14 @@ public class PushbotAutoDriveByGyro_Linear extends LinearOpMode {
     /**
      * Perform one cycle of closed loop heading control.
      *
-     * @param speed Desired speed of turn.
-     * @param angle Absolute Angle (in Degrees) relative to last gyro reset.
-     *              0 = fwd. +ve is CCW from fwd. -ve is CW from forward.
-     *              If a relative angle is required, add/subtract from current heading.
+     * @param speed  Desired speed of turn.
+     * @param angle  Absolute Angle (in Degrees) relative to last gyro reset.
+     *               0 = fwd. +ve is CCW from fwd. -ve is CW from forward.
+     *               If a relative angle is required, add/subtract from current heading.
+     * @param PCoeff Proportional Gain coefficient
      * @return
      */
-    boolean onHeading(double speed, double angle) {
+    boolean onHeading(double speed, double angle, double PCoeff) {
         double error;
         double steer;
         boolean onTarget = false;
@@ -310,14 +311,14 @@ public class PushbotAutoDriveByGyro_Linear extends LinearOpMode {
 
         if (Math.abs(error) <= HEADING_THRESHOLD) {
             steer = 0.0;
-            leftSpeed  = 0.0;
+            leftSpeed = 0.0;
             rightSpeed = 0.0;
             onTarget = true;
         }
         else {
-            steer = getSteer(error, PushbotAutoDriveByGyro_Linear.P_TURN_COEFF);
+            steer = getSteer(error, PCoeff);
             rightSpeed = speed * steer;
-            leftSpeed   = -rightSpeed;
+            leftSpeed = -rightSpeed;
         }
 
         // Send desired speeds to motors.

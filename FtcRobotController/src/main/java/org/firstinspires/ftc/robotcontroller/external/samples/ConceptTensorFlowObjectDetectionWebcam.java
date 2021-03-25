@@ -29,8 +29,6 @@
 
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
-import android.annotation.SuppressLint;
-
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -73,7 +71,7 @@ public class ConceptTensorFlowObjectDetectionWebcam extends LinearOpMode {
      * and paste it in to your code on the next line, between the double quotes.
      */
     private static final String VUFORIA_KEY =
-            " -- YOUR NEW VUFORIA KEY GOES HERE  --- ";
+            "AbCbPUz/////AAABmRlaEryonEVfsxxT+iHrRnIO+B0SFb6vzFX7lYpj3WD2pSxJG1pAEJeUJR3XWKQqKUbO8KUhq/4mnx2uvCcUM1Rg5/3f+qR0VytJNlyYBXAL9kvbpHVbHI/qjQziYKQ0/1SlKj4KX9nHDmPImH8Vd9vfXauFXJ8bnVE175BVln5MS6bYiK4vvxecGyrIvXpjojrYoHdynFVWcIiAtyy5pSjDbavzC/R12FO2uonKGuWNYfRDPUUnABkpSnObZGu6dxl+n1TznC/jBdWFACKJHaaxfqEiXdUkgXy3LUvUqSjhuYrYQAoL6hVlzkSEJs4AQkvybTeUCMRhCBO6cfheYDQuJnFFft8REdT6d5fyx4a1";
 
     /**
      * {@link #vuforia} is the variable we will use to store our instance of the Vuforia
@@ -87,7 +85,6 @@ public class ConceptTensorFlowObjectDetectionWebcam extends LinearOpMode {
      */
     private TFObjectDetector tfod;
 
-    @SuppressLint("DefaultLocale")
     @Override
     public void runOpMode() {
         // The TFObjectDetector uses the camera frames from the VuforiaLocalizer, so we create that
@@ -95,10 +92,10 @@ public class ConceptTensorFlowObjectDetectionWebcam extends LinearOpMode {
         initVuforia();
         initTfod();
 
-        /*
-          Activate TensorFlow Object Detection before we wait for the start command.
-          Do it here so that the Camera Stream window will have the TensorFlow annotations visible.
-         */
+        /**
+         * Activate TensorFlow Object Detection before we wait for the start command.
+         * Do it here so that the Camera Stream window will have the TensorFlow annotations visible.
+         **/
         if (tfod != null) {
             tfod.activate();
 
@@ -110,10 +107,10 @@ public class ConceptTensorFlowObjectDetectionWebcam extends LinearOpMode {
             // (typically 1.78 or 16/9).
 
             // Uncomment the following line if you want to adjust the magnification and/or the aspect ratio of the input images.
-            tfod.setZoom(2.5, 1.78);
+            //tfod.setZoom(2.5, 1.78);
         }
 
-        /* Wait for the game to begin */
+        /** Wait for the game to begin */
         telemetry.addData(">", "Press Play to start op mode");
         telemetry.update();
         waitForStart();

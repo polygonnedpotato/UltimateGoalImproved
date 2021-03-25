@@ -8,10 +8,10 @@ import org.firstinspires.ftc.teamcode.HardwareNames;
 class AutoDriveTrain {
     HardwareNames names = new HardwareNames();
 
-    static final double     COUNTS_PER_MOTOR_REV    = .0/*1440*/ ;    // eg: TETRIX Motor Encoder
-    static final double     DRIVE_GEAR_REDUCTION    = .0 ;     // This is < 1.0 if geared UP
+    static final double COUNTS_PER_MOTOR_REV = .0/*1440*/;    // eg: TETRIX Motor Encoder
+    static final double DRIVE_GEAR_REDUCTION = .0;     // This is < 1.0 if geared UP
     static final double WHEEL_DIAMETER_INCHES = .0;     // For figuring circumference
-    static final double COUNTS_PER_INCH = Double.NaN;
+    static final double COUNTS_PER_INCH = (COUNTS_PER_MOTOR_REV * DRIVE_GEAR_REDUCTION) / (WHEEL_DIAMETER_INCHES * 3.1415);
 
     public AutoDriveTrain(HardwareMap hwm) {
         names.driveMotors(hwm, true);
@@ -24,9 +24,14 @@ class AutoDriveTrain {
         names.drivebl.setMode(DcMotor.RunMode.RUN_TO_POSITION);
     }
 
+    public int converstion(double baddist) {
+        int dist = (int) (COUNTS_PER_INCH * baddist); /** this is for the convertion beween ticks and like cm or something**/
+        return dist;
+    }
+
     public int degreeconverstion(int angle) {
-        /*haorsighdli pAINNNN**/
-        return angle;
+        int ticks = angle; /**haorsighdli pAINNNN**/
+        return ticks;
     }
 
     //basic movement
@@ -39,11 +44,6 @@ class AutoDriveTrain {
 
         runToPos();
     }
-
-    private int converstion(double dist) {
-        return 0;
-    }
-
     //turning
     public void autoPivotTurn(int angle) {
         int ticks = degreeconverstion(angle);

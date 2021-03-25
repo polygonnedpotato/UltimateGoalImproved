@@ -29,6 +29,12 @@
 
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
+import static org.firstinspires.ftc.robotcore.external.navigation.AngleUnit.DEGREES;
+import static org.firstinspires.ftc.robotcore.external.navigation.AxesOrder.XYZ;
+import static org.firstinspires.ftc.robotcore.external.navigation.AxesOrder.YZX;
+import static org.firstinspires.ftc.robotcore.external.navigation.AxesReference.EXTRINSIC;
+import static org.firstinspires.ftc.robotcore.external.navigation.VuforiaLocalizer.CameraDirection.BACK;
+
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -44,12 +50,6 @@ import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackables;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.firstinspires.ftc.robotcore.external.navigation.AngleUnit.DEGREES;
-import static org.firstinspires.ftc.robotcore.external.navigation.AxesOrder.XYZ;
-import static org.firstinspires.ftc.robotcore.external.navigation.AxesOrder.YZX;
-import static org.firstinspires.ftc.robotcore.external.navigation.AxesReference.EXTRINSIC;
-import static org.firstinspires.ftc.robotcore.external.navigation.VuforiaLocalizer.CameraDirection.BACK;
 
 /**
  * This 2020-2021 OpMode illustrates the basics of using the Vuforia localizer to determine
@@ -114,18 +114,23 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
 
     // Since ImageTarget trackables use mm to specifiy their dimensions, we must use mm for all the physical dimension.
     // We will define some constants and conversions here
-    private static final float mmPerInch        = 25.4f;
-    private static final float mmTargetHeight   = (6) * mmPerInch;          // the height of the center of the target image above the floor
+    private static final float mmPerInch = 25.4f;
+    private static final float mmTargetHeight = (6) * mmPerInch;          // the height of the center of the target image above the floor
 
     // Constants for perimeter targets
     private static final float halfField = 72 * mmPerInch;
-    private static final float quadField  = 36 * mmPerInch;
+    private static final float quadField = 36 * mmPerInch;
 
     // Class Members
     private OpenGLMatrix lastLocation = null;
-    private float phoneXRotate    = 0;
+    private final float phoneZRotate = 0;
+    private VuforiaLocalizer vuforia = null;
+    private float phoneXRotate = 0;
+    private boolean targetVisible = false;
+    private float phoneYRotate = 0;
 
-    @Override public void runOpMode() {
+    @Override
+    public void runOpMode() {
         /*
          * Configure Vuforia by creating a Parameter object, and passing it to the Vuforia engine.
          * We can pass Vuforia the handle to a camera preview resource (on the RC phone);
@@ -134,7 +139,7 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
         int cameraMonitorViewId = hardwareMap.appContext.getResources().getIdentifier("cameraMonitorViewId", "id", hardwareMap.appContext.getPackageName());
         VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters(cameraMonitorViewId);
 
-        parameters = new VuforiaLocalizer.Parameters();
+        // VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters();
 
         parameters.vuforiaLicenseKey = VUFORIA_KEY;
         parameters.cameraDirection   = CAMERA_CHOICE;
@@ -143,11 +148,11 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
         parameters.useExtendedTracking = false;
 
         //  Instantiate the Vuforia engine
-        VuforiaLocalizer vuforia = ClassFactory.getInstance().createVuforia(parameters);
+        vuforia = ClassFactory.getInstance().createVuforia(parameters);
 
         // Load the data sets for the trackable objects. These particular data
         // sets are stored in the 'assets' part of our application.
-        VuforiaTrackables targetsUltimateGoal = vuforia.loadTrackablesFromAsset("UltimateGoal");
+        VuforiaTrackables targetsUltimateGoal = this.vuforia.loadTrackablesFromAsset("UltimateGoal");
         VuforiaTrackable blueTowerGoalTarget = targetsUltimateGoal.get(0);
         blueTowerGoalTarget.setName("Blue Tower Goal Target");
         VuforiaTrackable redTowerGoalTarget = targetsUltimateGoal.get(1);
@@ -160,24 +165,25 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
         frontWallTarget.setName("Front Wall Target");
 
         // For convenience, gather together all the trackable objects in one easily-iterable collection */
-        List<VuforiaTrackable> allTrackables = new ArrayList<>(targetsUltimateGoal);
+        List<VuforiaTrackable> allTrackables = new ArrayList<VuforiaTrackable>();
+        allTrackables.addAll(targetsUltimateGoal);
 
-        /*
-          In order for localization to work, we need to tell the system where each target is on the field, and
-          where the phone resides on the robot.  These specifications are in the form of <em>transformation matrices.</em>
-          Transformation matrices are a central, important concept in the math here involved in localization.
-          See <a href="https://en.wikipedia.org/wiki/Transformation_matrix">Transformation Matrix</a>
-          for detailed information. Commonly, you'll encounter transformation matrices as instances
-          of the {@link OpenGLMatrix} class.
-
-          If you are standing in the Red Alliance Station looking towards the center of the field,
-              - The X axis runs from your left to the right. (positive from the center to the right)
-              - The Y axis runs from the Red Alliance Station towards the other side of the field
-                where the Blue Alliance Station is. (Positive is from the center, towards the BlueAlliance station)
-              - The Z axis runs from the floor, upwards towards the ceiling.  (Positive is above the floor)
-
-          Before being transformed, each target image is conceptually located at the origin of the field's
-           coordinate system (the center of the field), facing up.
+        /**
+         * In order for localization to work, we need to tell the system where each target is on the field, and
+         * where the phone resides on the robot.  These specifications are in the form of <em>transformation matrices.</em>
+         * Transformation matrices are a central, important concept in the math here involved in localization.
+         * See <a href="https://en.wikipedia.org/wiki/Transformation_matrix">Transformation Matrix</a>
+         * for detailed information. Commonly, you'll encounter transformation matrices as instances
+         * of the {@link OpenGLMatrix} class.
+         *
+         * If you are standing in the Red Alliance Station looking towards the center of the field,
+         *     - The X axis runs from your left to the right. (positive from the center to the right)
+         *     - The Y axis runs from the Red Alliance Station towards the other side of the field
+         *       where the Blue Alliance Station is. (Positive is from the center, towards the BlueAlliance station)
+         *     - The Z axis runs from the floor, upwards towards the ceiling.  (Positive is above the floor)
+         *
+         * Before being transformed, each target image is conceptually located at the origin of the field's
+         *  coordinate system (the center of the field), facing up.
          */
 
         //Set the position of the perimeter targets with relation to origin (center of field)
@@ -215,7 +221,6 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
         // The two examples below assume that the camera is facing forward out the front of the robot.
 
         // We need to rotate the camera around it's long axis to bring the correct camera forward.
-        float phoneYRotate;
         if (CAMERA_CHOICE == BACK) {
             phoneYRotate = -90;
         } else {
@@ -233,12 +238,11 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
         final float CAMERA_VERTICAL_DISPLACEMENT = 8.0f * mmPerInch;   // eg: Camera is 8 Inches above ground
         final float CAMERA_LEFT_DISPLACEMENT     = 0;     // eg: Camera is ON the robot's center line
 
-        float phoneZRotate = 0;
         OpenGLMatrix robotFromCamera = OpenGLMatrix
                 .translation(CAMERA_FORWARD_DISPLACEMENT, CAMERA_LEFT_DISPLACEMENT, CAMERA_VERTICAL_DISPLACEMENT)
                 .multiplied(Orientation.getRotationMatrix(EXTRINSIC, YZX, DEGREES, phoneYRotate, phoneZRotate, phoneXRotate));
 
-        /*  Let all the trackable listeners know where the phone is.  */
+        /**  Let all the trackable listeners know where the phone is.  */
         for (VuforiaTrackable trackable : allTrackables) {
             ((VuforiaTrackableDefaultListener) trackable.getListener()).setPhoneInformation(robotFromCamera, parameters.cameraDirection);
         }
@@ -247,9 +251,9 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
         // In this sample, we do not wait for PLAY to be pressed.  Target Tracking is started immediately when INIT is pressed.
         // This sequence is used to enable the new remote DS Camera Preview feature to be used with this sample.
         // CONSEQUENTLY do not put any driving commands in this loop.
-        // To restore the normal OpMode structure, just un-comment the following line:
+        // To restore the normal opmode structure, just un-comment the following line:
 
-        waitForStart();
+        // waitForStart();
 
         // Note: To use the remote camera preview:
         // AFTER you hit Init on the Driver Station, use the "options menu" to select "Camera Stream"
@@ -259,7 +263,7 @@ public class ConceptVuforiaUltimateGoalNavigation extends LinearOpMode {
         while (!isStopRequested()) {
 
             // check all the trackable targets to see which one (if any) is visible.
-            boolean targetVisible = false;
+            targetVisible = false;
             for (VuforiaTrackable trackable : allTrackables) {
                 if (((VuforiaTrackableDefaultListener)trackable.getListener()).isVisible()) {
                     telemetry.addData("Visible Target", trackable.getName());

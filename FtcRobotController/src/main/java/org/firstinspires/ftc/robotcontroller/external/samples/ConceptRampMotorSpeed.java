@@ -82,7 +82,7 @@ public class ConceptRampMotorSpeed extends LinearOpMode {
                 power += INCREMENT ;
                 if (power >= MAX_FWD ) {
                     power = MAX_FWD;
-                    rampUp = false;   // Switch ramp direction
+                    rampUp = !rampUp;   // Switch ramp direction
                 }
             }
             else {
@@ -90,7 +90,7 @@ public class ConceptRampMotorSpeed extends LinearOpMode {
                 power -= INCREMENT ;
                 if (power <= MAX_REV ) {
                     power = MAX_REV;
-                    rampUp = true;  // Switch ramp direction
+                    rampUp = !rampUp;  // Switch ramp direction
                 }
             }
 

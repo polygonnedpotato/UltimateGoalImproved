@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 
-public class HardwareNames<sensors, camera> {
+public class HardwareNames {
     // link to previous year's code https://github.com/teamftc8466/skystone8466
     // link for learning coding https://www.w3schools.com/java/java_for_loop.asp
 
@@ -31,7 +31,7 @@ public class HardwareNames<sensors, camera> {
         drivebr.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         drivebl.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
 
-        if (auto) {
+        if (auto == true) {
             drivefr.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
             drivefl.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
             drivebr.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
@@ -65,7 +65,7 @@ public class HardwareNames<sensors, camera> {
     public void storageMotors(HardwareMap hwm) {
         motoreject = hwm.get(DcMotor.class, "motoreject");
 
-        /*drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
+        /**drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
     }
 
 
@@ -74,7 +74,7 @@ public class HardwareNames<sensors, camera> {
     public void intakeMotors(HardwareMap hwm) {
         motorintake = hwm.get(DcMotor.class, "motorintake");
 
-        /*drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
+        /**drivefr.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.FLOAT);**/
     }
 
 
@@ -103,10 +103,10 @@ public class HardwareNames<sensors, camera> {
         colorstore2 = hwm.colorSensor.get("colorstore2");
         colorstore3 = hwm.colorSensor.get("colorstore3");
     }
-
-    public static class sensors {
-        //new camera(null); {
-    }
+    /**public sensors
+     * public camera\
+     *
+     */
 
 
 }

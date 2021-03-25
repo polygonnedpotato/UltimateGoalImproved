@@ -48,12 +48,14 @@ import com.qualcomm.robotcore.util.Range;
  * Remove or comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@TeleOp(name="REV SPARKmini Simple Drive Example", group="Concept")
+@TeleOp(name = "REV SPARKmini Simple Drive Example", group = "Concept")
 @Disabled
 public class ConceptRevSPARKMini extends LinearOpMode {
 
     // Declare OpMode members.
     private final ElapsedTime runtime = new ElapsedTime();
+    private DcMotorSimple leftDrive = null;
+    private DcMotorSimple rightDrive = null;
 
     @Override
     public void runOpMode() {
@@ -63,8 +65,8 @@ public class ConceptRevSPARKMini extends LinearOpMode {
         // Initialize the hardware variables. Note that the strings used here as parameters
         // to 'get' must correspond to the names assigned during the robot configuration
         // step (using the FTC Robot Controller app on the phone).
-        DcMotorSimple leftDrive = hardwareMap.get(DcMotorSimple.class, "left_drive");
-        DcMotorSimple rightDrive = hardwareMap.get(DcMotorSimple.class, "right_drive");
+        leftDrive = hardwareMap.get(DcMotorSimple.class, "left_drive");
+        rightDrive = hardwareMap.get(DcMotorSimple.class, "right_drive");
 
         // Most robots need the motor on one side to be reversed to drive forward
         // Reverse the motor that runs backwards when connected directly to the battery
@@ -94,8 +96,8 @@ public class ConceptRevSPARKMini extends LinearOpMode {
 
             // Tank Mode uses one stick to control each wheel.
             // - This requires no math, but it is hard to drive forward slowly and keep straight.
-            leftPower = -gamepad1.left_stick_y;
-            rightPower = -gamepad1.right_stick_y;
+            // leftPower  = -gamepad1.left_stick_y ;
+            // rightPower = -gamepad1.right_stick_y ;
 
             // Send calculated power to wheels
             leftDrive.setPower(leftPower);

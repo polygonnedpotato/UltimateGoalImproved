@@ -74,7 +74,7 @@ public class SensorMRColor extends LinearOpMode {
 
     // bPrevState and bCurrState represent the previous and current state of the button.
     boolean bPrevState = false;
-    boolean bCurrState;
+    boolean bCurrState = false;
 
     // bLedOn represents the state of the LED.
     boolean bLedOn = true;
@@ -83,7 +83,7 @@ public class SensorMRColor extends LinearOpMode {
     colorSensor = hardwareMap.get(ColorSensor.class, "sensor_color");
 
     // Set the LED in the beginning
-    colorSensor.enableLed(true);
+    colorSensor.enableLed(bLedOn);
 
     // wait for the start button to be pressed.
     waitForStart();
@@ -96,7 +96,7 @@ public class SensorMRColor extends LinearOpMode {
       bCurrState = gamepad1.x;
 
       // check for button state transitions.
-      if (bCurrState && !bPrevState) {
+      if (bCurrState && (bCurrState != bPrevState)) {
 
         // button is transitioning to a pressed state. So Toggle LED
         bLedOn = !bLedOn;

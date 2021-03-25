@@ -6,33 +6,32 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 @TeleOp(name = "IntakeTeleOp", group = "TeleOp")
 //@Disabled
 public class IntakeTeleop extends OpMode {
-    boolean leftbumper;
-    boolean rightbumper;
+
 
     IntakeMethodTeleOp intake;
-    IntakeStorageGauge gauge = null;
-    double power = 1;
-    private final Object HardwareMap;
-
-    public IntakeTeleop(Object hardwareMap) {
-        HardwareMap = hardwareMap;
-    }
+    IntakeStorageGauge led;
 
     @Override
     public void init() {
-        intake = new IntakeMethodTeleOp();
-        gauge = new IntakeStorageGauge();
-        DriveTrainMethodTeleOp drivetrain = null;
-        assert false;
-        drivetrain.driveMotors((com.qualcomm.robotcore.hardware.HardwareMap) HardwareMap);
+        intake = new IntakeMethodTeleOp(hardwareMap);
+        led = new IntakeStorageGauge(hardwareMap);
     }
+    //
+    //drivetrain.driveMotors(HardwareMap);
+
 
     @Override
     public void loop() {
         //dont intake >:()
-      //  gauge.rings();
+        //  gauge.rings();
         //if (gauge.isyellow2 () == true && gauge.isyellow3 () == true) {
-            intake.intake(true, leftbumper, rightbumper); }
+        intake.intake(/*true,*/ gamepad2.left_bumper, gamepad2.right_bumper);
+        if (gamepad1.y == true) {
+            led.ledstrip.setPosition(.95);
+        } else {
+            led.ledstrip.setPosition(.37);
+        }
+    }
        // else {
            // intake.intake(false, leftbumper, rightbumper);
         }

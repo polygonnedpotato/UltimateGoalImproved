@@ -29,8 +29,6 @@
 
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
-import android.annotation.SuppressLint;
-
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -96,7 +94,6 @@ public class ConceptTensorFlowObjectDetectionSwitchableCameras extends LinearOpM
      */
     private TFObjectDetector tfod;
 
-    @SuppressLint("DefaultLocale")
     @Override
     public void runOpMode() {
         // The TFObjectDetector uses the camera frames from the VuforiaLocalizer, so we create that
@@ -104,10 +101,10 @@ public class ConceptTensorFlowObjectDetectionSwitchableCameras extends LinearOpM
         initVuforia();
         initTfod();
 
-        /*
-          Activate TensorFlow Object Detection before we wait for the start command.
-          Do it here so that the Camera Stream window will have the TensorFlow annotations visible.
-         */
+        /**
+         * Activate TensorFlow Object Detection before we wait for the start command.
+         * Do it here so that the Camera Stream window will have the TensorFlow annotations visible.
+         **/
         if (tfod != null) {
             tfod.activate();
 
@@ -122,7 +119,7 @@ public class ConceptTensorFlowObjectDetectionSwitchableCameras extends LinearOpM
             //tfod.setZoom(2.5, 1.78);
         }
 
-        /* Wait for the game to begin */
+        /** Wait for the game to begin */
         telemetry.addData(">", "Press Play to start op mode");
         telemetry.update();
         waitForStart();
@@ -173,7 +170,6 @@ public class ConceptTensorFlowObjectDetectionSwitchableCameras extends LinearOpM
 
         // Set the active camera to Webcam 1.
         switchableCamera = (SwitchableCamera) vuforia.getCamera();
-        assert switchableCamera != null;
         switchableCamera.setActiveCamera(webcam1);
 
         // Loading trackables is not necessary for the TensorFlow Object Detection engine.

@@ -13,8 +13,7 @@ public class DrivetrainTeleOp extends OpMode {
 
     @Override
     public void init() {
-        drivetrain = new DriveTrainMethodTeleOp();
-        drivetrain.driveMotors(hardwareMap);
+        drivetrain = new DriveTrainMethodTeleOp(hardwareMap);
     }
     /*@Override
     public void init() {
@@ -31,6 +30,7 @@ public class DrivetrainTeleOp extends OpMode {
         }
         else {
             drivetrain.omnidirectional(power, gamepad1.left_stick_x, gamepad1.left_stick_y, gamepad1.right_stick_x);
+
         }
     }
 }

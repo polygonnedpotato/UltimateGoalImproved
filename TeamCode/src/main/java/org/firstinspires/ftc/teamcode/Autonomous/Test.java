@@ -15,7 +15,7 @@ public class Test extends LinearOpMode {
          * Initialize the drive system variables.
          * The init() method of the hardware class does all the work here
          */
-        htest.init(hardwareMap);
+      //  htest.init(hardwareMap);
 
         // Send telemetry message to signify robot waiting;
         telemetry.addData("Status", "Resetting Encoders");    //
@@ -31,9 +31,7 @@ public class Test extends LinearOpMode {
 
 
         // Send telemetry message to indicate successful Encoder reset
-        telemetry.addData("Path0",  "Starting at %7d :%7d"
-
-        );
+        telemetry.addData("Path0", "Starting at %7d :%7d");
         telemetry.update();
 
         // Wait for the game to start (driver presses PLAY)

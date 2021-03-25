@@ -9,21 +9,16 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 public class TeleOpExample extends OpMode {
 
     DriveTrainMethodTeleOp drivetrain = null;
-    private final Object HardwareMap;
-
-    public TeleOpExample(Object hardwareMap) {
-        HardwareMap = hardwareMap;
-    }
 
     @Override
     public void init() {
-        drivetrain = new DriveTrainMethodTeleOp();
-        drivetrain.driveMotors((com.qualcomm.robotcore.hardware.HardwareMap) HardwareMap);
+        drivetrain = new DriveTrainMethodTeleOp(hardwareMap);
+        //drivetrain.driveMotors(HardwareMap);
     }
 
     @Override
     public void loop() {
-        drivetrain.omnidirectional(gamepad1.left_stick_x, gamepad1.left_stick_y, gamepad1.left_stick_x);
+        drivetrain.omnidirectional(1, gamepad1.left_stick_x, gamepad1.left_stick_y, gamepad1.left_stick_x);
         /*robot.turndrive(gamepad1);*/
-        }
+    }
 }

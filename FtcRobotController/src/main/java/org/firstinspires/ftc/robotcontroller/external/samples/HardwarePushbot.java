@@ -63,9 +63,9 @@ public class HardwarePushbot
     public static final double ARM_UP_POWER    =  0.45 ;
     public static final double ARM_DOWN_POWER  = -0.45 ;
 
+    private final ElapsedTime period = new ElapsedTime();
     /* local OpMode members. */
     HardwareMap hwMap = null;
-    private final ElapsedTime period = new ElapsedTime();
 
     /* Constructor */
     public HardwarePushbot(){
@@ -100,10 +100,6 @@ public class HardwarePushbot
         rightClaw = hwMap.get(Servo.class, "right_hand");
         leftClaw.setPosition(MID_SERVO);
         rightClaw.setPosition(MID_SERVO);
-    }
-
-    public ElapsedTime getPeriod() {
-        return period;
     }
 }
 

@@ -63,9 +63,9 @@ public class ConceptSoundsSKYSTONE extends LinearOpMode {
 
         // Variables for choosing from the available sounds
         int soundIndex = 0;
-        int soundID;
+        int soundID = -1;
         boolean was_dpad_up = false;
-        boolean was_dpad_down   = false;
+        boolean was_dpad_down = false;
 
         Context myApp = hardwareMap.appContext;
 

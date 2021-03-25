@@ -40,6 +40,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
 import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 import org.firstinspires.ftc.robotcore.external.navigation.RelicRecoveryVuMark;
+import org.firstinspires.ftc.robotcore.external.navigation.VuMarkInstanceId;
 import org.firstinspires.ftc.robotcore.external.navigation.VuforiaLocalizer;
 import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackable;
 import org.firstinspires.ftc.robotcore.external.navigation.VuforiaTrackableDefaultListener;
@@ -87,7 +88,7 @@ public class ConceptVuMarkIdentification extends LinearOpMode {
         VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters(cameraMonitorViewId);
 
         // OR...  Do Not Activate the Camera Monitor View, to save power
-        parameters = new VuforiaLocalizer.Parameters();
+        // VuforiaLocalizer.Parameters parameters = new VuforiaLocalizer.Parameters();
 
         /*
          * IMPORTANT: You need to obtain your own license key to use Vuforia. The string below with which
@@ -110,17 +111,17 @@ public class ConceptVuMarkIdentification extends LinearOpMode {
          */
         parameters.cameraDirection = VuforiaLocalizer.CameraDirection.BACK;
 
-        /*
-          Instantiate the Vuforia engine
+        /**
+         * Instantiate the Vuforia engine
          */
         vuforia = ClassFactory.getInstance().createVuforia(parameters);
 
 
-        /*
-          Load the data set containing the VuMarks for Relic Recovery. There's only one trackable
-          in this data set: all three of the VuMarks in the game were created from this one template,
-          but differ in their instance id information.
-          @see VuMarkInstanceId
+        /**
+         * Load the data set containing the VuMarks for Relic Recovery. There's only one trackable
+         * in this data set: all three of the VuMarks in the game were created from this one template,
+         * but differ in their instance id information.
+         * @see VuMarkInstanceId
          */
         VuforiaTrackables relicTrackables = this.vuforia.loadTrackablesFromAsset("RelicVuMark");
         VuforiaTrackable relicTemplate = relicTrackables.get(0);
@@ -134,11 +135,11 @@ public class ConceptVuMarkIdentification extends LinearOpMode {
 
         while (opModeIsActive()) {
 
-            /*
-              See if any of the instances of {@link relicTemplate} are currently visible.
-              {@link RelicRecoveryVuMark} is an enum which can have the following values:
-              UNKNOWN, LEFT, CENTER, and RIGHT. When a VuMark is visible, something other than
-              UNKNOWN will be returned by {@link RelicRecoveryVuMark#from(VuforiaTrackable)}.
+            /**
+             * See if any of the instances of {@link relicTemplate} are currently visible.
+             * {@link RelicRecoveryVuMark} is an enum which can have the following values:
+             * UNKNOWN, LEFT, CENTER, and RIGHT. When a VuMark is visible, something other than
+             * UNKNOWN will be returned by {@link RelicRecoveryVuMark#from(VuforiaTrackable)}.
              */
             RelicRecoveryVuMark vuMark = RelicRecoveryVuMark.from(relicTemplate);
             if (vuMark != RelicRecoveryVuMark.UNKNOWN) {

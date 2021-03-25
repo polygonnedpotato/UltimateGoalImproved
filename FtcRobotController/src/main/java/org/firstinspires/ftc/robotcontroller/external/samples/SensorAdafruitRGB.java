@@ -94,7 +94,7 @@ public class SensorAdafruitRGB extends LinearOpMode {
 
     // bPrevState and bCurrState represent the previous and current state of the button.
     boolean bPrevState = false;
-    boolean bCurrState;
+    boolean bCurrState = false;
 
     // bLedOn represents the state of the LED.
     boolean bLedOn = true;
@@ -111,7 +111,7 @@ public class SensorAdafruitRGB extends LinearOpMode {
     sensorRGB = hardwareMap.colorSensor.get("sensor_color");
 
     // turn the LED on in the beginning, just so user will know that the sensor is active.
-    cdim.setDigitalChannelState(LED_CHANNEL, true);
+    cdim.setDigitalChannelState(LED_CHANNEL, bLedOn);
 
     // wait for the start button to be pressed.
     waitForStart();
@@ -124,7 +124,7 @@ public class SensorAdafruitRGB extends LinearOpMode {
       bCurrState = gamepad1.x;
 
       // check for button-press state transitions.
-      if (bCurrState && !bPrevState) {
+      if ((bCurrState == true) && (bCurrState != bPrevState)) {
 
         // button is transitioning to a pressed state. Toggle the LED.
         bLedOn = !bLedOn;

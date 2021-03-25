@@ -29,8 +29,6 @@
 
 package org.firstinspires.ftc.robotcontroller.external.samples;
 
-import android.annotation.SuppressLint;
-
 import com.qualcomm.hardware.modernrobotics.ModernRoboticsI2cGyro;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -74,12 +72,12 @@ public class SensorMRGyro extends LinearOpMode {
   public void runOpMode() {
 
     boolean lastResetState = false;
-    boolean curResetState;
+      boolean curResetState = false;
 
     // Get a reference to a Modern Robotics gyro object. We use several interfaces
     // on this object to illustrate which interfaces support which functionality.
-    modernRoboticsI2cGyro = hardwareMap.get(ModernRoboticsI2cGyro.class, "gyro");
-    gyro = modernRoboticsI2cGyro;
+      modernRoboticsI2cGyro = hardwareMap.get(ModernRoboticsI2cGyro.class, "gyro");
+      gyro = (IntegratingGyroscope) modernRoboticsI2cGyro;
     // If you're only interested int the IntegratingGyroscope interface, the following will suffice.
     // gyro = hardwareMap.get(IntegratingGyroscope.class, "gyro");
     // A similar approach will work for the Gyroscope interface, if that's all you need.
@@ -149,17 +147,14 @@ public class SensorMRGyro extends LinearOpMode {
     }
   }
 
-  @SuppressLint("DefaultLocale")
   String formatRaw(int rawValue) {
     return String.format("%d", rawValue);
   }
 
-  @SuppressLint("DefaultLocale")
   String formatRate(float rate) {
     return String.format("%.3f", rate);
   }
 
-  @SuppressLint("DefaultLocale")
   String formatFloat(float rate) {
     return String.format("%.3f", rate);
   }

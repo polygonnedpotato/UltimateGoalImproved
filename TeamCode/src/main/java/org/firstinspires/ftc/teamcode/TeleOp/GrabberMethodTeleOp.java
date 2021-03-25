@@ -1,36 +1,36 @@
 package org.firstinspires.ftc.teamcode.TeleOp;
 
 import com.qualcomm.robotcore.hardware.HardwareMap;
-
-import org.firstinspires.ftc.teamcode.HardwareNames;
+import com.qualcomm.robotcore.hardware.Servo;
 
 public class GrabberMethodTeleOp {
-    HardwareNames names;
+    public Servo servopinch;
+    public Servo servograbrot;
 
-        public void grabberMotors(HardwareMap hwm) {
-            names.grabberMotors(hwm);
+    public GrabberMethodTeleOp(HardwareMap hwm) {
+        servopinch = hwm.get(Servo.class, "servopinch");
+        servograbrot = hwm.get(Servo.class, "servograbrot");
+    }
+
+    // Using dpad for grabber directional movement
+    public void grabbergrab(boolean dLeft, boolean dRight) {
+        if (dLeft) {
+            servopinch.setPosition(.3);
         }
-        // Using dpad for grabber directional movement
-        public void grabbergrab(boolean dLeft, boolean dRight) {
-            while (dLeft) {
-                names.servopinch.setPosition(0);
-            }
 
-            while  (dRight) {
-                names.servopinch.setPosition(1);
-            }
-        }
-        public void grabberlift(boolean dUp, boolean dDown) {
-            while (dUp) {
-                names.servograbrot.getPosition();
-                names.servograbrot.setPosition(names.servograbrot.getPosition() + 0.1);
-            }
-
-            while (dDown) {
-                names.servograbrot.getPosition();
-                names.servograbrot.setPosition(names.servograbrot.getPosition() - 0.1);
-            }
-
-
+        if (dRight) {
+            servopinch.setPosition(.63);
         }
     }
+
+    public void grabberlift(boolean dUp, boolean dDown, boolean hold) {
+        // these servograbrot.getposition <= stuff is trying to stop it from hitting the robot but idk why its not working
+        if (dUp) {
+            servograbrot.setPosition(.53);
+        } else if (dDown) {
+            servograbrot.setPosition(.32);
+        } else if (hold) {
+            servograbrot.setPosition(.43);
+        }
+    }
+}

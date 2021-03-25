@@ -1,4 +1,4 @@
-## Sample Class/OpMode conventions
+## Sample Class/Opmode conventions
 #### V 1.1.0  8/9/2017
 
 This document defines the FTC Sample OpMode and Class conventions.
@@ -17,25 +17,23 @@ Sensor:    	This is a Sample OpMode that shows how to use a specific sensor.
             It is not intended to drive a functioning robot, it is simply showing the minimal code
             required to read and display the sensor values.
 
-Hardware:	This is not an actual OpMode, but a helper class that is used to describe
-            one particular robot's hardware configuration:   eg: For the K9 or Pushbot.
-            Look at any Pushbot sample to see how this can be used in an OpMode.
-            Teams can copy one of these to create their own robot definition.
+Hardware:    This is not an actual OpMode, but a helper class that is used to describe one
+particular robot's hardware configuration:   eg: For the K9 or Pushbot. Look at any Pushbot sample
+to see how this can be used in an OpMode. Teams can copy one of these to create their own robot
+definition.
 
-Pushbot:	This is a Sample OpMode that uses the Pushbot robot hardware as a base.
-            It may be used to provide some standard baseline Pushbot OpModes, or
-            to demonstrate how a particular sensor or concept can be used directly on the
-            Pushbot chassis.
+Pushbot:    This is a Sample OpMode that uses the Pushbot robot hardware as a base. It may be used
+to provide some standard baseline Pushbot opmodes, or to demonstrate how a particular sensor or
+concept can be used directly on the Pushbot chassis.
 
-Concept:	This is a sample OpMode that illustrates performing a specific function or concept.
-            These may be complex, but their operation should be explained clearly in the comments,
-            or the comments should reference an external doc, guide or tutorial.
-            Each OpMode should try to only demonstrate a single concept so they are easy to
-            locate based on their name.
+Concept:    This is a sample OpMode that illustrates performing a specific function or concept.
+These may be complex, but their operation should be explained clearly in the comments, or the
+comments should reference an external doc, guide or tutorial. Each OpMode should try to only
+demonstrate a single concept so they are easy to locate based on their name.
 
-Library:    This is a class, or set of classes used to implement some strategy.
-            These will typically NOT implement a full OpMode.  Instead they will be included
-            by an OpMode to provide some stand-alone capability.
+Library:    This is a class, or set of classes used to implement some strategy. These will typically
+NOT implement a full opmode. Instead they will be included by an OpMode to provide some stand-alone
+capability.
 
 After the prefix, other conventions will apply:
 
