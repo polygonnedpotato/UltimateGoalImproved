@@ -66,23 +66,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/blockly_compressed.js.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/blocks_compressed.js.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/javascript_compressed.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/1x1.gif.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/click.mp3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/click.ogg.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/click.wav.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/delete.mp3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/delete.ogg.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/delete.wav.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/disconnect.mp3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/disconnect.ogg.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/disconnect.wav.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/handclosed.cur.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/handdelete.cur.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/handopen.cur.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/quote0.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/quote1.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/sprites.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/media/sprites.svg.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/msg/messages.js.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/FtcBlocksProjects_common.js.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/FtcBlocks_common.js.jar" afterDir="false" />
@@ -254,14 +237,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/glyphicons-halflings-regular.woff.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/glyphicons-halflings-regular.woff2.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/frame.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/ftcblockly/generators/ftcjava.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/ftcblockly/generators/ftcjava/lists.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/ftcblockly/generators/ftcjava/logic.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/ftcblockly/generators/ftcjava/loops.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/ftcblockly/generators/ftcjava/math.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/ftcblockly/generators/ftcjava/procedures.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/ftcblockly/generators/ftcjava/text.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/ftcblockly/generators/ftcjava/variables.js.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/help.html.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/android.jar.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/androidx-rs.jar.jar" afterDir="false" />
@@ -419,19 +394,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/templates/SensorMROpticalDistance.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/templates/SensorMRRangeSensor.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/templates/SensorREV2mDistance.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/URI.min.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/bootstrap.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/bootstrap.min.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/es5-shim.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/es6-shim.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/jquery-3.4.1.min.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/less.min.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/npm.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/split.min.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/split.min.js.map.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/util.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/websocket-core.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/js/websocket-iframe.js.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/manage.html.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/qcar_config.xsd.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/android_accelerometer.xml.jar" afterDir="false" />
@@ -461,8 +423,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaSkyStone_setActiveCamera.xml.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaTrackableDefaultListener_setCameraLocationOnRobot.xml.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaTrackableDefaultListener_setPhoneInformation.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/updates/Expansion Hub Firmware/README.txt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/updates/Expansion Hub Firmware/REVHubFirmware_1_08_02.bin.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/yeet.mp4.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/Buildings.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/Buildings.txt" afterDir="false" />
@@ -488,28 +448,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/UltimateGoal.tflite" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/UltimateGoal.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/appinfo.inf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/blockly_compressed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/blocks_compressed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/javascript_compressed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/1x1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/click.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/click.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/click.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/delete.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/delete.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/delete.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/disconnect.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/disconnect.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/disconnect.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/handclosed.cur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/handdelete.cur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/handopen.cur" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/quote0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/quote1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/media/sprites.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blockly/msg/messages.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/FtcBlocksProjects_common.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/FtcBlocks_common.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/acceleration.js" afterDir="false" />
@@ -643,51 +581,9 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_trackable_default_listener.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_trackables.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/connection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/SourceCodePro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/blocks_common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/blocks_common.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/blocks_offline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/connection.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/frame.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/frame_offline.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/help.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/java/onbotjava.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/css/manage.less" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/errors.inf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/SourceCodePro.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/SourceCodeProExt.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/ftcblockly/generators/ftcjava.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/ftcblockly/generators/ftcjava/lists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/ftcblockly/generators/ftcjava/logic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/ftcblockly/generators/ftcjava/loops.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/ftcblockly/generators/ftcjava/math.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/ftcblockly/generators/ftcjava/procedures.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/ftcblockly/generators/ftcjava/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/ftcblockly/generators/ftcjava/variables.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/help.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/android.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/androidx-rs.jar" afterDir="false" />
@@ -845,324 +741,9 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorMROpticalDistance" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorMRRangeSensor" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorREV2mDistance" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/URI.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/es5-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/es6-shim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/less.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/split.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/split.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/websocket-core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/js/websocket-iframe.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/manage.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/qcar_config.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/android_accelerometer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/android_gyroscope.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/android_orientation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/android_sound_pool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/android_text_to_speech.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/bno055imu_parameters.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/gamepad.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/linear_op_mode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/navigation_switchableCamera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/rev_blinkin_led_driver.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/tensorFlowObjectDetection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/utilities.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforia.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaCurrentGame_initialize_withCameraDirection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaCurrentGame_initialize_withWebcam.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaCurrentGame_setActiveCamera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaLocalizerParameters_addWebcamCalibrationFile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaLocalizerParameters_getProperty_CameraDirection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaLocalizerParameters_getProperty_CameraName.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaLocalizerParameters_setCameraDirection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaLocalizerParameters_setCameraName.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaSkyStone_initialize_withCameraDirection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaSkyStone_initialize_withWebcam.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaSkyStone_setActiveCamera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaTrackableDefaultListener_setCameraLocationOnRobot.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/toolbox/vuforiaTrackableDefaultListener_setPhoneInformation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/updates/Expansion Hub Firmware/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/updates/Expansion Hub Firmware/REVHubFirmware_1_08_02.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/yeet.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-am.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-as.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-az.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-b+sr+Latn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-be.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bg.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-bs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ca.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-cs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-da.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-el.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rAU.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rCA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rGB.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rIN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rUS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-en-rXC.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es-rUS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-es.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-et.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-eu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr-rCA.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-fr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-gu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-h720dp-v13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hdpi-v4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-hy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-in.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-is.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-it.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-iw.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja-rUS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ja.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ka.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-km.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-kn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ko.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ky.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-land.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-large-v4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ldltr-v21.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-lv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ml.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mn.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-mr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ms.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-my.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ne.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-night-v8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-nl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-or.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pa.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-port.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rBR.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt-rPT.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-pt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ro.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ru.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-si.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sq.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sv.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-te.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-th.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tl.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-tr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uk.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-ur.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-uz.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v11.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v14.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v16.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v17.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v18.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v21.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v22.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v23.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v24.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v25.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v26.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-v28.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-vi.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v20.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-watch-v21.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-xlarge-v4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rCN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rHK.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zh-rTW.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_basso.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_beep.m4a.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_bloop.m4a.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_blow.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_bottle.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_frog.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_funk.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_glass.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_gold.wav.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_hero.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_morse.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_ping.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_pop.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_purr.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_readme.md.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_silver.wav.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_sosumi.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_submarine.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_tink.aiff.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/raw_video.mp4.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-en-rCA_values-en-rCA.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-en-rUS_values-en-rUS.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-en-rXC_values-en-rXC.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-h720dp-v13_values-h720dp-v13.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-hdpi-v4_values-hdpi-v4.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ja-rUS_values-ja-rUS.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ldltr-v21_values-ldltr-v21.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-night-v8_values-night-v8.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v16_values-v16.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v18_values-v18.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v22_values-v22.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v25_values-v25.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v26_values-v26.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-v28_values-v28.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-watch-v20_values-watch-v20.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-watch-v21_values-watch-v21.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_teamwebcamcalibrations.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libRSSupport.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libRobotCore.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libVuforia.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libc++_shared.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libimage_utils.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libobject_tracking.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/librs.format_convert.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/librsjni.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/librsjni_androidx.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libtensorflowlite_jni.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libRSSupport.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libRobotCore.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libVuforia.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libc++_shared.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libimage_utils.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libobject_tracking.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/librs.format_convert.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/librsjni.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/librsjni_androidx.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libtensorflowlite_jni.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86/libRSSupport.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86/librsjni.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86/librsjni_androidx.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86/libtensorflowlite_jni.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libRSSupport.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/librsjni.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/librsjni_androidx.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libtensorflowlite_jni.so" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1567,69 +1148,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00084" summary="w">
-      <created>1612138924312</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1612138924313</updated>
-    </task>
-    <task id="LOCAL-00085" summary="w">
-      <created>1612140887352</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1612140887352</updated>
-    </task>
-    <task id="LOCAL-00086" summary="w">
-      <created>1612410374748</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1612410374749</updated>
-    </task>
-    <task id="LOCAL-00087" summary="w">
-      <created>1612410524072</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1612410524073</updated>
-    </task>
-    <task id="LOCAL-00088" summary="w">
-      <created>1612412486079</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1612412486079</updated>
-    </task>
-    <task id="LOCAL-00089" summary="w">
-      <created>1612415194868</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1612415194868</updated>
-    </task>
-    <task id="LOCAL-00090" summary="toast on a quarter">
-      <created>1613018633253</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1613018633254</updated>
-    </task>
-    <task id="LOCAL-00091" summary="toast on a quarter">
-      <created>1613018705746</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1613018705746</updated>
-    </task>
-    <task id="LOCAL-00092" summary="toast on a quarter">
-      <created>1613020217971</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1613020217971</updated>
-    </task>
     <task id="LOCAL-00093" summary="Gradle update (Now at gradle:7.0.0-alpha07)">
       <created>1613941998162</created>
       <option name="number" value="00093" />
@@ -1910,7 +1428,70 @@
       <option name="project" value="LOCAL" />
       <updated>1617249970382</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="ok THAT was cringy...">
+      <created>1617250029633</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250029633</updated>
+    </task>
+    <task id="LOCAL-00134" summary="more stuff">
+      <created>1617250103953</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250103954</updated>
+    </task>
+    <task id="LOCAL-00135" summary="ok i am almost done...">
+      <created>1617250137731</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250137731</updated>
+    </task>
+    <task id="LOCAL-00136" summary="just a few more commits">
+      <created>1617250175289</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250175289</updated>
+    </task>
+    <task id="LOCAL-00137" summary="ok this is taking a while...">
+      <created>1617250207281</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250207281</updated>
+    </task>
+    <task id="LOCAL-00138" summary="....">
+      <created>1617250240428</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250240428</updated>
+    </task>
+    <task id="LOCAL-00139" summary="....">
+      <created>1617250271878</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250271878</updated>
+    </task>
+    <task id="LOCAL-00140" summary="getting closer">
+      <created>1617250311327</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250311327</updated>
+    </task>
+    <task id="LOCAL-00141" summary="....">
+      <created>1617250331605</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250331605</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1951,13 +1532,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="more code enableage" />
-    <MESSAGE value="why u no stay at version 1.1?" />
-    <MESSAGE value="why u no stay at version 1.1? but i think it wil" />
-    <MESSAGE value="why u no stay at version 1.1? but i think it wil&#10;but it no work" />
-    <MESSAGE value="gradle version updated to 7.0.0-alpha08&#10;Project now requires Gradle 6.8.2&#10;NEW BUILD ERROR. PLEASE READ errors.inf" />
-    <MESSAGE value="stuff" />
-    <MESSAGE value="fixes" />
     <MESSAGE value="updates" />
     <MESSAGE value="why no commit" />
     <MESSAGE value="Merge branch 'master' of https://github.com/LucasFeldsien/UltimateGoal into dev&#10;&#10;# Conflicts:&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/HardwareTest.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/DriveTrainMethodTeleOp.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/GrabberTeleop.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/TeleOpExample.java" />
@@ -1976,7 +1550,14 @@
     <MESSAGE value="well..." />
     <MESSAGE value="at least i will sleep soon..." />
     <MESSAGE value="that is really good for me i guess...." />
-    <option name="LAST_COMMIT_MESSAGE" value="that is really good for me i guess...." />
+    <MESSAGE value="ok THAT was cringy..." />
+    <MESSAGE value="more stuff" />
+    <MESSAGE value="ok i am almost done..." />
+    <MESSAGE value="just a few more commits" />
+    <MESSAGE value="ok this is taking a while..." />
+    <MESSAGE value="getting closer" />
+    <MESSAGE value="...." />
+    <option name="LAST_COMMIT_MESSAGE" value="...." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
