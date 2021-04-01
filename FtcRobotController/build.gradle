@@ -21,6 +21,10 @@ android {
     }
 }
 
+dependencies {
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+}
+
 repositories {
     maven { url = "https://dl.bintray.com/first-tech-challenge/ftcsdk/" }
 

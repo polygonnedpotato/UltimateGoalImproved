@@ -27,15 +27,15 @@
     <dimen name="marginTop2"><![CDATA[10dp]]></dimen>
     <dimen name="padding"><![CDATA[8dp]]></dimen>
     <dimen name="padding2"><![CDATA[15dp]]></dimen>
-    <string name="NOTHING" translatable="false"/>
-    <string name="NOTHING1" translatable="false"/>
-    <string name="NOTHING2" translatable="false"/>
-    <string name="NOTHING3" translatable="false"/>
-    <string name="NOTHING4" translatable="false"/>
-    <string name="NOTHING5" translatable="false"/>
-    <string name="NOTHING6" translatable="false"/>
+    <string name="NOTHING"/>
+    <string name="NOTHING1"/>
+    <string name="NOTHING2"/>
+    <string name="NOTHING3"/>
+    <string name="NOTHING4"/>
+    <string name="NOTHING5"/>
+    <string name="NOTHING6"/>
     <string name="about_menu_item">ℹ ️About</string>
-    <string name="app_name">FTC RC Mark II (Modified)</string>
+    <string name="app_name">FTC RC Mark II (Berger Build)</string>
     <string name="blocks_menu_item">☲ Blocks</string>
     <string name="configure_robot_menu_item">🛠 Configure Robot</string>
     <string name="dev">by elburg</string>

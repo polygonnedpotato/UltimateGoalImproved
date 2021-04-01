@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/FtcRobotController/build/intermediates/packaged_res/debug/layout/main_fragment.xml">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/FtcRobotController/src/main/java/com/qualcomm/ftcrobotcontroller/ui/main/TestscreenFragment.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/FtcRobotController/src/main/java/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.java">
           <value>
             <Attribute>

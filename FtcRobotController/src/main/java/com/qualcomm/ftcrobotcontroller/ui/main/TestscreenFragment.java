@@ -1,13 +1,14 @@
 package com.qualcomm.ftcrobotcontroller.ui.main;
 
-import androidx.lifecycle.ViewModelProvider;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import com.qualcomm.ftcrobotcontroller.R;
 // TODO: make this ACTUALLY work.
 public class TestscreenFragment extends Fragment {
@@ -27,7 +28,7 @@ public class TestscreenFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        new ViewModelProvider(this).get(MainViewModel.class);
+        //new ViewModelProvider(this).get(MainViewModel.class);
         // TODO: Use the ViewModel
     }
 

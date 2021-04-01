@@ -74,6 +74,9 @@ org/firstinspires/ftc/robotcontroller/external/samples/SensorDigitalTouch.java
  org.firstinspires.ftc.robotcontroller.external.samples.SensorDigitalTouch
 com/qualcomm/ftcrobotcontroller/ui/main/MainViewModel.java
  com.qualcomm.ftcrobotcontroller.ui.main.MainViewModel
+org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetryTest.java
+ org.firstinspires.ftc.robotcontroller.external.samples.ConceptTelemetryTest
+ org.firstinspires.ftc.robotcontroller.external.samples.ConceptTelemetryTest$1
 org/firstinspires/ftc/robotcontroller/external/samples/thankswikipedia.java
  org.firstinspires.ftc.robotcontroller.external.samples.thankswikipedia
 org/firstinspires/ftc/robotcontroller/external/samples/SensorColor.java
@@ -93,8 +96,6 @@ org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsSKYSTONE.jav
  org.firstinspires.ftc.robotcontroller.external.samples.ConceptSoundsSKYSTONE$1
 com/qualcomm/ftcrobotcontroller/testscreen.java
  com.qualcomm.ftcrobotcontroller.testscreen
- com.qualcomm.ftcrobotcontroller.testscreen$1
- com.qualcomm.ftcrobotcontroller.testscreen$1$1
 org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration.java
  org.firstinspires.ftc.robotcontroller.external.samples.SensorBNO055IMUCalibration
  org.firstinspires.ftc.robotcontroller.external.samples.SensorBNO055IMUCalibration$1
