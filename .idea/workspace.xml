@@ -38,109 +38,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="big code migration part 1">
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/com/qualcomm/ftcrobotcontroller/BuildConfig.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/com/qualcomm/ftcrobotcontroller/testscreen.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/com/qualcomm/ftcrobotcontroller/ui/main/MainViewModel.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/com/qualcomm/ftcrobotcontroller/ui/main/TestscreenFragment.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Iterative.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/BasicOpMode_Linear.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptCompassCalibration.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptDIMAsIndicator.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptI2cAddressChange.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptMotorBulkRead.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptNullOp.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRampMotorSpeed.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptRevSPARKMini.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptScanServo.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsASJava.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsOnBotJava.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsSKYSTONE$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptSoundsSKYSTONE.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetry.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetryTest$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetryTest.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetection.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTensorFlowObjectDetectionWebcam.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentification.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuMarkIdentificationWebcam.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigation.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigationWebcam$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaNavigationWebcam.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigation.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptVuforiaUltimateGoalNavigationWebcam.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptWebcam$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptWebcam$2$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptWebcam$2$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptWebcam$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptWebcam.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/HardwarePushbot.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByEncoder_Linear.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByGyro_Linear.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveByTime_Linear.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/PushbotAutoDriveToLine_Linear.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopPOV_Linear.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/PushbotTeleopTank_Iterative.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SampleRevBlinkinLedDriver$DisplayKind.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SampleRevBlinkinLedDriver.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorAdafruitRGB.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU$3.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU$4.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU$5.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU$6.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU$7.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU$8.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMU.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration$3.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration$4.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration$5.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration$6.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorBNO055IMUCalibration.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorColor$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorColor$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorColor.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorDIO.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorDigitalTouch.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorKLNavxMicro.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRColor.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRCompass.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRGyro.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRIrSeeker.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorMROpticalDistance.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorMRRangeSensor.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/SensorREV2mDistance.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/external/samples/thankswikipedia.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcOpModeRegister.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$2$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$2.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$3.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$4.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$5.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$6.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$7.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$8.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$RobotRestarter.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity$SharedPreferencesListener.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/FtcRobotControllerActivity.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/PermissionValidatorWrapper$1.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/PermissionValidatorWrapper.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/desugar_graph.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/generated/source/buildConfig/debug/org/firstinspires/ftc/teamcode/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/app_metadata/debug/app-metadata.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compatible_screen_manifest/debug/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/Buildings.jpeg.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/Buildings.txt.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/CzechWolf.jar" afterDir="false" />
@@ -567,17 +464,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/updates/Expansion Hub Firmware/README.txt.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/updates/Expansion Hub Firmware/REVHubFirmware_1_08_02.bin.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/yeet.mp4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/1/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/10/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeLibDexDebug/8/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/dex_number_of_buckets_file/debug/out" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+c+Vv8aR4MTQ1q4J5fN8kTxVz8w=" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+zMMOn2m7h9TEEWsq+WQjU3UXZs=" afterDir="false" />
@@ -654,7 +540,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/classes/org/firstinspires/ftc/teamcode/TeleOp/TeleOpExample.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/classes/org/firstinspires/ftc/teamcode/TeleOp/TestColor.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/javac/debug/classes/org/firstinspires/ftc/teamcode/TeleOp/ntakeStorageGauge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/Buildings.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/Buildings.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/CzechWolf" afterDir="false" />
@@ -1081,18 +966,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/updates/Expansion Hub Firmware/README.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/updates/Expansion Hub Firmware/REVHubFirmware_1_08_02.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/yeet.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_java_res/debug/base.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_jni_libs/debug/out/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_jni_libs/debug/out/TODO.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_jni_libs/debug/out/Vuforia.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_jni_libs/debug/out/arm64-v8a/libVuforia.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_jni_libs/debug/out/armeabi-v7a/libVuforia.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_jni_libs/debug/out/ftc.debug.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_jni_libs/debug/out/tensorflow-lite-0.0.0-nightly.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_jni_libs/debug/out/tfod-release.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_manifests/debug/output-metadata.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libRSSupport.so" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libRobotCore.so" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libVuforia.so" afterDir="false" />
@@ -1234,11 +1107,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/navigation_json/debug/navigation.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/packaged_manifests/debug/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/processed_res/debug/out/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/1b6aa5e8de374c8a0497816f83063b237daa81e625d026e77fadf54aa03df22e_0.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/1b6aa5e8de374c8a0497816f83063b237daa81e625d026e77fadf54aa03df22e_1.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/project_dex_archive/debug/out/org/firstinspires/ftc/teamcode/Autonomous/AutoDriveTrain.dex" afterDir="false" />
@@ -1396,9 +1264,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/res/merged/debug/xml_teamwebcamcalibrations.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/signing_config_versions/debug/signing-config-versions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libRSSupport.so" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libRobotCore.so" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libVuforia.so" afterDir="false" />
@@ -1427,11 +1292,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/librsjni.so" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/librsjni_androidx.so" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libtensorflowlite_jni.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/outputs/apk/debug/TeamCode-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/outputs/apk/debug/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1836,48 +1696,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00074" summary="sigh">
-      <created>1611805644939</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1611805644939</updated>
-    </task>
-    <task id="LOCAL-00075" summary="sigh">
-      <created>1611806101041</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1611806101041</updated>
-    </task>
-    <task id="LOCAL-00076" summary="sigh">
-      <created>1611806694170</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1611806694170</updated>
-    </task>
-    <task id="LOCAL-00077" summary="sigh">
-      <created>1611807025120</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1611807025120</updated>
-    </task>
-    <task id="LOCAL-00078" summary="new names">
-      <created>1611807897535</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1611807897535</updated>
-    </task>
-    <task id="LOCAL-00079" summary="aaaaa why wont this commit?!?!">
-      <created>1611808516077</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1611808516077</updated>
-    </task>
     <task id="LOCAL-00080" summary="i love zxtune">
       <created>1611808683282</created>
       <option name="number" value="00080" />
@@ -2179,7 +1997,49 @@
       <option name="project" value="LOCAL" />
       <updated>1617249438365</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="big code migration part 1">
+      <created>1617249477857</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1617249477857</updated>
+    </task>
+    <task id="LOCAL-00124" summary="i don't care for a message anymore">
+      <created>1617249534527</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1617249534527</updated>
+    </task>
+    <task id="LOCAL-00125" summary="i mean, why would anyone even bother with the very idea?">
+      <created>1617249599620</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1617249599620</updated>
+    </task>
+    <task id="LOCAL-00126" summary="i mean, it just seems to me like a big waste of a person's very valuable time.">
+      <created>1617249665560</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1617249665560</updated>
+    </task>
+    <task id="LOCAL-00127" summary="don't you think so too?">
+      <created>1617249714055</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1617249714056</updated>
+    </task>
+    <task id="LOCAL-00128" summary="*sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh*">
+      <created>1617249807058</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1617249807058</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -2220,11 +2080,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="w" />
-    <MESSAGE value="toast on a quarter" />
-    <MESSAGE value="Gradle update (Now at gradle:7.0.0-alpha07)" />
-    <MESSAGE value="workaround to keep an example present" />
-    <MESSAGE value="yes" />
     <MESSAGE value="things are happening and i don't think it is good." />
     <MESSAGE value="stuff i guess" />
     <MESSAGE value="enabling unused code and more" />
@@ -2243,9 +2098,14 @@
     <MESSAGE value="new crap" />
     <MESSAGE value="just new stuff" />
     <MESSAGE value="i swear it will work" />
-    <MESSAGE value="big code migration part 1" />
     <MESSAGE value="big code migration part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="big code migration part 2" />
+    <MESSAGE value="big code migration part 1" />
+    <MESSAGE value="i don't care for a message anymore" />
+    <MESSAGE value="i mean, why would anyone even bother with the very idea?" />
+    <MESSAGE value="i mean, it just seems to me like a big waste of a person's very valuable time." />
+    <MESSAGE value="don't you think so too?" />
+    <MESSAGE value="*sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh*" />
+    <option name="LAST_COMMIT_MESSAGE" value="*sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh* *sigh*" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
