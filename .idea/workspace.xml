@@ -37,8 +37,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/353d636ec3235a4aae28ff6df6ffca21/results.bin" afterDir="false" />
+    <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="big code migration part 1">
       <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/results.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/com/qualcomm/ftcrobotcontroller/BuildConfig.dex" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/com/qualcomm/ftcrobotcontroller/testscreen.dex" afterDir="false" />
@@ -137,11 +136,6 @@
       <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/PermissionValidatorWrapper$1.dex" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/debug/org/firstinspires/ftc/robotcontroller/internal/PermissionValidatorWrapper.dex" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FtcRobotController/build/.transforms/8221e328e33aa1d454ae525ed3184a8d/transformed/desugar_graph.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetryTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/javac/debug/classes/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/runtime_library_classes_dir/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetryTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/runtime_library_classes_dir/debug/org/firstinspires/ftc/robotcontroller/external/samples/ConceptTelemetryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FtcRobotController/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest6865584603198811640.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/generated/source/buildConfig/debug/org/firstinspires/ftc/teamcode/BuildConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/app_metadata/debug/app-metadata.properties" afterDir="false" />
@@ -1842,20 +1836,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00072" summary="gradle update">
-      <created>1611805297640</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1611805297640</updated>
-    </task>
-    <task id="LOCAL-00073" summary="gradle update">
-      <created>1611805593558</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1611805593558</updated>
-    </task>
     <task id="LOCAL-00074" summary="sigh">
       <created>1611805644939</created>
       <option name="number" value="00074" />
@@ -2185,11 +2165,22 @@
       <option name="project" value="LOCAL" />
       <updated>1617248825252</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="big code migration part 1">
+      <created>1617249181441</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1617249181441</updated>
+    </task>
+    <task id="LOCAL-00122" summary="big code migration part 2">
+      <created>1617249438365</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1617249438365</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
-  </component>
-  <component name="UpdateCopyrightCheckinHandler">
-    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -2226,10 +2217,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="iiiiii llllllooooooovvveeee hawaii five-0" />
-    <MESSAGE value="some edits and such" />
     <MESSAGE value="w" />
     <MESSAGE value="toast on a quarter" />
     <MESSAGE value="Gradle update (Now at gradle:7.0.0-alpha07)" />
@@ -2253,10 +2243,9 @@
     <MESSAGE value="new crap" />
     <MESSAGE value="just new stuff" />
     <MESSAGE value="i swear it will work" />
-    <option name="LAST_COMMIT_MESSAGE" value="i swear it will work" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="big code migration part 1" />
+    <MESSAGE value="big code migration part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="big code migration part 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
