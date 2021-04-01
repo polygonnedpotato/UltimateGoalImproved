@@ -38,206 +38,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e04f776-3b9f-4be1-b87c-276fe626e32b" name="Default Changelist" comment="big code migration part 1">
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/Buildings.jpeg.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/Buildings.txt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/CzechWolf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/FTC_2016-17.dat.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/FTC_2016-17.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/FtcBlocks.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/FtcBlocksProjects.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/FtcOfflineBlocks.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/FtcOfflineBlocksProjects.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/FtcOfflineFrame.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/FtcSounds.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/RelicVuMark.dat.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/RelicVuMark.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/RobotConfig.xsd.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/RobotConfigDescriptionGenerate.xslt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/RobotConfigTaxonomy.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/RobotConfigTaxonomy.xsd.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/StonesAndChips.dat.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/StonesAndChips.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/TextureTeapotBrass.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/UltimateGoal.dat.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/UltimateGoal.tflite.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/UltimateGoal.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/appinfo.inf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/LICENSE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/blockly_compressed.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/blocks_compressed.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/javascript_compressed.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blockly/msg/messages.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/FtcBlocksProjects_common.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/FtcBlocks_common.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/acceleration.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/acceleration_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/analog_input.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/analog_output.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/android_accelerometer.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/android_gyroscope.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/android_orientation.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/android_sound_pool.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/android_text_to_speech.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/angular_velocity.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/bno055imu.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/bno055imu_parameters.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/clipboard_util.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/color.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/color_range_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/color_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/compass_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/cr_servo.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/dbg_log.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/dc_motor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/digital_channel.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/distance_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/elapsed_time.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/elapsed_time2.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/gamepad.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/gyro_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/hardware_util.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftc.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcAccelerationSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcAnalogInput.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcAnalogOutput.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcCRServo.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcColorSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcCompassSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcDcMotor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcDcMotorController.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcDeviceInterfaceModule.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcDigitalChannel.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcElapsedTime.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcGamepad.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcGyroSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcI2cDevice.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcI2cDeviceReader.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcI2cDeviceSynch.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcIrSeekerSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcLED.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcLegacyModule.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcLightSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcLinearOpMode.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcOpMode.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcOpticalDistanceSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcPwmOutput.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcRobotController.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcServo.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcServoController.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcTouchSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcTouchSensorMultiplexer.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcUltrasonicSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ftcVoltageSensor.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/images/ghost.png.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/ir_seeker_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/led.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/light_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/linear_op_mode.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/locale.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/magnetic_flux.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/matrix_f.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/misc.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/mr_i2c_compass_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/mr_i2c_range_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/navigation.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/open_gl_matrix.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/optical_distance_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/orientation.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/pidf_coefficients.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/position.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/project_util.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/quaternion.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/range.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/rev_blinkin_led_driver.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/runtime.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/BasicPOVDrive.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/BasicTankDrive.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptDeviceInteraction.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptSmoothServo.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTensorFlowObjectDetection.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTensorFlowObjectDetectionCustomModel.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTensorFlowObjectDetectionWebcam.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptTextToSpeech.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptVuMarkDetection.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptVuforiaNav.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptVuforiaNavSwitchableCameras.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/ConceptVuforiaNavWebcam.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/RevBlinkinLed.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/SensorDigitalTouch.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/SensorIMU.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/SensorREVColorDistance.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/default.blk.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/samples/readme.md.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/servo.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/servo_controller.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/sound_util.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/system.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/telemetry.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/temperature.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/tfod.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/tfod_current_game.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/tfod_custom_model.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/tfod_recognition.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/tfod_rover_ruckus.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/tfod_sky_stone.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/toolbox_util.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/touch_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/ultrasonic_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vars.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vector_f.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/velocity.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/voltage_sensor.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_current_game.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_localizer.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_localizer_parameters.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_relic_recovery.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_rover_ruckus.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_sky_stone.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_trackable.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_trackable_default_listener.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/blocks/vuforia_trackables.js.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/connection.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/SourceCodePro.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/base.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/blocks_common.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/blocks_common.less.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/blocks_offline.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/bootstrap-theme.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/bootstrap-theme.css.map.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/bootstrap-theme.min.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/bootstrap-theme.min.css.map.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/bootstrap.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/bootstrap.css.map.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/bootstrap.min.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/bootstrap.min.css.map.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/connection.less.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/core.less.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/font-awesome.min.css.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/frame.less.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/frame_offline.less.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/help.less.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/java/onbotjava.less.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/css/manage.less.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/errors.inf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/favicon.ico.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/FontAwesome.otf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/SourceCodePro.woff2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/SourceCodeProExt.woff2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/fontawesome-webfont.eot.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/fontawesome-webfont.svg.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/fontawesome-webfont.ttf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/fontawesome-webfont.woff.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/fontawesome-webfont.woff2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/glyphicons-halflings-regular.eot.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/glyphicons-halflings-regular.svg.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/glyphicons-halflings-regular.ttf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/glyphicons-halflings-regular.woff.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/fonts/glyphicons-halflings-regular.woff2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/frame.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/help.html.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/android.jar.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/androidx-rs.jar.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/css/angular-resizable.css.jar" afterDir="false" />
@@ -394,356 +194,6 @@
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/templates/SensorMROpticalDistance.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/templates/SensorMRRangeSensor.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/java/templates/SensorREV2mDistance.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/manage.html.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/qcar_config.xsd.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/android_accelerometer.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/android_gyroscope.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/android_orientation.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/android_sound_pool.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/android_text_to_speech.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/bno055imu_parameters.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/gamepad.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/linear_op_mode.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/misc.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/navigation_switchableCamera.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/rev_blinkin_led_driver.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/tensorFlowObjectDetection.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/utilities.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforia.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaCurrentGame_initialize_withCameraDirection.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaCurrentGame_initialize_withWebcam.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaCurrentGame_setActiveCamera.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaLocalizerParameters_addWebcamCalibrationFile.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaLocalizerParameters_getProperty_CameraDirection.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaLocalizerParameters_getProperty_CameraName.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaLocalizerParameters_setCameraDirection.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaLocalizerParameters_setCameraName.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaSkyStone_initialize_withCameraDirection.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaSkyStone_initialize_withWebcam.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaSkyStone_setActiveCamera.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaTrackableDefaultListener_setCameraLocationOnRobot.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/toolbox/vuforiaTrackableDefaultListener_setPhoneInformation.xml.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/compressed_assets/debug/out/assets/yeet.mp4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/Buildings.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/Buildings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/CzechWolf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/FTC_2016-17.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/FTC_2016-17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/FtcBlocks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/FtcBlocksProjects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/FtcOfflineBlocks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/FtcOfflineBlocksProjects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/FtcOfflineFrame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/FtcSounds.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/RelicVuMark.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/RelicVuMark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/RobotConfig.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/RobotConfigDescriptionGenerate.xslt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/RobotConfigTaxonomy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/RobotConfigTaxonomy.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/StonesAndChips.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/StonesAndChips.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/TextureTeapotBrass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/UltimateGoal.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/UltimateGoal.tflite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/UltimateGoal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/appinfo.inf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/FtcBlocksProjects_common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/FtcBlocks_common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/acceleration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/acceleration_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/analog_input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/analog_output.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/android_accelerometer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/android_gyroscope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/android_orientation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/android_sound_pool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/android_text_to_speech.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/angular_velocity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/bno055imu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/bno055imu_parameters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/clipboard_util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/color.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/color_range_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/color_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/compass_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/cr_servo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/dbg_log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/dc_motor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/digital_channel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/distance_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/elapsed_time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/elapsed_time2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/gamepad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/gyro_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/hardware_util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcAccelerationSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcAnalogInput.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcAnalogOutput.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcCRServo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcColorSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcCompassSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcDcMotor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcDcMotorController.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcDeviceInterfaceModule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcDigitalChannel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcElapsedTime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcGamepad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcGyroSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcI2cDevice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcI2cDeviceReader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcI2cDeviceSynch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcIrSeekerSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcLED.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcLegacyModule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcLightSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcLinearOpMode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcOpMode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcOpticalDistanceSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcPwmOutput.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcRobotController.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcServo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcServoController.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcTouchSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcTouchSensorMultiplexer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcUltrasonicSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ftcVoltageSensor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/images/ghost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/ir_seeker_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/led.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/light_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/linear_op_mode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/locale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/magnetic_flux.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/matrix_f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/misc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/mr_i2c_compass_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/mr_i2c_range_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/open_gl_matrix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/optical_distance_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/orientation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/pidf_coefficients.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/project_util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/quaternion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/rev_blinkin_led_driver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/runtime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/BasicPOVDrive.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/BasicTankDrive.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptDeviceInteraction.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptSmoothServo.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptTensorFlowObjectDetection.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptTensorFlowObjectDetectionCustomModel.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptTensorFlowObjectDetectionSwitchableCameras.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptTensorFlowObjectDetectionWebcam.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptTextToSpeech.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptVuMarkDetection.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptVuforiaNav.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptVuforiaNavSwitchableCameras.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/ConceptVuforiaNavWebcam.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/RevBlinkinLed.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/SensorDigitalTouch.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/SensorIMU.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/SensorREVColorDistance.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/default.blk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/samples/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/servo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/servo_controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/sound_util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/system.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/telemetry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/temperature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/tfod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/tfod_current_game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/tfod_custom_model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/tfod_recognition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/tfod_rover_ruckus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/tfod_sky_stone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/toolbox_util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/touch_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/ultrasonic_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vector_f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/velocity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/voltage_sensor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_current_game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_localizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_localizer_parameters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_relic_recovery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_rover_ruckus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_sky_stone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_trackable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_trackable_default_listener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/blocks/vuforia_trackables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/connection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/errors.inf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/help.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/android.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/androidx-rs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/css/angular-resizable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/css/jquery.contextmenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/css/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/css/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/css/tether.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/css/tether.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/ace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/angular-messages.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/BufferedTokenStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/CharStreams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/CommonTokenFactory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/CommonTokenStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/FileStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/InputStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/IntervalSet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/LL1Analyzer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/Lexer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/Parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/ParserRuleContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/PredictionContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/Recognizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/RuleContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/Token.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/Utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/antlr4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ATN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ATNConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ATNConfigSet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ATNDeserializationOptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ATNDeserializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ATNSimulator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ATNState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ATNType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/LexerATNSimulator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/LexerAction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/LexerActionExecutor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/ParserATNSimulator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/PredictionMode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/SemanticContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/Transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/atn/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/dfa/DFA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/dfa/DFASerializer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/dfa/DFAState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/dfa/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/error/DiagnosticErrorListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/error/ErrorListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/error/ErrorStrategy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/error/Errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/error/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/polyfills/codepointat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/polyfills/fromcodepoint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/tree/Tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/tree/Trees.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/antlr4/tree/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/bootstrap-tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/ext-language_tools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/ext-spellcheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/ext-whitespace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/flowtype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/ftclangtools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/java/JavaLexer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/java/JavaListener.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/java/JavaParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/java/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/java/java.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/jquery.contextmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/jquery.position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/keybinding-emacs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/keybinding-vim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/mode-groovy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/mode-java.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/mode-javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/mode-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/mode-markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/mode-properties.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/mode-text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/perfect-scrollbar.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/polyfills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/require.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/snippets/java.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/snippets/markdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/snippets/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/tether.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/theme-chaos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/theme-chrome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/theme-github.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/theme-monokai.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/theme-obj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/theme-solarized-dark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/theme-solarized-light.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/toe.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/ui-ace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/worker-base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/worker-java.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/worker-javascript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/js/worker-json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/onbotjava-classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/BasicOpMode_Iterative" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/BasicOpMode_Linear" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/BlankIterativeOpMode" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/BlankLinearOpMode" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptCompassCalibration" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptDIMAsIndicator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptI2cAddressChange" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptMotorBulkRead" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptNullOp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptRampMotorSpeed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptRevSPARKMini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptScanServo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptSoundsASJava" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptSoundsOnBotJava" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptSoundsSKYSTONE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptTelemetry" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptTensorFlowObjectDetection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptTensorFlowObjectDetectionSwitchableCameras" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptTensorFlowObjectDetectionWebcam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptVuMarkIdentification" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptVuMarkIdentificationWebcam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptVuforiaNavigation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptVuforiaNavigationWebcam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptVuforiaUltimateGoalNavigation" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptVuforiaUltimateGoalNavigationWebcam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/ConceptWebcam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/HardwarePushbot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/PushbotAutoDriveByEncoder_Linear" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/PushbotAutoDriveByGyro_Linear" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/PushbotAutoDriveByTime_Linear" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/PushbotAutoDriveToLine_Linear" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/PushbotTeleopPOV_Linear" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/PushbotTeleopTank_Iterative" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SampleRevBlinkinLedDriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorAdafruitRGB" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorBNO055IMU" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorBNO055IMUCalibration" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorColor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorDIO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorDigitalTouch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorKLNavxMicro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorMRColor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorMRCompass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorMRGyro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorMRIrSeeker" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorMROpticalDistance" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorMRRangeSensor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/java/templates/SensorREV2mDistance" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/qcar_config.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TeamCode/build/intermediates/merged_assets/debug/out/yeet.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1148,62 +598,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00093" summary="Gradle update (Now at gradle:7.0.0-alpha07)">
-      <created>1613941998162</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1613941998162</updated>
-    </task>
-    <task id="LOCAL-00094" summary="yes">
-      <created>1613942253045</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1613942253045</updated>
-    </task>
-    <task id="LOCAL-00095" summary="workaround to keep an example present">
-      <created>1613942555743</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1613942555743</updated>
-    </task>
-    <task id="LOCAL-00096" summary="yes">
-      <created>1613945076511</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1613945076511</updated>
-    </task>
-    <task id="LOCAL-00097" summary="things are happening and i don't think it is good.">
-      <created>1613948160157</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1613948160158</updated>
-    </task>
-    <task id="LOCAL-00098" summary="stuff i guess">
-      <created>1613949943142</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1613949943144</updated>
-    </task>
-    <task id="LOCAL-00099" summary="stuff i guess">
-      <created>1613950583029</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1613950583030</updated>
-    </task>
-    <task id="LOCAL-00100" summary="stuff i guess">
-      <created>1613950612864</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1613950612864</updated>
-    </task>
     <task id="LOCAL-00101" summary="stuff i guess">
       <created>1613950725056</created>
       <option name="number" value="00101" />
@@ -1491,7 +885,63 @@
       <option name="project" value="LOCAL" />
       <updated>1617250331605</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="....">
+      <created>1617250364809</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250364809</updated>
+    </task>
+    <task id="LOCAL-00143" summary="a">
+      <created>1617250531061</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250531061</updated>
+    </task>
+    <task id="LOCAL-00144" summary="clos">
+      <created>1617250551755</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250551755</updated>
+    </task>
+    <task id="LOCAL-00145" summary="s">
+      <created>1617250569106</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250569106</updated>
+    </task>
+    <task id="LOCAL-00146" summary="ss">
+      <created>1617250591806</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250591806</updated>
+    </task>
+    <task id="LOCAL-00147" summary="1">
+      <created>1617250609549</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250609549</updated>
+    </task>
+    <task id="LOCAL-00148" summary="a">
+      <created>1617250625163</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250625163</updated>
+    </task>
+    <task id="LOCAL-00149" summary="a">
+      <created>1617250640253</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1617250640253</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -1532,11 +982,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updates" />
-    <MESSAGE value="why no commit" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/LucasFeldsien/UltimateGoal into dev&#10;&#10;# Conflicts:&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/HardwareTest.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/DriveTrainMethodTeleOp.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/GrabberTeleop.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/TeleOpExample.java" />
-    <MESSAGE value="a" />
-    <MESSAGE value="new crap" />
     <MESSAGE value="just new stuff" />
     <MESSAGE value="i swear it will work" />
     <MESSAGE value="big code migration part 2" />
@@ -1557,7 +1002,12 @@
     <MESSAGE value="ok this is taking a while..." />
     <MESSAGE value="getting closer" />
     <MESSAGE value="...." />
-    <option name="LAST_COMMIT_MESSAGE" value="...." />
+    <MESSAGE value="clos" />
+    <MESSAGE value="s" />
+    <MESSAGE value="ss" />
+    <MESSAGE value="1" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
