@@ -443,13 +443,6 @@
       <option name="presentableId" value="Default" />
       <updated>1606241956010</updated>
     </task>
-    <task id="LOCAL-00071" summary="gradle update">
-      <created>1611805210830</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1611805210830</updated>
-    </task>
     <task id="LOCAL-00072" summary="gradle update">
       <created>1611805297640</created>
       <option name="number" value="00072" />
@@ -786,7 +779,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615438110596</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="ah yes stuff">
+      <created>1616356603171</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1616356603172</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -829,7 +829,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="aaaaa why wont this commit?!?!" />
     <MESSAGE value="i love zxtune" />
     <MESSAGE value="iiiiii llllllooooooovvveeee hawaii five-0" />
     <MESSAGE value="some edits and such" />
@@ -854,7 +853,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/LucasFeldsien/UltimateGoal into dev&#10;&#10;# Conflicts:&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/HardwareTest.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/DriveTrainMethodTeleOp.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/GrabberTeleop.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/TeleOpExample.java" />
     <MESSAGE value="Merge branch 'master' of https://github.com/LucasFeldsien/UltimateGoal into dev&#10;gradle is now at 7.0.0-alpha09&#10;# Conflicts:&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomous/HardwareTest.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/DriveTrainMethodTeleOp.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/GrabberTeleop.java&#10;#&#9;TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOp/TeleOpExample.java" />
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="ah yes stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="ah yes stuff" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
